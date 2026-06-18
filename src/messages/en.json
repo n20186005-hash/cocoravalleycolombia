@@ -1,0 +1,378 @@
+{
+  "meta": {
+    "title": "Cocora Valley | Quindío's Natural Landscape, Colombia",
+    "description": "Explore Cocora Valley, a natural wonder in Quindío, Colombia, home to the world's tallest palm trees and breathtaking cloud forest landscapes."
+  },
+  "header": {
+    "siteName": "Cocora Valley",
+    "home": "Home",
+    "gallery": "Gallery",
+    "reviews": "Reviews",
+    "map": "Map",
+    "backToHome": "Back to Home"
+  },
+  "hero": {
+    "title": "Cocora Valley",
+    "subtitle": "Colombia's Green Gem, Home of the Tallest Palm Trees",
+    "rating": "4.8",
+    "reviewCount": "25,522",
+    "hours": "National Park / Natural Landscape / Hiking Paradise",
+    "openMaps": "View Location"
+  },
+  "intro": {
+    "title": "Explore Cocora Valley",
+    "description": "Cocora Valley (Valle de Cocora) is a natural treasure in Quindío, Colombia, located 11 kilometers north of Salento. It is famous for the world's tallest palm trees—the Wax Palm (Palma de Cera), which can grow up to 60 meters high.\n\nAs part of Los Nevados National Natural Park, Cocora Valley offers breathtaking cloud forest landscapes, rich biodiversity, and multiple hiking trails. It is one of Colombia's most iconic natural landscapes and part of the Coffee Cultural Landscape UNESCO World Heritage site.",
+    "visitGuide": {
+      "title": "Visiting Tips",
+      "items": [
+        "🌞 Morning Hike Tour: Depart from Salento ➔ Horseback riding or hiking into the valley ➔ Visit the Wax Palm forest",
+        "🌙 Afternoon Cultural Tour: Return to Salento ➔ Visit a coffee farm ➔ Taste local cuisine",
+        "🎉 Eco Experience: If possible, visit during the dry season (December to March) for better hiking weather"
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "Highlights",
+      "items": [
+        "🌴 World's Tallest Palm Trees: Wax Palms (Palma de Cera) can reach up to 60 meters, Colombia's national tree.",
+        "🏞️ Cloud Forest Landscape: Breathtaking Andes cloud forest and river landscapes.",
+        "🐎 Hiking and Horseback Riding: Multiple trails of varying difficulty, or choose horseback riding tours.",
+        "☕ Coffee Cultural Region: Located within the UNESCO Coffee Cultural Landscape World Heritage area."
+      ]
+    }
+  },
+  "route": {
+    "title": "Tour Route",
+    "overview": "The ideal route to explore Cocora Valley:",
+    "steps": [
+      "Take a Willys Jeep from Salento to the Cocora Valley entrance.",
+      "Start hiking or horseback riding along the marked trails to the Wax Palm viewpoint.",
+      "Enjoy a picnic in the valley while admiring the surrounding natural landscapes.",
+      "Return to Salento and visit local coffee farms or taste traditional cuisine."
+    ],
+    "supplementsTitle": "Additional Tour Tips",
+    "supplements": [
+      "Wear comfortable hiking shoes and bring rain gear (valley weather is changeable).",
+      "Entrance fee is approximately COP $10,000-15,000, subject to change.",
+      "Willys Jeeps from Salento typically start at 6:00 AM, with the last return around 5:00 PM."
+    ]
+  },
+  "knowledge": {
+    "title": "Discover the Charm of Cocora Valley",
+    "sections": [
+      {
+        "id": "history",
+        "title": "History & Conservation",
+        "content": "Cocora Valley is part of Los Nevados National Natural Park. The Wax Palm is Colombia's national tree and is protected by law. It is also an important part of the UNESCO Coffee Cultural Landscape World Heritage site."
+      },
+      {
+        "id": "nature",
+        "title": "Biodiversity",
+        "content": "The valley hosts rich biodiversity, including various bird species (such as macaws and hummingbirds), orchids, and other flora and fauna endemic to the Andes."
+      },
+      {
+        "id": "experience",
+        "title": "Hiking Paradise",
+        "content": "There are multiple hiking trails here, from easy family trails to challenging multi-day treks, suitable for visitors of all levels."
+      }
+    ]
+  },
+  "basicInfo": {
+    "title": "Quick Facts",
+    "officialName": "Official Name",
+    "officialNameValue": "Cocora Valley (Valle de Cocora)",
+    "type": "Attraction Type",
+    "typeValue": "National Park / Natural Landscape / Hiking Paradise",
+    "country": "Country",
+    "countryValue": "Colombia",
+    "city": "City",
+    "cityValue": "Salento, Quindío",
+    "googleRating": "Google Rating",
+    "address": "Address",
+    "addressValue": "Vía al Valle de Cocora, Km 11, Salento, Quindío, Colombia",
+    "plusCode": "Plus Code",
+    "plusCodeValue": "JGQ6+39 Salento, Quindío, Colombia",
+    "phone": "Phone",
+    "phoneValue": "+57 310 227 5091",
+    "petFriendly": "Pet Friendly",
+    "petFriendlyValue": "Pets allowed (recommended on leash)",
+    "tickets": "Tickets",
+    "ticketsValue": "Approx. COP $10,000-15,000"
+  },
+  "hours": {
+    "title": "Opening Hours & Visitor Info",
+    "outdoor": "Park Access",
+    "outdoorTime": "Daily 08:00–18:00",
+    "lighthouse": "Best Visiting Time",
+    "summer": "Dry Season (Dec-Mar)",
+    "summerTime": "Clear weather, ideal for hiking",
+    "winter": "Highlights",
+    "winterTime": "Wax Palm forest, cloud forest, river landscapes",
+    "warning": "💡 Local Insider Tip",
+    "warningTime": "Arrive early in the morning to avoid crowds and see the most beautiful morning mist. Remember to bring sunscreen and rain gear!",
+    "tip": "From the viewpoint, you can see the Wax Palms emerging mysteriously from the morning mist."
+  },
+  "tickets": {
+    "title": "Important Information",
+    "outdoor": "Entrance Fee",
+    "outdoorPrice": "Approx. COP $10,000-15,000 (subject to change)",
+    "lighthouse": "Transportation Info",
+    "adults": "From Salento",
+    "adultsPrice": "Willys Jeep ride approx. 20-30 minutes",
+    "students": "Recommended Visit Duration",
+    "studentsPrice": "Half day to full day",
+    "card": "Nearby Attractions",
+    "cardPrice": "Salento town, coffee farms. 👉 [Go to Cocora Valley]",
+    "officialNotice": "For the latest updates on entrance fees and opening hours, please refer to the",
+    "officialNoticeLinkLabel": "Official Website of Colombia's National Natural Parks",
+    "officialNoticeLink": "https://www.parquesnacionales.gov.co/"
+  },
+  "transport": {
+    "title": "Transportation",
+    "airport": "From the Airport",
+    "airportDesc": "From the nearest airports (Pereira or Armenia), you need to first reach Salento town, then take a Willys Jeep to Cocora Valley.",
+    "selfDrive": "Driving",
+    "selfDriveDesc": "From Salento, follow the clearly marked road for about 11 kilometers to reach the valley entrance.",
+    "bus": "Public Transport",
+    "busDesc": "Taking a Willys Jeep from Salento town center is the most popular transportation option, with frequent departures.",
+    "intercity": "Hiking",
+    "intercityDesc": "The valley has clearly marked hiking trails suitable for hikers of all levels.",
+    "cycling": "Other Options",
+    "cyclingDesc": "You can choose horseback riding tours with local guide services available.",
+    "tips": "Travel Tips",
+    "tipsDesc": "Willys Jeeps typically start operating at 6:00 AM. It's recommended to depart early to avoid crowds."
+  },
+  "gallery": {
+    "title": "Stunning Photos",
+    "subtitle": "Feel Colombia's Most Magnificent Natural Landscape",
+    "captions": [
+      "Wax Palm forest panoramic view",
+      "Cloud forest landscape",
+      "Hiking trails",
+      "Salento Willys Jeep",
+      "Valley river",
+      "Palm trees in morning mist",
+      "Horseback riding tour",
+      "Viewpoint vista",
+      "Local biodiversity",
+      "Coffee farm",
+      "Andes mountains",
+      "Natural environment",
+      "Eco tourism",
+      "Colombia's national tree",
+      "Natural landscape",
+      "Hikers",
+      "Green ecology"
+    ],
+    "viewAll": "View more photos on Google Maps",
+    "showAllPhotos": "Show All Photos"
+  },
+  "reviews": {
+    "title": "Visitor Reviews",
+    "declaration": "Review information can be viewed via Google Maps (external link).",
+    "moreReviews": "View More Reviews on Google Maps",
+    "items": [
+      {
+        "name": "Carlos Mendoza",
+        "date": "2 months ago",
+        "rating": 5,
+        "text": "One of the most beautiful hiking spots in the world! The Wax Palms tower into the clouds, the scenery is breathtaking."
+      },
+      {
+        "name": "Li Xiaoming",
+        "date": "1 month ago",
+        "rating": 5,
+        "text": "Taking the Willys Jeep from Salento to get here is so much fun. The hiking trails are clear, the scenery is stunning, highly recommended!"
+      },
+      {
+        "name": "María González",
+        "date": "3 weeks ago",
+        "rating": 5,
+        "text": "A must-visit place in Colombia! The morning mist makes the entire valley look like a fairyland."
+      },
+      {
+        "name": "John Smith",
+        "date": "Over 6 months ago",
+        "rating": 5,
+        "text": "An unforgettable experience! I chose horseback riding, and the local guides were very friendly and professional."
+      },
+      {
+        "name": "Ana Silva",
+        "date": "2 months ago",
+        "rating": 4,
+        "text": "Beautiful scenery, but it gets quite crowded on weekends. Recommend visiting on weekdays for a better experience in nature."
+      },
+      {
+        "name": "Zhang Wei",
+        "date": "1 month ago",
+        "rating": 5,
+        "text": "Absolutely worth a visit! Remember to bring your camera, every angle is a postcard-perfect view."
+      },
+      {
+        "name": "Roberto Pérez",
+        "date": "3 months ago",
+        "rating": 5,
+        "text": "This is Colombia's pride! The Wax Palm is the national tree, and seeing them so tall is truly awe-inspiring."
+      },
+      {
+        "name": "Emma Wilson",
+        "date": "2 months ago",
+        "rating": 5,
+        "text": "I completed the full hiking trail, which took about 6 hours. Tiring but absolutely worth it!"
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "Location & Map",
+    "subtitle": "Vía al Valle de Cocora, Km 11, Salento, Quindío, Colombia",
+    "openMaps": "View on Google Maps"
+  },
+  "footer": {
+    "rights": "© 2026 Cocora Valley. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Settings",
+    "officialResourcesTitle": "Official Resources & Links",
+    "officialLinks": {
+      "parquesnacionales": {
+        "name": "Colombia National Natural Parks Official Website (Parques Nacionales Naturales de Colombia)",
+        "url": "https://www.parquesnacionales.gov.co/"
+      },
+      "salento": {
+        "name": "Salento Municipality Official Website (Alcaldía de Salento)",
+        "url": "https://www.salento-quindio.gov.co/"
+      },
+      "colombiatravel": {
+        "name": "Colombia Official Tourism Portal (Colombia Travel)",
+        "url": "https://colombia.travel/es"
+      },
+      "quindio": {
+        "name": "Quindío Governorate Official Website (Gobernación del Quindío)",
+        "url": "https://www.quindio.gov.co/"
+      },
+      "crq": {
+        "name": "Quindío Regional Autonomous Corporation - Environmental & Natural Resources Management (CRQ)",
+        "url": "https://www.crq.gov.co/"
+      }
+    },
+    "disclaimer": "This website is an independent third-party travel information project. We have no affiliation with local government or other official institutions."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated: June 2026",
+    "sections": [
+      {
+        "heading": "1. Information We Collect",
+        "content": "We only collect the minimum data necessary to provide our services. This data may include: browsing data (IP address, browser type, visited pages), cookies and similar technologies, and any information you voluntarily provide via contact forms or email."
+      },
+      {
+        "heading": "2. How We Use Your Information",
+        "content": "We use the collected information to: improve website content and user experience, analyze traffic and usage patterns, respond to requests, and comply with our legal obligations."
+      },
+      {
+        "heading": "3. Third-Party Services",
+        "content": "Our website may use third-party services such as Google Maps (for embedded maps and location data), Google Analytics (for traffic analysis), and Unsplash (for images). These services have their own privacy policies."
+      },
+      {
+        "heading": "4. Your Rights",
+        "content": "Under the General Data Protection Regulation (GDPR) and related regulations, you have the right to: access your personal data, request correction or deletion, object to processing, and lodge a complaint with a supervisory authority."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last Updated: June 2026",
+    "sections": [
+      {
+        "heading": "1. Acceptance of Terms",
+        "content": "By accessing and using this website, you agree to be bound by these terms of service."
+      },
+      {
+        "heading": "2. Use of Content",
+        "content": "All content on this website is for informational purposes only. We are an independent third-party travel information website, not affiliated with any tourist attractions, government agencies, or commercial operators."
+      },
+      {
+        "heading": "3. Accuracy of Information",
+        "content": "We strive to provide accurate and timely information, but we cannot guarantee its completeness or accuracy. Itineraries, conditions, and services are subject to change without notice. Always verify important information through official channels before traveling."
+      },
+      {
+        "heading": "4. Limitation of Liability",
+        "content": "We shall not be liable for any direct or indirect damages arising from the use of this website or reliance on the information provided herein."
+      }
+    ]
+  },
+  "historyTimeline": {
+    "title": "Historical Timeline",
+    "items": [
+      {
+        "year": "Early Period",
+        "title": "Early Period: Nature Conservation & Discovery",
+        "plaque": "Nature Conservation (Park)",
+        "description": "Cocora Valley, as part of Los Nevados National Natural Park, has long been an important nature reserve and biodiversity hotspot in Colombia."
+      },
+      {
+        "year": "20th Century",
+        "title": "20th Century: Eco-Tourism Development",
+        "plaque": "Tourism Development (Ecological Conservation)",
+        "description": "With the growth of tourism in Colombia, Cocora Valley gradually became one of the most popular eco-tourism destinations, attracting visitors from around the world."
+      },
+      {
+        "year": "21st Century",
+        "title": "21st Century: World Heritage Recognition",
+        "plaque": "Cultural Identity (World Heritage)",
+        "description": "As part of the Colombian Coffee Cultural Landscape, the region was inscribed on the UNESCO World Heritage List, gaining international recognition and protection."
+      }
+    ],
+    "guideTitle": "Visitor Guide Tip",
+    "guideContent": "When visiting, you can take a Willys Jeep from Salento to Cocora Valley; then follow the hiking trails to admire the Wax Palm forest and cloud forest; if you have enough time, you can hike or horseback ride in the valley to experience Colombia's natural beauty. Finally, return to Salento to explore the charm of the town."
+  },
+  "officialManagement": {
+    "title": "About Cocora Valley",
+    "text": "Cocora Valley is a famous natural landscape in Quindío, Colombia, known for the world's tallest palm trees—the Wax Palm. It is managed by Colombia's National Natural Parks administration and relevant local governments."
+  },
+  "cookieSettings": {
+    "title": "Cookie Settings",
+    "description": "Last Updated: June 2026\n\nWe use cookies to improve your browsing experience. You can manage your preferences below.",
+    "essential": {
+      "title": "Essential Cookies",
+      "description": "These cookies are essential for the website to function properly and cannot be disabled.",
+      "badge": "Always Active"
+    },
+    "analytics": {
+      "title": "Analytics Cookies",
+      "description": "They help us understand how visitors interact with our website by collecting anonymous usage data.",
+      "items": [
+        {
+          "name": "Google Analytics",
+          "status": "Active",
+          "description": "It collects anonymous information about how visitors use our website."
+        }
+      ]
+    },
+    "marketing": {
+      "title": "Marketing Cookies",
+      "description": "They are used to show relevant advertisements and measure the effectiveness of ad campaigns.",
+      "items": [
+        {
+          "name": "Personalized Ads",
+          "status": "Inactive",
+          "description": "It can show you relevant ads based on your interests."
+        }
+      ]
+    },
+    "save": "Save Preferences",
+    "saved": "Settings saved!",
+    "preferences": {
+      "items": [
+        {
+          "name": "User Preferences",
+          "status": "Active",
+          "description": "Saves your language preferences and website settings."
+        }
+      ],
+      "title": "Preference Cookies",
+      "description": "They remember your settings, such as language and theme preferences."
+    },
+    "consentManagement": "Consent Management: You can change your cookie settings at any time. Please note that disabling certain cookies may affect the website's functionality.",
+    "rejectAll": "Reject All"
+  }
+}

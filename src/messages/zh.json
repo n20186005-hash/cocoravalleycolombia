@@ -1,0 +1,378 @@
+{
+  "meta": {
+    "title": "可可拉山谷 (Cocora Valley) | 哥伦比亚的金迪奥自然景观",
+    "description": "探索可可拉山谷，哥伦比亚金迪奥省的天然奇观，拥有世界上最高的棕榈树和令人叹为观止的云雾森林景观。"
+  },
+  "header": {
+    "siteName": "可可拉山谷",
+    "home": "首页",
+    "gallery": "图库",
+    "reviews": "评价",
+    "map": "地图",
+    "backToHome": "返回首页"
+  },
+  "hero": {
+    "title": "可可拉山谷",
+    "subtitle": "哥伦比亚的绿色宝石，最高棕榈树的家园",
+    "rating": "4.8",
+    "reviewCount": "25,522",
+    "hours": "国家公园 / 自然景观 / 徒步天堂",
+    "openMaps": "查看位置"
+  },
+  "intro": {
+    "title": "探索可可拉山谷",
+    "description": "可可拉山谷（Valle de Cocora）是哥伦比亚金迪奥省的天然宝藏，位于萨伦托（Salento）以北11公里处。这里以世界上最高的棕榈树——蜡棕榈（Palma de Cera）而闻名，这些雄伟的棕榈树可以长到60米高。\n\n作为洛斯内瓦多斯国家公园（Los Nevados National Natural Park）的一部分，可可拉山谷提供了令人惊叹的云雾森林景观、丰富的生物多样性和多条徒步路线。这里是哥伦比亚最具代表性的自然景观之一，也是咖啡文化景观（Coffee Cultural Landscape）世界遗产的一部分。",
+    "visitGuide": {
+      "title": "游览建议",
+      "items": [
+        "🌞 上午徒步游：从萨伦托出发 ➔ 骑马或徒步进入山谷 ➔ 参观蜡棕榈林",
+        "🌙 下午文化游：返回萨伦托 ➔ 参观咖啡庄园 ➔ 品尝当地美食",
+        "🎉 生态体验：如果可能，请在旱季（12月至3月）游览，天气更适合徒步"
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "核心亮点与设施",
+      "items": [
+        "🌴 世界最高棕榈树：蜡棕榈（Palma de Cera）可高达60米，是哥伦比亚的国树。",
+        "🏞️ 云雾森林景观：令人叹为观止的安第斯山脉云雾森林和河流景观。",
+        "🐎 徒步与骑马：多条难度不同的徒步路线，也可以选择骑马游览。",
+        "☕ 咖啡文化区：位于哥伦比亚咖啡文化景观世界遗产区域内。"
+      ]
+    }
+  },
+  "route": {
+    "title": "建议游览路线",
+    "overview": "探索可可拉山谷的推荐路线：",
+    "steps": [
+      "从萨伦托（Salento）乘坐吉普车（Willys Jeep）前往可可拉山谷入口。",
+      "开始徒步或骑马，沿着指示路线前往蜡棕榈观景点。",
+      "在山谷中享受野餐，欣赏周围的自然景观。",
+      "返回萨伦托，参观当地的咖啡庄园或品尝传统美食。"
+    ],
+    "supplementsTitle": "游览补充建议",
+    "supplements": [
+      "建议穿着舒适的徒步鞋，并携带雨具（山谷天气多变）。",
+      " entrance fee 约为 COP $10,000-15,000，价格可能变动。",
+      "吉普车从萨伦托出发的时间通常为早上6:00开始，返回最后一班约下午5:00。"
+    ]
+  },
+  "knowledge": {
+    "title": "发现可可拉山谷的魅力",
+    "sections": [
+      {
+        "id": "history",
+        "title": "历史与保护",
+        "content": "可可拉山谷是洛斯内瓦多斯国家公园的一部分，蜡棕榈是哥伦比亚的国树，受到法律保护。这里也是哥伦比亚咖啡文化景观世界遗产的重要组成部分。"
+      },
+      {
+        "id": "nature",
+        "title": "生物多样性",
+        "content": "山谷拥有丰富的生物多样性，包括多种鸟类（如金刚鹦鹉、蜂鸟）、兰花和其他安第斯山脉特有的动植物。"
+      },
+      {
+        "id": "experience",
+        "title": "徒步天堂",
+        "content": "这里有多条徒步路线，从轻松的家庭路线到具有挑战性的多日徒步路线，适合不同水平的游客。"
+      }
+    ]
+  },
+  "basicInfo": {
+    "title": "核心标签 (Quick Facts)",
+    "officialName": "正式名称",
+    "officialNameValue": "可可拉山谷 (Cocora Valley / Valle de Cocora)",
+    "type": "景点类型",
+    "typeValue": "国家公园 / 自然景观 / 徒步天堂",
+    "country": "国家",
+    "countryValue": "哥伦比亚",
+    "city": "城市",
+    "cityValue": "萨伦托 (Salento), 金迪奥省",
+    "googleRating": "谷歌评分",
+    "address": "位置",
+    "addressValue": "Vía al Valle de Cocora, Km 11, Salento, Quindío, 哥伦比亚",
+    "plusCode": "Plus 代码",
+    "plusCodeValue": "JGQ6+39 萨伦托 哥伦比亚金迪奥省",
+    "phone": "官方联系电话",
+    "phoneValue": "+57 310 227 5091",
+    "petFriendly": "宠物准入",
+    "petFriendlyValue": "允许宠物进入（建议系绳）",
+    "tickets": "门票信息",
+    "ticketsValue": "约 COP $10,000-15,000"
+  },
+  "hours": {
+    "title": "开放时间与游览建议 (Visitor Info)",
+    "outdoor": "公园开放时间",
+    "outdoorTime": "每天 08:00–18:00",
+    "lighthouse": "最佳游览时间",
+    "summer": "旱季（12月-3月）",
+    "summerTime": "天气晴朗，适合徒步",
+    "winter": "游览亮点",
+    "winterTime": "蜡棕榈林、云雾森林、河流景观",
+    "warning": "💡 本地人贴士 (Local Insider Tip)",
+    "warningTime": "早上尽早到达，可以避开人群并欣赏到最美的晨雾景观。记得携带防晒霜和雨具！",
+    "tip": "从观景台可以看到蜡棕榈在晨雾中若隐若现的绝美景色。"
+  },
+  "tickets": {
+    "title": "注意事项",
+    "outdoor": "入场费用",
+    "outdoorPrice": "约 COP $10,000-15,000（价格可能变动）",
+    "lighthouse": "交通信息",
+    "adults": "从萨伦托出发",
+    "adultsPrice": "乘坐吉普车（Willys Jeep）约20-30分钟",
+    "students": "建议游玩时间",
+    "studentsPrice": "半天至一天",
+    "card": "周边景点",
+    "cardPrice": "萨伦托小镇、咖啡庄园。👉 [前往可可拉山谷]",
+    "officialNotice": "关于最新的门票价格和开放时间，请查阅",
+    "officialNoticeLinkLabel": "哥伦比亚国家自然公园管理局官方网站",
+    "officialNoticeLink": "https://www.parquesnacionales.gov.co/"
+  },
+  "transport": {
+    "title": "交通方式",
+    "airport": "从机场出发",
+    "airportDesc": "从最近的机场（佩雷拉或亚美尼亚）出发，需要先到达萨伦托小镇，然后乘坐吉普车前往可可拉山谷。",
+    "selfDrive": "自驾前往",
+    "selfDriveDesc": "从萨伦托出发，沿着标记清晰的道路行驶约11公里即可到达山谷入口。",
+    "bus": "公共交通",
+    "busDesc": "从萨伦托市中心乘坐吉普车（Willys Jeep）是最受欢迎的交通方式，班次频繁。",
+    "intercity": "徒步游览",
+    "intercityDesc": "山谷内有明确的徒步路线标识，适合各个水平的徒步者。",
+    "cycling": "其他方式",
+    "cyclingDesc": "可以选择骑马游览，有当地的导游服务提供。",
+    "tips": "出行建议",
+    "tipsDesc": "吉普车通常早上6:00开始运营，建议尽早出发以避开人群。"
+  },
+  "gallery": {
+    "title": "精彩照片",
+    "subtitle": "感受哥伦比亚最壮丽的自然景观",
+    "captions": [
+      "蜡棕榈林全景",
+      "云雾森林景观",
+      "徒步路线",
+      "萨伦托吉普车",
+      "山谷河流",
+      "晨雾中的棕榈树",
+      "骑马游览",
+      "观景台视野",
+      "当地生物多样性",
+      "咖啡庄园",
+      "安第斯山脉",
+      "自然环境",
+      "生态旅游",
+      "哥伦比亚国树",
+      "自然景观",
+      "徒步者",
+      "绿色生态"
+    ],
+    "viewAll": "在 Google Maps 查看更多照片",
+    "showAllPhotos": "显示全部照片"
+  },
+  "reviews": {
+    "title": "游客评价",
+    "declaration": "评价信息可透过 Google Maps 查看（外部链接）。",
+    "moreReviews": "在 Google Maps 查看更多评价",
+    "items": [
+      {
+        "name": "Carlos Mendoza",
+        "date": "2个月前",
+        "rating": 5,
+        "text": "世界上最美的徒步地点之一！蜡棕榈树高耸入云，景色令人叹为观止。"
+      },
+      {
+        "name": "李小明",
+        "date": "1个月前",
+        "rating": 5,
+        "text": "从萨伦托乘坐吉普车到达这里非常有趣。徒步路线清晰，景色美不胜收，强烈推荐！"
+      },
+      {
+        "name": "María González",
+        "date": "3周前",
+        "rating": 5,
+        "text": "哥伦比亚必去的地方！清晨的雾气让整个山谷如同仙境一般。"
+      },
+      {
+        "name": "John Smith",
+        "date": "半年多前",
+        "rating": 5,
+        "text": "令人难忘的体验！我选择了骑马游览，当地的导游非常友好且专业。"
+      },
+      {
+        "name": "Ana Silva",
+        "date": "2个月前",
+        "rating": 4,
+        "text": "美丽的风景，但周末人比较多。建议工作日前往，可以更好地享受大自然。"
+      },
+      {
+        "name": "张伟",
+        "date": "1个月前",
+        "rating": 5,
+        "text": "绝对值得一游！记得带上相机，每个角度都是明信片般的风景。"
+      },
+      {
+        "name": "Roberto Pérez",
+        "date": "3个月前",
+        "rating": 5,
+        "text": "这里是哥伦比亚的骄傲！蜡棕榈是国树，看到它们如此高大真是太震撼了。"
+      },
+      {
+        "name": "Emma Wilson",
+        "date": "2个月前",
+        "rating": 5,
+        "text": "我走完了完整的徒步路线，大约花了6小时。虽然有些累，但绝对值得！"
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "地图位置",
+    "subtitle": "Vía al Valle de Cocora, Km 11, Salento, Quindío, 哥伦比亚",
+    "openMaps": "在 Google Maps 查看位置"
+  },
+  "footer": {
+    "rights": "© 2026 可可拉山谷. 保留所有权利。",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "cookies": "Cookie 设置",
+    "officialResourcesTitle": "相关资源与资讯",
+    "officialLinks": {
+      "parquesnacionales": {
+        "name": "哥伦比亚国家自然公园管理局官方网站 (Parques Nacionales Naturales de Colombia)",
+        "url": "https://www.parquesnacionales.gov.co/"
+      },
+      "salento": {
+        "name": "萨伦托市政府官方网站 (Alcaldía de Salento)",
+        "url": "https://www.salento-quindio.gov.co/"
+      },
+      "colombiatravel": {
+        "name": "哥伦比亚官方旅游局门户网站 (Colombia Travel)",
+        "url": "https://colombia.travel/es"
+      },
+      "quindio": {
+        "name": "金迪奥省政府官方网站 (Gobernación del Quindío)",
+        "url": "https://www.quindio.gov.co/"
+      },
+      "crq": {
+        "name": "金迪奥省区域自治公司 - 环境与自然资源管理 (Corporación Autónoma Regional del Quindío - CRQ)",
+        "url": "https://www.crq.gov.co/"
+      }
+    },
+    "disclaimer": "本网站是一个独立的第三方旅游资讯项目。我们与当地政府或其他官方机构没有任何关联。"
+  },
+  "privacy": {
+    "title": "隐私政策",
+    "lastUpdated": "最后更新时间：2026年6月",
+    "sections": [
+      {
+        "heading": "1. 我们收集的信息",
+        "content": "我们仅收集提供服务所必需的最低限度数据。这些数据可能包括：浏览数据（IP 地址、浏览器类型、访问页面）、Cookie 和类似技术，以及您通过联系表格或电子邮件自愿提供的任何信息。"
+      },
+      {
+        "heading": "2. 我们如何使用您的信息",
+        "content": "我们使用收集到的信息用于：改善网站内容和用户体验、分析流量和使用模式、回应请求，以及遵守我们的法律义务。"
+      },
+      {
+        "heading": "3. 第三方服务",
+        "content": "我们的网站可能会使用第三方服务，例如谷歌地图（用于嵌入式地图和位置数据）、谷歌分析（用于流量分析）和 Unsplash（用于图片）。这些服务均有各自的隐私政策。"
+      },
+      {
+        "heading": "4. 您的权利",
+        "content": "根据《通用数据保护条例》(GDPR)及相关法规，您享有以下权利：访问您的个人数据、要求更正或删除、反对处理，以及向监管机构提出投诉。"
+      }
+    ]
+  },
+  "terms": {
+    "title": "服务条款",
+    "lastUpdated": "最后更新时间：2026年6月",
+    "sections": [
+      {
+        "heading": "1. 接受条款",
+        "content": "访问和使用本网站，即表示您同意受这些服务条款的约束。"
+      },
+      {
+        "heading": "2. 内容使用",
+        "content": "本网站所有内容仅供参考。我们是一家独立的第三方旅游信息网站，与任何旅游景点、政府机构或商业运营商均无关联。"
+      },
+      {
+        "heading": "3. 信息的准确性",
+        "content": "我们力求提供准确及时的信息，但无法保证信息的完整性或准确性。行程安排、条件和服务如有变更，恕不另行通知。请务必在出行前通过官方渠道核实重要信息。"
+      },
+      {
+        "heading": "4. 责任限制",
+        "content": "对于因使用本网站或依赖其中提供的信息而产生的任何直接或间接损失，我们不承担任何责任。"
+      }
+    ]
+  },
+  "historyTimeline": {
+    "title": "历史与发展",
+    "items": [
+      {
+        "year": "早期",
+        "title": "早期：自然保护与发现",
+        "plaque": "自然保护 (公园)",
+        "description": "可可拉山谷作为洛斯内瓦多斯国家公园的一部分，长期以来一直是哥伦比亚重要的自然保护区和生物多样性热点。"
+      },
+      {
+        "year": "20世纪",
+        "title": "20世纪：生态旅游发展",
+        "plaque": "旅游发展 (生态保护)",
+        "description": "随着哥伦比亚旅游业的发展，可可拉山谷逐渐成为最受欢迎的生态旅游目的地之一，吸引了来自世界各地的游客。"
+      },
+      {
+        "year": "21世纪",
+        "title": "21世纪：世界遗产认可",
+        "plaque": "文化认同 (世界遗产)",
+        "description": "作为哥伦比亚咖啡文化景观的一部分，该地区被列入联合国教科文组织世界遗产名录，得到了国际认可和保护。"
+      }
+    ],
+    "guideTitle": "游客导览建议",
+    "guideContent": "游客在参观时，可以从萨伦托乘坐吉普车前往可可拉山谷；随后沿着徒步路线欣赏蜡棕榈林和云雾森林；如果您有充足的时间，可以在山谷中徒步或骑马，感受哥伦比亚的自然之美。最后返回萨伦托探索小镇的魅力。"
+  },
+  "officialManagement": {
+    "title": "关于可可拉山谷",
+    "text": "可可拉山谷是哥伦比亚金迪奥省的著名自然景观，以世界上最高的棕榈树——蜡棕榈而闻名，由哥伦比亚国家自然公园管理局与相关地方政府共同管理。"
+  },
+  "cookieSettings": {
+    "title": "Cookie 设置",
+    "description": "最后更新时间：2026年6月\n\n我们使用 Cookie 来改善您的浏览体验。您可以在下方管理您的偏好设置。",
+    "essential": {
+      "title": "必要 Cookie",
+      "description": "这些 Cookie 对于网站正常运行至关重要，无法禁用。",
+      "badge": "始终保持活跃"
+    },
+    "analytics": {
+      "title": "分析型 Cookie",
+      "description": "它们通过收集匿名使用数据，帮助我们了解访客如何与我们的网站互动。",
+      "items": [
+        {
+          "name": "Google Analytics",
+          "status": "激活",
+          "description": "它会收集访客如何使用我们网站的匿名信息。"
+        }
+      ]
+    },
+    "marketing": {
+      "title": "营销 Cookie",
+      "description": "它们用于展示相关广告并衡量广告活动的有效性。",
+      "items": [
+        {
+          "name": "个性化广告",
+          "status": "停用",
+          "description": "它可以根据你的兴趣为你展示相关的广告。"
+        }
+      ]
+    },
+    "save": "保存偏好设置",
+    "saved": "设置已保存！",
+    "preferences": {
+      "items": [
+        {
+          "name": "用户偏好",
+          "status": "激活",
+          "description": "保存您的语言偏好和网站设置。"
+        }
+      ],
+      "title": "偏好 Cookie",
+      "description": "它们会记住您的设置，例如语言和主题偏好。"
+    },
+    "consentManagement": "同意管理：您可以随时更改您的 Cookie 设置。请注意，禁用某些 Cookie 可能会影响网站的功能。",
+    "rejectAll": "拒绝一切"
+  }
+}

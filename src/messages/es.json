@@ -1,0 +1,378 @@
+{
+  "meta": {
+    "title": "Valle de Cocora | Paisaje Natural de Quindío, Colombia",
+    "description": "Explora el Valle de Cocora, una maravilla natural en Quindío, Colombia, hogar de las palmas más altas del mundo y paisajes impresionantes de bosque nuboso."
+  },
+  "header": {
+    "siteName": "Valle de Cocora",
+    "home": "Inicio",
+    "gallery": "Galería",
+    "reviews": "Reseñas",
+    "map": "Mapa",
+    "backToHome": "Volver al Inicio"
+  },
+  "hero": {
+    "title": "Valle de Cocora",
+    "subtitle": "La joya verde de Colombia, hogar de las palmas más altas",
+    "rating": "4.8",
+    "reviewCount": "25,522",
+    "hours": "Parque Nacional / Paisaje Natural / Paraíso de Senderismo",
+    "openMaps": "Ver Ubicación"
+  },
+  "intro": {
+    "title": "Explora el Valle de Cocora",
+    "description": "El Valle de Cocora es un tesoro natural en Quindío, Colombia, ubicado a 11 kilómetros al norte de Salento. Es famoso por las palmas más altas del mundo: la Palma de Cera, que puede crecer hasta 60 metros de altura.\n\nComo parte del Parque Nacional Natural Los Nevados, el Valle de Cocora ofrece impresionantes paisajes de bosque nuboso, rica biodiversidad y múltiples senderos de hiking. Es uno de los paisajes naturales más icónicos de Colombia y parte del Paisaje Cultural Cafetero, Patrimonio de la Humanidad de la UNESCO.",
+    "visitGuide": {
+      "title": "Consejos de Visita",
+      "items": [
+        "🌞 Tour de Senderismo Matutino: Salir de Salento ➔ Montar a caballo o caminar hacia el valle ➔ Visitar el bosque de palmas de cera",
+        "🌙 Tour Cultural Nocturno: Regresar a Salento ➔ Visitar una finca cafetera ➔ Probar la cocina local",
+        "🎉 Experiencia Eco: Si es posible, visite durante la temporada seca (diciembre a marzo) para mejor clima de senderismo"
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "Destacados",
+      "items": [
+        "🌴 Palmas más altas del mundo: Las Palmas de Cera pueden alcanzar hasta 60 metros, el árbol nacional de Colombia.",
+        "🏞️ Paisaje de Bosque Nuboso: Impresionantes paisajes andinos de bosque nuboso y ríos.",
+        "🐎 Senderismo y Montar a Caballo: Múltiples senderos de dificultad variable, o elija tours a caballo.",
+        "☕ Región Cultural Cafetera: Ubicado dentro del área de Paisaje Cultural Cafetero Patrimonio de la Humanidad de la UNESCO."
+      ]
+    }
+  },
+  "route": {
+    "title": "Ruta de Visita",
+    "overview": "La ruta ideal para explorar el Valle de Cocora:",
+    "steps": [
+      "Tome un jeep Willys desde Salento hasta la entrada del Valle de Cocora.",
+      "Comience a caminar o montar a caballo por los senderos marcados hacia el mirador de las Palmas de Cera.",
+      "Disfrute de un picnic en el valle mientras admira los paisajes naturales circundantes.",
+      "Regrese a Salento y visite fincas cafeteras locales o pruebe la cocina tradicional."
+    ],
+    "supplementsTitle": "Consejos Adicionales de Visita",
+    "supplements": [
+      "Use zapatos cómodos para caminar y traiga equipo de lluvia (el clima del valle es cambiante).",
+      "La tarifa de entrada es aproximadamente COP $10,000-15,000, sujeto a cambios.",
+      "Los jeeps Willys desde Salento generalmente comienzan a las 6:00 AM, con el último regreso alrededor de las 5:00 PM."
+    ]
+  },
+  "knowledge": {
+    "title": "Descubre el Encanto del Valle de Cocora",
+    "sections": [
+      {
+        "id": "history",
+        "title": "Historia y Conservación",
+        "content": "El Valle de Cocora es parte del Parque Nacional Natural Los Nevados. La Palma de Cera es el árbol nacional de Colombia y está protegida por ley. También es una parte importante del Paisaje Cultural Cafetero Patrimonio de la Humanidad de la UNESCO."
+      },
+      {
+        "id": "nature",
+        "title": "Biodiversidad",
+        "content": "El valle alberga rica biodiversidad, incluyendo varias especies de aves (como guacamayas y colibríes), orquídeas y otra flora y fauna endémica de los Andes."
+      },
+      {
+        "id": "experience",
+        "title": "Paraíso del Senderismo",
+        "content": "Hay múltiples senderos de hiking aquí, desde senderos familiares fáciles hasta trekkings desafiantes de varios días, adecuados para visitantes de todos los niveles."
+      }
+    ]
+  },
+  "basicInfo": {
+    "title": "Datos Rápidos",
+    "officialName": "Nombre Oficial",
+    "officialNameValue": "Valle de Cocora",
+    "type": "Tipo de Atracción",
+    "typeValue": "Parque Nacional / Paisaje Natural / Paraíso de Senderismo",
+    "country": "País",
+    "countryValue": "Colombia",
+    "city": "Ciudad",
+    "cityValue": "Salento, Quindío",
+    "googleRating": "Calificación de Google",
+    "address": "Dirección",
+    "addressValue": "Vía al Valle de Cocora, Km 11, Salento, Quindío, Colombia",
+    "plusCode": "Código Plus",
+    "plusCodeValue": "JGQ6+39 Salento, Quindío, Colombia",
+    "phone": "Teléfono",
+    "phoneValue": "+57 310 227 5091",
+    "petFriendly": "Mascotas permitidas",
+    "petFriendlyValue": "Se admiten mascotas (recomendado con correa)",
+    "tickets": "Entradas",
+    "ticketsValue": "Aprox. COP $10,000-15,000"
+  },
+  "hours": {
+    "title": "Horarios y Consejos para Visitantes",
+    "outdoor": "Acceso al Parque",
+    "outdoorTime": "Diariamente 08:00–18:00",
+    "lighthouse": "Mejor Momento de Visita",
+    "summer": "Temporada Seca (Dic-Mar)",
+    "summerTime": "Clima despejado, ideal para senderismo",
+    "winter": "Destacados",
+    "winterTime": "Bosque de palmas de cera, bosque nuboso, paisajes de ríos",
+    "warning": "💡 Consejo de Expertos Locales",
+    "warningTime": "Llegue temprano por la mañana para evitar multitudes y ver la más hermosa neblina matutina. ¡Recuerde traer protector solar y equipo de lluvia!",
+    "tip": "Desde el mirador, puede ver las Palmas de Cera emergiendo misteriosamente de la neblina matutina."
+  },
+  "tickets": {
+    "title": "Información Importante",
+    "outdoor": "Tarifa de Entrada",
+    "outdoorPrice": "Aprox. COP $10,000-15,000 (sujeto a cambios)",
+    "lighthouse": "Información de Transporte",
+    "adults": "Desde Salento",
+    "adultsPrice": "Viaje en jeep Willys aprox. 20-30 minutos",
+    "students": "Duración Recomendada de Visita",
+    "studentsPrice": "Medio día a día completo",
+    "card": "Atracciones Cercanas",
+    "cardPrice": "Pueblo de Salento, fincas cafeteras. 👉 [Ir al Valle de Cocora]",
+    "officialNotice": "Para obtener las últimas actualizaciones sobre tarifas de entrada y horarios de apertura, consulte el",
+    "officialNoticeLinkLabel": "Sitio Web Oficial de Parques Naturales Nacionales de Colombia",
+    "officialNoticeLink": "https://www.parquesnacionales.gov.co/"
+  },
+  "transport": {
+    "title": "Transporte",
+    "airport": "Desde el Aeropuerto",
+    "airportDesc": "Desde los aeropuertos más cercanos (Pereira o Armenia), necesita primero llegar al pueblo de Salento, luego tomar un jeep Willys al Valle de Cocora.",
+    "selfDrive": "En Coche",
+    "selfDriveDesc": "Desde Salento, siga el camino claramente marcado por aproximadamente 11 kilómetros para llegar a la entrada del valle.",
+    "bus": "Transporte Público",
+    "busDesc": "Tomar un jeep Willys desde el centro del pueblo de Salento es la opción de transporte más popular, con salidas frecuentes.",
+    "intercity": "Senderismo",
+    "intercityDesc": "El valle tiene senderos de hiking claramente marcados adecuados para caminantes de todos los niveles.",
+    "cycling": "Otras Opciones",
+    "cyclingDesc": "Puede elegir tours a caballo con servicios de guías locales disponibles.",
+    "tips": "Consejos de Viaje",
+    "tipsDesc": "Los jeeps Willys generalmente comienzan a operar a las 6:00 AM. Se recomienda salir temprano para evitar multitudes."
+  },
+  "gallery": {
+    "title": "Fotos Impresionantes",
+    "subtitle": "Sienta el Paisaje Natural Más Magnífico de Colombia",
+    "captions": [
+      "Vista panorámica del bosque de palmas de cera",
+      "Paisaje de bosque nuboso",
+      "Senderos de hiking",
+      "Jeep Willys de Salento",
+      "Río del valle",
+      "Palmas en la neblina matutina",
+      "Tour a caballo",
+      "Vista del mirador",
+      "Biodiversidad local",
+      "Finca cafetera",
+      "Montañas Andes",
+      "Ambiente natural",
+      "Turismo ecológico",
+      "Árbol nacional de Colombia",
+      "Paisaje natural",
+      "Caminantes",
+      "Ecología verde"
+    ],
+    "viewAll": "Ver más fotos en Google Maps",
+    "showAllPhotos": "Mostrar Todas las Fotos"
+  },
+  "reviews": {
+    "title": "Reseñas de Visitantes",
+    "declaration": "La información de las reseñas se puede ver a través de Google Maps (enlace externo).",
+    "moreReviews": "Ver Más Reseñas en Google Maps",
+    "items": [
+      {
+        "name": "Carlos Mendoza",
+        "date": "hace 2 meses",
+        "rating": 5,
+        "text": "¡Uno de los lugares más hermosos para hiking en el mundo! Las Palmas de Cera se elevan hacia las nubes, el paisaje es impresionante."
+      },
+      {
+        "name": "Li Xiaoming",
+        "date": "hace 1 mes",
+        "rating": 5,
+        "text": "Tomar el jeep Willys desde Salento para llegar aquí es muy divertido. Los senderos están claros, el paisaje es impresionante, ¡muy recomendado!"
+      },
+      {
+        "name": "María González",
+        "date": "hace 3 semanas",
+        "rating": 5,
+        "text": "¡Un lugar imperdible en Colombia! La neblina matutina hace que todo el valle parezca un país de las maravillas."
+      },
+      {
+        "name": "John Smith",
+        "date": "hace más de 6 meses",
+        "rating": 5,
+        "text": "¡Una experiencia inolvidable! Elegí montar a caballo, y los guías locales fueron muy amables y profesionales."
+      },
+      {
+        "name": "Ana Silva",
+        "date": "hace 2 meses",
+        "rating": 4,
+        "text": "Hermoso paisaje, pero se pone bastante concurrido los fines de semana. Recomiendo visitar entre semana para una mejor experiencia en la naturaleza."
+      },
+      {
+        "name": "Zhang Wei",
+        "date": "hace 1 mes",
+        "rating": 5,
+        "text": "¡Absolutamente vale la pena visitarlo! Recuerde traer su cámara, cada ángulo es una vista perfecta para una postal."
+      },
+      {
+        "name": "Roberto Pérez",
+        "date": "hace 3 meses",
+        "rating": 5,
+        "text": "¡Este es el orgullo de Colombia! La Palma de Cera es el árbol nacional, y verlas tan altas es verdaderamente inspirador."
+      },
+      {
+        "name": "Emma Wilson",
+        "date": "hace 2 meses",
+        "rating": 5,
+        "text": "Completé el sendero de hiking completo, que tomó aproximadamente 6 horas. ¡Cansado pero absolutamente vale la pena!"
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "Ubicación y Mapa",
+    "subtitle": "Vía al Valle de Cocora, Km 11, Salento, Quindío, Colombia",
+    "openMaps": "Ver en Google Maps"
+  },
+  "footer": {
+    "rights": "© 2026 Valle de Cocora. Todos los derechos reservados.",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "cookies": "Configuración de Cookies",
+    "officialResourcesTitle": "Recursos Oficiales y Enlaces",
+    "officialLinks": {
+      "parquesnacionales": {
+        "name": "Sitio Web Oficial de Parques Naturales Nacionales de Colombia",
+        "url": "https://www.parquesnacionales.gov.co/"
+      },
+      "salento": {
+        "name": "Sitio Web Oficial de la Alcaldía de Salento",
+        "url": "https://www.salento-quindio.gov.co/"
+      },
+      "colombiatravel": {
+        "name": "Portal Oficial de Turismo de Colombia (Colombia Travel)",
+        "url": "https://colombia.travel/es"
+      },
+      "quindio": {
+        "name": "Sitio Web Oficial de la Gobernación del Quindío",
+        "url": "https://www.quindio.gov.co/"
+      },
+      "crq": {
+        "name": "Corporación Autónoma Regional del Quindío - CRQ",
+        "url": "https://www.crq.gov.co/"
+      }
+    },
+    "disclaimer": "Este sitio web es un proyecto independiente de información turística de terceros. No tenemos afiliación con el gobierno local u otras instituciones oficiales."
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "lastUpdated": "Última actualización: junio de 2026",
+    "sections": [
+      {
+        "heading": "1. Información que Recopilamos",
+        "content": "Solo recopilamos los datos mínimos necesarios para proporcionar nuestros servicios. Estos datos pueden incluir: datos de navegación (dirección IP, tipo de navegador, páginas visitadas), cookies y tecnologías similares, y cualquier información que proporcione voluntariamente a través de formularios de contacto o correo electrónico."
+      },
+      {
+        "heading": "2. Cómo Utilizamos su Información",
+        "content": "Utilizamos la información recopilada para: mejorar el contenido del sitio web y la experiencia del usuario, analizar el tráfico y los patrones de uso, responder a solicitudes y cumplir con nuestras obligaciones legales."
+      },
+      {
+        "heading": "3. Servicios de Terceros",
+        "content": "Nuestro sitio web puede utilizar servicios de terceros como Google Maps (para mapas integrados y datos de ubicación), Google Analytics (para análisis de tráfico) y Unsplash (para imágenes). Estos servicios tienen sus propias políticas de privacidad."
+      },
+      {
+        "heading": "4. Sus Derechos",
+        "content": "Bajo el Reglamento General de Protección de Datos (RGPD) y regulaciones relacionadas, usted tiene derecho a: acceder a sus datos personales, solicitar corrección o eliminación, oponerse al tratamiento y presentar una queja ante una autoridad de control."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Términos de Servicio",
+    "lastUpdated": "Última actualización: junio de 2026",
+    "sections": [
+      {
+        "heading": "1. Aceptación de los Términos",
+        "content": "Al acceder y utilizar este sitio web, usted acepta estar sujeto a estos términos de servicio."
+      },
+      {
+        "heading": "2. Uso del Contenido",
+        "content": "Todo el contenido de este sitio web es solo para fines informativos. Somos un sitio web independiente de información turística de terceros, no afiliado con ningún atractivo turístico, agencia gubernamental u operador comercial."
+      },
+      {
+        "heading": "3. Exactitud de la Información",
+        "content": "Nos esforzamos por proporcionar información precisa y oportuna, pero no podemos garantizar su integridad o exactitud. Los itinerarios, condiciones y servicios están sujetos a cambios sin previo aviso. Verifique siempre la información importante a través de canales oficiales antes de viajar."
+      },
+      {
+        "heading": "4. Limitación de Responsabilidad",
+        "content": "No seremos responsables por ningún daño directo o indirecto derivado del uso de este sitio web o la dependencia de la información aquí proporcionada."
+      }
+    ]
+  },
+  "historyTimeline": {
+    "title": "Cronología Histórica",
+    "items": [
+      {
+        "year": "Período Inicial",
+        "title": "Período Inicial: Conservación de la Naturaleza y Descubrimiento",
+        "plaque": "Conservación de la Naturaleza (Parque)",
+        "description": "El Valle de Cocora, como parte del Parque Nacional Natural Los Nevados, ha sido por mucho tiempo una importante reserva natural y punto caliente de biodiversidad en Colombia."
+      },
+      {
+        "year": "Siglo XX",
+        "title": "Siglo XX: Desarrollo de Eco-Turismo",
+        "plaque": "Desarrollo de Turismo (Conservación Ecológica)",
+        "description": "Con el crecimiento del turismo en Colombia, el Valle de Cocora se convirtió gradualmente en uno de los destinos de eco-turismo más populares, atrayendo visitantes de todo el mundo."
+      },
+      {
+        "year": "Siglo XXI",
+        "title": "Siglo XXI: Reconocimiento de Patrimonio Mundial",
+        "plaque": "Identidad Cultural (Patrimonio Mundial)",
+        "description": "Como parte del Paisaje Cultural Cafetero Colombiano, la región fue inscrita en la Lista del Patrimonio Mundial de la UNESCO, obteniendo reconocimiento y protección internacional."
+      }
+    ],
+    "guideTitle": "Consejo de Guía para Visitantes",
+    "guideContent": "Al visitar, puede tomar un jeep Willys desde Salento al Valle de Cocora; luego siga los senderos de hiking para admirar el bosque de palmas de cera y el bosque nuboso; si tiene tiempo suficiente, puede caminar o montar a caballo en el valle para experimentar la belleza natural de Colombia. Finalmente, regrese a Salento para explorar el encanto del pueblo."
+  },
+  "officialManagement": {
+    "title": "Acerca del Valle de Cocora",
+    "text": "El Valle de Cocora es un famoso paisaje natural en Quindío, Colombia, conocido por las palmas más altas del mundo: la Palma de Cera. Está gestionado por la administración de Parques Naturales Nacionales de Colombia y los gobiernos locales relevantes."
+  },
+  "cookieSettings": {
+    "title": "Configuración de Cookies",
+    "description": "Última actualización: junio de 2026\n\nUtilizamos cookies para mejorar su experiencia de navegación. Puede gestionar sus preferencias a continuación.",
+    "essential": {
+      "title": "Cookies Esenciales",
+      "description": "Estas cookies son esenciales para el funcionamiento correcto del sitio web y no se pueden deshabilitar.",
+      "badge": "Siempre Activo"
+    },
+    "analytics": {
+      "title": "Cookies de Análisis",
+      "description": "Nos ayudan a comprender cómo interactúan los visitantes con nuestro sitio web mediante la recopilación de datos de uso anónimos.",
+      "items": [
+        {
+          "name": "Google Analytics",
+          "status": "Activo",
+          "description": "Recopila información anónima sobre cómo los visitantes utilizan nuestro sitio web."
+        }
+      ]
+    },
+    "marketing": {
+      "title": "Cookies de Marketing",
+      "description": "Se utilizan para mostrar anuncios relevantes y medir la efectividad de las campañas publicitarias.",
+      "items": [
+        {
+          "name": "Anuncios Personalizados",
+          "status": "Inactivo",
+          "description": "Puede mostrarle anuncios relevantes basados en sus intereses."
+        }
+      ]
+    },
+    "save": "Guardar Preferencias",
+    "saved": "¡Configuración guardada!",
+    "preferences": {
+      "items": [
+        {
+          "name": "Preferencias del Usuario",
+          "status": "Activo",
+          "description": "Guarda sus preferencias de idioma y configuraciones del sitio web."
+        }
+      ],
+      "title": "Cookies de Preferencias",
+      "description": "Recuerdan sus configuraciones, como las preferencias de idioma y tema."
+    },
+    "consentManagement": "Gestión del Consentimiento: Puede cambiar su configuración de cookies en cualquier momento. Tenga en cuenta que deshabilitar ciertas cookies puede afectar la funcionalidad del sitio web.",
+    "rejectAll": "Rechazar Todas"
+  }
+}
