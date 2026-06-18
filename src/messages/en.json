@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Cocora Valley | Quindío's Natural Landscape, Colombia",
-    "description": "Explore Cocora Valley, a natural wonder in Quindío, Colombia, home to the world's tallest palm trees and breathtaking cloud forest landscapes."
+    "description": "Explore Cocora Valley, a natural reserve in Quindío, Colombia, featuring the world's tallest wax palms, cloud forests, and diverse Andean ecosystems."
   },
   "header": {
     "siteName": "Cocora Valley",
@@ -16,63 +16,64 @@
     "subtitle": "Colombia's Green Gem, Home of the Tallest Palm Trees",
     "rating": "4.8",
     "reviewCount": "25,522",
-    "hours": "National Park / Natural Landscape / Hiking Paradise",
+    "hours": "Nature Reserve / Cloud Forest / High-Altitude Hiking",
     "openMaps": "View Location"
   },
   "intro": {
     "title": "Explore Cocora Valley",
-    "description": "Cocora Valley (Valle de Cocora) is a natural treasure in Quindío, Colombia, located 11 kilometers north of Salento. It is famous for the world's tallest palm trees—the Wax Palm (Palma de Cera), which can grow up to 60 meters high.\n\nAs part of Los Nevados National Natural Park, Cocora Valley offers breathtaking cloud forest landscapes, rich biodiversity, and multiple hiking trails. It is one of Colombia's most iconic natural landscapes and part of the Coffee Cultural Landscape UNESCO World Heritage site.",
+    "description": "Cocora Valley (Valle de Cocora) is a natural treasure in Quindío, Colombia, located about a 25-30 minute drive north of Salento. It is famous for the world's tallest palm trees—Colombia's national tree, the Wax Palm (Ceroxylon quindiuense), which averages 50-60 meters in height.\n\nServing as a buffer zone for Los Nevados National Natural Park, Cocora Valley offers breathtaking cloud forest landscapes, highly valuable scientific ecosystems, and multiple high-altitude hiking trails. It is an excellent place to observe endemic Andean flora and fauna, such as hummingbirds and Andean Condors, making it a non-profit natural landscape with immense ecological and educational value.",
     "visitGuide": {
-      "title": "Visiting Tips",
+      "title": "Preparation & Ecology",
       "items": [
-        "🌞 Morning Hike Tour: Depart from Salento ➔ Horseback riding or hiking into the valley ➔ Visit the Wax Palm forest",
-        "🌙 Afternoon Cultural Tour: Return to Salento ➔ Visit a coffee farm ➔ Taste local cuisine",
-        "🎉 Eco Experience: If possible, visit during the dry season (December to March) for better hiking weather"
+        "🚙 Transport: Take a traditional WWII-era Willys Jeep from the main square (Plaza de Bolívar) in Salento. The ride takes about 25-30 minutes to the valley entrance. The first jeeps usually depart around 6:00 AM.",
+        "🥾 Extreme Mud Warning: Due to year-round rainfall, the trails are often extremely muddy and slippery. It is highly recommended to rent specialized rubber mud boots at the valley entrance or in Salento.",
+        "�️ Weather Alert: Regardless of the season, there is a high probability of fog and rain after midday. It is essential to start early and bring rain gear."
       ]
     },
     "alsoKnownAs": {
-      "title": "Highlights",
+      "title": "Flora & Fauna",
       "items": [
-        "🌴 World's Tallest Palm Trees: Wax Palms (Palma de Cera) can reach up to 60 meters, Colombia's national tree.",
-        "🏞️ Cloud Forest Landscape: Breathtaking Andes cloud forest and river landscapes.",
-        "🐎 Hiking and Horseback Riding: Multiple trails of varying difficulty, or choose horseback riding tours.",
-        "☕ Coffee Cultural Region: Located within the UNESCO Coffee Cultural Landscape World Heritage area."
+        "🌴 Wax Palm (Ceroxylon quindiuense): Colombia's national tree, averaging 50-60 meters tall. Note that it is currently endangered as cattle grazing prevents the natural regeneration of seedlings.",
+        "� Andean Hummingbirds: At the Acaime hummingbird sanctuary, visitors can observe various wild hummingbirds endemic to the Andes up close.",
+        "🦅 Andean Condors: One of the largest flying birds in the world, occasionally spotted in the high-altitude areas of the valley.",
+        "♻️ Leave No Trace: Please stay on designated trails, do not leave trash behind, and help protect this fragile alpine ecosystem."
       ]
     }
   },
   "route": {
-    "title": "Tour Route",
-    "overview": "The ideal route to explore Cocora Valley:",
+    "title": "Trail Guide",
+    "overview": "There are two main ways to explore Cocora Valley. Please choose based on your fitness level and time:",
     "steps": [
-      "Take a Willys Jeep from Salento to the Cocora Valley entrance.",
-      "Start hiking or horseback riding along the marked trails to the Wax Palm viewpoint.",
-      "Enjoy a picnic in the valley while admiring the surrounding natural landscapes.",
-      "Return to Salento and visit local coffee farms or taste traditional cuisine."
+      "1. The Full Loop (Highly recommended counter-clockwise): Approx. 12-15 km | 5-6 hours | 600-800m elevation gain.",
+      "Highlights: Starting from the Blue Gate on the right of the entrance, you will first traverse the dense cloud forest, crossing five or six suspension bridges over rapid rivers. Midway, you can detour to the Acaime hummingbird sanctuary (extra fee required).",
+      "This is followed by a steep climb to the highest point, Finca La Montaña, before descending to the spectacular Wax Palm forest (Bosque de Palmas) for a perfect finish.",
+      "2. The Short Route (Clockwise): Approx. 2-3 km | 1.5-2 hours.",
+      "Highlights: If you are short on time or just want to see the tallest palm trees, you can head straight to the left main road from the entrance. This is a steep shortcut directly to Viewpoints 1 and 2, offering excellent morning light perfect for photography."
     ],
     "supplementsTitle": "Additional Tour Tips",
     "supplements": [
-      "Wear comfortable hiking shoes and bring rain gear (valley weather is changeable).",
-      "Entrance fee is approximately COP $10,000-15,000, subject to change.",
-      "Willys Jeeps from Salento typically start at 6:00 AM, with the last return around 5:00 PM."
+      "Entrance fees are charged in segments along the trail (no all-inclusive pass). The total cost is approximately COP $30,000 - $50,000. Please bring enough cash.",
+      "Entering the main palm forest, Finca El Portón, and the hummingbird sanctuary all require separate payments to private landowners.",
+      "The valley's altitude ranges from approximately 2,400 to 2,860 meters. Please be mindful of the physical exertion required at high altitudes."
     ]
   },
   "knowledge": {
-    "title": "Discover the Charm of Cocora Valley",
+    "title": "Discover the Valley's Ecology",
     "sections": [
       {
         "id": "history",
-        "title": "History & Conservation",
-        "content": "Cocora Valley is part of Los Nevados National Natural Park. The Wax Palm is Colombia's national tree and is protected by law. It is also an important part of the UNESCO Coffee Cultural Landscape World Heritage site."
+        "title": "Ecological Status & Conservation",
+        "content": "The Wax Palm is an extremely precious and slow-growing plant. However, due to the expansion of local cattle farming, cows eat the young seedlings, causing the natural regeneration of the palm forest to stall, putting it in an endangered state. Protecting this ecosystem is urgent."
       },
       {
         "id": "nature",
-        "title": "Biodiversity",
-        "content": "The valley hosts rich biodiversity, including various bird species (such as macaws and hummingbirds), orchids, and other flora and fauna endemic to the Andes."
+        "title": "Acaime Hummingbird Sanctuary",
+        "content": "As one of the most important nature educational stops on the hike, the Acaime sanctuary allows visitors to enjoy traditional 'hot chocolate with cheese' while observing wild hummingbirds endemic to the Andes."
       },
       {
         "id": "experience",
-        "title": "Hiking Paradise",
-        "content": "There are multiple hiking trails here, from easy family trails to challenging multi-day treks, suitable for visitors of all levels."
+        "title": "Trail Strategy: Clockwise vs. Counter-Clockwise",
+        "content": "Professional hikers recommend the counter-clockwise full loop: traversing the jungle and rivers first, tackling the steep climb, and saving the spectacular wax palm forest for the descent, which is also gentler on the knees. Those with limited physical stamina can opt for the clockwise short route directly to the viewpoints."
       }
     ]
   },
@@ -81,48 +82,48 @@
     "officialName": "Official Name",
     "officialNameValue": "Cocora Valley (Valle de Cocora)",
     "type": "Attraction Type",
-    "typeValue": "National Park / Natural Landscape / Hiking Paradise",
-    "country": "Country",
-    "countryValue": "Colombia",
-    "city": "City",
-    "cityValue": "Salento, Quindío",
+    "typeValue": "Nature Reserve / Cloud Forest / High-Altitude Hiking",
+    "country": "Altitude",
+    "countryValue": "Starts at ~2,400m, highest point ~2,860m",
+    "city": "Core Flora & Fauna",
+    "cityValue": "Wax Palm (Ceroxylon quindiuense), Andean Hummingbirds, Andean Condors",
     "googleRating": "Google Rating",
-    "address": "Address",
+    "address": "Location",
     "addressValue": "Vía al Valle de Cocora, Km 11, Salento, Quindío, Colombia",
     "plusCode": "Plus Code",
     "plusCodeValue": "JGQ6+39 Salento, Quindío, Colombia",
     "phone": "Phone",
     "phoneValue": "+57 310 227 5091",
     "petFriendly": "Pet Friendly",
-    "petFriendlyValue": "Pets allowed (recommended on leash)",
+    "petFriendlyValue": "Pets allowed (Must be strictly leashed to protect wildlife)",
     "tickets": "Tickets",
-    "ticketsValue": "Approx. COP $10,000-15,000"
+    "ticketsValue": "Segmented fees. Total approx. COP $30,000 - $50,000 (Bring cash)"
   },
   "hours": {
     "title": "Opening Hours & Visitor Info",
     "outdoor": "Park Access",
     "outdoorTime": "Daily 08:00–18:00",
     "lighthouse": "Best Visiting Time",
-    "summer": "Dry Season (Dec-Mar)",
-    "summerTime": "Clear weather, ideal for hiking",
+    "summer": "Early Morning",
+    "summerTime": "Excellent light and high chance to avoid afternoon fog and rain",
     "winter": "Highlights",
-    "winterTime": "Wax Palm forest, cloud forest, river landscapes",
-    "warning": "💡 Local Insider Tip",
-    "warningTime": "Arrive early in the morning to avoid crowds and see the most beautiful morning mist. Remember to bring sunscreen and rain gear!",
-    "tip": "From the viewpoint, you can see the Wax Palms emerging mysteriously from the morning mist."
+    "winterTime": "Counter-clockwise Full Loop, Acaime Sanctuary, Wax Palm Forest, Suspension Bridges",
+    "warning": "💡 Safety & Weather Warning",
+    "warningTime": "The valley's weather changes rapidly, with a very high probability of fog and rain after midday, resulting in extremely muddy trails. It is strongly recommended to rent rubber mud boots and bring rain gear!",
+    "tip": "Hiking the full loop counter-clockwise saves the spectacular wax palm forest for the descent and effectively reduces pressure on the knees."
   },
   "tickets": {
     "title": "Important Information",
     "outdoor": "Entrance Fee",
-    "outdoorPrice": "Approx. COP $10,000-15,000 (subject to change)",
+    "outdoorPrice": "Total approx. COP $30,000 - $50,000 (Paid in cash segments)",
     "lighthouse": "Transportation Info",
     "adults": "From Salento",
-    "adultsPrice": "Willys Jeep ride approx. 20-30 minutes",
-    "students": "Recommended Visit Duration",
-    "studentsPrice": "Half day to full day",
+    "adultsPrice": "Willys Jeep from Plaza de Bolívar, approx. 25-30 mins",
+    "students": "Hiking Parameters",
+    "studentsPrice": "Full Loop 12-15km (5-6h) / Short Route 2-3km (1.5-2h)",
     "card": "Nearby Attractions",
-    "cardPrice": "Salento town, coffee farms. 👉 [Go to Cocora Valley]",
-    "officialNotice": "For the latest updates on entrance fees and opening hours, please refer to the",
+    "cardPrice": "Salento town, Acaime Sanctuary. 👉 [Go to Cocora Valley]",
+    "officialNotice": "Much of the land here is privately owned, and hikers must pay cash separately at various private property checkpoints along the way. For more details, visit",
     "officialNoticeLinkLabel": "Official Website of Colombia's National Natural Parks",
     "officialNoticeLink": "https://www.parquesnacionales.gov.co/"
   },
@@ -131,15 +132,15 @@
     "airport": "From the Airport",
     "airportDesc": "From the nearest airports (Pereira or Armenia), you need to first reach Salento town, then take a Willys Jeep to Cocora Valley.",
     "selfDrive": "Driving",
-    "selfDriveDesc": "From Salento, follow the clearly marked road for about 11 kilometers to reach the valley entrance.",
+    "selfDriveDesc": "From Salento, follow the road for about 11 kilometers to reach the valley entrance. Road conditions may vary depending on the weather, so drive safely.",
     "bus": "Public Transport",
-    "busDesc": "Taking a Willys Jeep from Salento town center is the most popular transportation option, with frequent departures.",
-    "intercity": "Hiking",
-    "intercityDesc": "The valley has clearly marked hiking trails suitable for hikers of all levels.",
-    "cycling": "Other Options",
-    "cyclingDesc": "You can choose horseback riding tours with local guide services available.",
+    "busDesc": "Take a traditional Willys Jeep from the main square (Plaza de Bolívar) in the center of Salento. The ride takes about 25-30 minutes.",
+    "intercity": "Hiking Guide",
+    "intercityDesc": "The classic Full Loop is about 12-15 km long with an elevation gain of 600-800 meters. Trails are often muddy; renting rubber mud boots is recommended.",
+    "cycling": "Other Notes",
+    "cyclingDesc": "Along the route, you will cross several wooden suspension bridges. Please follow local instructions and mind your safety.",
     "tips": "Travel Tips",
-    "tipsDesc": "Willys Jeeps typically start operating at 6:00 AM. It's recommended to depart early to avoid crowds."
+    "tipsDesc": "The first Willys Jeeps usually depart around 6:00 AM. Start early to avoid afternoon rain and crowds."
   },
   "gallery": {
     "title": "Stunning Photos",

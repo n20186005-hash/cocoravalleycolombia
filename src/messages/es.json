@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Valle de Cocora | Paisaje Natural de Quindío, Colombia",
-    "description": "Explora el Valle de Cocora, una maravilla natural en Quindío, Colombia, hogar de las palmas más altas del mundo y paisajes impresionantes de bosque nuboso."
+    "description": "Explora el Valle de Cocora, una reserva natural en Quindío, Colombia, hogar de las palmas de cera más altas del mundo, bosques nubosos y diversos ecosistemas andinos."
   },
   "header": {
     "siteName": "Valle de Cocora",
@@ -16,63 +16,64 @@
     "subtitle": "La joya verde de Colombia, hogar de las palmas más altas",
     "rating": "4.8",
     "reviewCount": "25,522",
-    "hours": "Parque Nacional / Paisaje Natural / Paraíso de Senderismo",
+    "hours": "Reserva Natural / Bosque Nuboso / Senderismo de Alta Montaña",
     "openMaps": "Ver Ubicación"
   },
   "intro": {
     "title": "Explora el Valle de Cocora",
-    "description": "El Valle de Cocora es un tesoro natural en Quindío, Colombia, ubicado a 11 kilómetros al norte de Salento. Es famoso por las palmas más altas del mundo: la Palma de Cera, que puede crecer hasta 60 metros de altura.\n\nComo parte del Parque Nacional Natural Los Nevados, el Valle de Cocora ofrece impresionantes paisajes de bosque nuboso, rica biodiversidad y múltiples senderos de hiking. Es uno de los paisajes naturales más icónicos de Colombia y parte del Paisaje Cultural Cafetero, Patrimonio de la Humanidad de la UNESCO.",
+    "description": "El Valle de Cocora es un tesoro natural en Quindío, Colombia, ubicado a unos 25-30 minutos en coche al norte de Salento. Es famoso por las palmas más altas del mundo: el árbol nacional de Colombia, la Palma de Cera (Ceroxylon quindiuense), que promedia 50-60 metros de altura.\n\nComo zona de amortiguamiento del Parque Nacional Natural Los Nevados, el Valle de Cocora ofrece impresionantes paisajes de bosque nuboso, ecosistemas de alto valor científico y múltiples rutas de senderismo de alta montaña. Es un lugar excelente para observar la flora y fauna endémica de los Andes, como colibríes y cóndores andinos, siendo un paisaje natural sin fines de lucro con un inmenso valor ecológico y educativo.",
     "visitGuide": {
-      "title": "Consejos de Visita",
+      "title": "Preparación y Ecología",
       "items": [
-        "🌞 Tour de Senderismo Matutino: Salir de Salento ➔ Montar a caballo o caminar hacia el valle ➔ Visitar el bosque de palmas de cera",
-        "🌙 Tour Cultural Nocturno: Regresar a Salento ➔ Visitar una finca cafetera ➔ Probar la cocina local",
-        "🎉 Experiencia Eco: Si es posible, visite durante la temporada seca (diciembre a marzo) para mejor clima de senderismo"
+        "🚙 Transporte: Tome un jeep Willys tradicional de la época de la Segunda Guerra Mundial desde la plaza principal (Plaza de Bolívar) en Salento. El viaje dura unos 25-30 minutos hasta la entrada del valle. Los primeros jeeps suelen salir alrededor de las 6:00 AM.",
+        "🥾 Advertencia de Barro Extremo: Debido a las lluvias durante todo el año, los senderos suelen estar extremadamente embarrados y resbaladizos. Se recomienda encarecidamente alquilar botas de goma especializadas para el barro en la entrada del valle o en Salento.",
+        "🌦️ Alerta Meteorológica: Independientemente de la temporada, hay una alta probabilidad de niebla y lluvia después del mediodía. Es esencial comenzar temprano y traer equipo para la lluvia."
       ]
     },
     "alsoKnownAs": {
-      "title": "Destacados",
+      "title": "Flora y Fauna",
       "items": [
-        "🌴 Palmas más altas del mundo: Las Palmas de Cera pueden alcanzar hasta 60 metros, el árbol nacional de Colombia.",
-        "🏞️ Paisaje de Bosque Nuboso: Impresionantes paisajes andinos de bosque nuboso y ríos.",
-        "🐎 Senderismo y Montar a Caballo: Múltiples senderos de dificultad variable, o elija tours a caballo.",
-        "☕ Región Cultural Cafetera: Ubicado dentro del área de Paisaje Cultural Cafetero Patrimonio de la Humanidad de la UNESCO."
+        "🌴 Palma de Cera (Ceroxylon quindiuense): El árbol nacional de Colombia, con un promedio de 50-60 metros de altura. Tenga en cuenta que actualmente está en peligro de extinción, ya que el pastoreo de ganado impide la regeneración natural de las plántulas.",
+        "🐦 Colibríes Andinos: En el santuario de colibríes Acaime, los visitantes pueden observar de cerca varios colibríes silvestres endémicos de los Andes.",
+        "🦅 Cóndores Andinos: Una de las aves voladoras más grandes del mundo, ocasionalmente avistada en las áreas de gran altitud del valle.",
+        "♻️ No Deje Rastro: Manténgase en los senderos designados, no deje basura y ayude a proteger este frágil ecosistema alpino."
       ]
     }
   },
   "route": {
-    "title": "Ruta de Visita",
-    "overview": "La ruta ideal para explorar el Valle de Cocora:",
+    "title": "Guía de Senderos",
+    "overview": "Hay dos formas principales de explorar el Valle de Cocora. Elija según su nivel de condición física y tiempo:",
     "steps": [
-      "Tome un jeep Willys desde Salento hasta la entrada del Valle de Cocora.",
-      "Comience a caminar o montar a caballo por los senderos marcados hacia el mirador de las Palmas de Cera.",
-      "Disfrute de un picnic en el valle mientras admira los paisajes naturales circundantes.",
-      "Regrese a Salento y visite fincas cafeteras locales o pruebe la cocina tradicional."
+      "1. El Circuito Completo (Muy recomendado en sentido antihorario): Aprox. 12-15 km | 5-6 horas | 600-800m de desnivel positivo.",
+      "Destacados: Comenzando desde la Puerta Azul a la derecha de la entrada, primero atravesará el denso bosque nuboso, cruzando cinco o seis puentes colgantes sobre ríos rápidos. A mitad de camino, puede desviarse hacia el santuario de colibríes Acaime (requiere tarifa adicional).",
+      "A esto le sigue un empinado ascenso hasta el punto más alto, Finca La Montaña, antes de descender al espectacular bosque de Palmas de Cera (Bosque de Palmas) para un final perfecto.",
+      "2. La Ruta Corta (En sentido horario): Aprox. 2-3 km | 1.5-2 horas.",
+      "Destacados: Si tiene poco tiempo o solo quiere ver las palmas más altas, puede dirigirse directamente al camino principal izquierdo desde la entrada. Este es un atajo empinado directamente a los Miradores 1 y 2, que ofrece una excelente luz matutina perfecta para la fotografía."
     ],
-    "supplementsTitle": "Consejos Adicionales de Visita",
+    "supplementsTitle": "Consejos Adicionales del Tour",
     "supplements": [
-      "Use zapatos cómodos para caminar y traiga equipo de lluvia (el clima del valle es cambiante).",
-      "La tarifa de entrada es aproximadamente COP $10,000-15,000, sujeto a cambios.",
-      "Los jeeps Willys desde Salento generalmente comienzan a las 6:00 AM, con el último regreso alrededor de las 5:00 PM."
+      "Las tarifas de entrada se cobran por segmentos a lo largo del sendero (no hay un pase con todo incluido). El costo total es de aproximadamente COP $30,000 - $50,000. Por favor traiga suficiente efectivo.",
+      "Entrar al bosque principal de palmas, la Finca El Portón y el santuario de colibríes requiere pagos por separado a los propietarios privados.",
+      "La altitud del valle oscila entre aproximadamente 2,400 y 2,860 metros. Tenga en cuenta el esfuerzo físico requerido en altitudes elevadas."
     ]
   },
   "knowledge": {
-    "title": "Descubre el Encanto del Valle de Cocora",
+    "title": "Descubre la Ecología del Valle",
     "sections": [
       {
         "id": "history",
-        "title": "Historia y Conservación",
-        "content": "El Valle de Cocora es parte del Parque Nacional Natural Los Nevados. La Palma de Cera es el árbol nacional de Colombia y está protegida por ley. También es una parte importante del Paisaje Cultural Cafetero Patrimonio de la Humanidad de la UNESCO."
+        "title": "Estado Ecológico y Conservación",
+        "content": "La Palma de Cera es una planta extremadamente preciosa y de crecimiento lento. Sin embargo, debido a la expansión de la ganadería local, las vacas se comen las plántulas jóvenes, lo que hace que la regeneración natural del bosque de palmas se detenga, poniéndolo en peligro de extinción. Proteger este ecosistema es urgente."
       },
       {
         "id": "nature",
-        "title": "Biodiversidad",
-        "content": "El valle alberga rica biodiversidad, incluyendo varias especies de aves (como guacamayas y colibríes), orquídeas y otra flora y fauna endémica de los Andes."
+        "title": "Santuario de Colibríes Acaime",
+        "content": "Como una de las paradas educativas sobre la naturaleza más importantes en la caminata, el santuario de Acaime permite a los visitantes disfrutar del tradicional 'chocolate caliente con queso' mientras observan colibríes silvestres endémicos de los Andes."
       },
       {
         "id": "experience",
-        "title": "Paraíso del Senderismo",
-        "content": "Hay múltiples senderos de hiking aquí, desde senderos familiares fáciles hasta trekkings desafiantes de varios días, adecuados para visitantes de todos los niveles."
+        "title": "Estrategia de Ruta: Horario vs. Antihorario",
+        "content": "Los excursionistas profesionales recomiendan el circuito completo en sentido antihorario: atravesar la selva y los ríos primero, abordar la empinada subida y guardar el espectacular bosque de palmas de cera para el descenso, lo cual también es más suave para las rodillas. Quienes tengan menos resistencia física pueden optar por la ruta corta en sentido horario directamente a los miradores."
       }
     ]
   },
@@ -81,48 +82,48 @@
     "officialName": "Nombre Oficial",
     "officialNameValue": "Valle de Cocora",
     "type": "Tipo de Atracción",
-    "typeValue": "Parque Nacional / Paisaje Natural / Paraíso de Senderismo",
-    "country": "País",
-    "countryValue": "Colombia",
-    "city": "Ciudad",
-    "cityValue": "Salento, Quindío",
+    "typeValue": "Reserva Natural / Bosque Nuboso / Senderismo de Alta Montaña",
+    "country": "Altitud",
+    "countryValue": "Inicia en ~2,400m, punto más alto ~2,860m",
+    "city": "Flora y Fauna Central",
+    "cityValue": "Palma de Cera (Ceroxylon quindiuense), Colibríes Andinos, Cóndores Andinos",
     "googleRating": "Calificación de Google",
-    "address": "Dirección",
+    "address": "Ubicación",
     "addressValue": "Vía al Valle de Cocora, Km 11, Salento, Quindío, Colombia",
     "plusCode": "Código Plus",
     "plusCodeValue": "JGQ6+39 Salento, Quindío, Colombia",
     "phone": "Teléfono",
     "phoneValue": "+57 310 227 5091",
     "petFriendly": "Mascotas permitidas",
-    "petFriendlyValue": "Se admiten mascotas (recomendado con correa)",
+    "petFriendlyValue": "Se admiten mascotas (Debe llevarse estrictamente con correa para proteger la vida silvestre)",
     "tickets": "Entradas",
-    "ticketsValue": "Aprox. COP $10,000-15,000"
+    "ticketsValue": "Tarifas por segmentos. Total aprox. COP $30,000 - $50,000 (Llevar efectivo)"
   },
   "hours": {
     "title": "Horarios y Consejos para Visitantes",
     "outdoor": "Acceso al Parque",
     "outdoorTime": "Diariamente 08:00–18:00",
     "lighthouse": "Mejor Momento de Visita",
-    "summer": "Temporada Seca (Dic-Mar)",
-    "summerTime": "Clima despejado, ideal para senderismo",
+    "summer": "Temprano en la Mañana",
+    "summerTime": "Excelente luz y alta probabilidad de evitar la niebla y lluvia de la tarde",
     "winter": "Destacados",
-    "winterTime": "Bosque de palmas de cera, bosque nuboso, paisajes de ríos",
-    "warning": "💡 Consejo de Expertos Locales",
-    "warningTime": "Llegue temprano por la mañana para evitar multitudes y ver la más hermosa neblina matutina. ¡Recuerde traer protector solar y equipo de lluvia!",
-    "tip": "Desde el mirador, puede ver las Palmas de Cera emergiendo misteriosamente de la neblina matutina."
+    "winterTime": "Circuito Completo Antihorario, Santuario Acaime, Bosque de Palmas de Cera, Puentes Colgantes",
+    "warning": "💡 Advertencia de Seguridad y Clima",
+    "warningTime": "El clima del valle cambia rápidamente, con una probabilidad muy alta de niebla y lluvia después del mediodía, lo que resulta en senderos extremadamente embarrados. ¡Se recomienda encarecidamente alquilar botas de goma y llevar equipo para la lluvia!",
+    "tip": "Hacer el circuito completo en sentido antihorario guarda el espectacular bosque de palmas de cera para el descenso y reduce efectivamente la presión sobre las rodillas."
   },
   "tickets": {
     "title": "Información Importante",
     "outdoor": "Tarifa de Entrada",
-    "outdoorPrice": "Aprox. COP $10,000-15,000 (sujeto a cambios)",
+    "outdoorPrice": "Total aprox. COP $30,000 - $50,000 (Pagado en segmentos en efectivo)",
     "lighthouse": "Información de Transporte",
     "adults": "Desde Salento",
-    "adultsPrice": "Viaje en jeep Willys aprox. 20-30 minutos",
-    "students": "Duración Recomendada de Visita",
-    "studentsPrice": "Medio día a día completo",
+    "adultsPrice": "Jeep Willys desde Plaza de Bolívar, aprox. 25-30 min",
+    "students": "Parámetros de Senderismo",
+    "studentsPrice": "Circuito Completo 12-15km (5-6h) / Ruta Corta 2-3km (1.5-2h)",
     "card": "Atracciones Cercanas",
-    "cardPrice": "Pueblo de Salento, fincas cafeteras. 👉 [Ir al Valle de Cocora]",
-    "officialNotice": "Para obtener las últimas actualizaciones sobre tarifas de entrada y horarios de apertura, consulte el",
+    "cardPrice": "Pueblo de Salento, Santuario Acaime. 👉 [Ir al Valle de Cocora]",
+    "officialNotice": "Gran parte de la tierra aquí es de propiedad privada, y los excursionistas deben pagar en efectivo por separado en varios puntos de control de propiedades privadas a lo largo del camino. Para más detalles, visite",
     "officialNoticeLinkLabel": "Sitio Web Oficial de Parques Naturales Nacionales de Colombia",
     "officialNoticeLink": "https://www.parquesnacionales.gov.co/"
   },
@@ -131,15 +132,15 @@
     "airport": "Desde el Aeropuerto",
     "airportDesc": "Desde los aeropuertos más cercanos (Pereira o Armenia), necesita primero llegar al pueblo de Salento, luego tomar un jeep Willys al Valle de Cocora.",
     "selfDrive": "En Coche",
-    "selfDriveDesc": "Desde Salento, siga el camino claramente marcado por aproximadamente 11 kilómetros para llegar a la entrada del valle.",
+    "selfDriveDesc": "Desde Salento, siga la carretera por aproximadamente 11 kilómetros para llegar a la entrada del valle. Las condiciones de la carretera pueden variar según el clima, así que conduzca con seguridad.",
     "bus": "Transporte Público",
-    "busDesc": "Tomar un jeep Willys desde el centro del pueblo de Salento es la opción de transporte más popular, con salidas frecuentes.",
-    "intercity": "Senderismo",
-    "intercityDesc": "El valle tiene senderos de hiking claramente marcados adecuados para caminantes de todos los niveles.",
-    "cycling": "Otras Opciones",
-    "cyclingDesc": "Puede elegir tours a caballo con servicios de guías locales disponibles.",
+    "busDesc": "Tome un jeep Willys tradicional desde la plaza principal (Plaza de Bolívar) en el centro de Salento. El viaje dura unos 25-30 minutos.",
+    "intercity": "Guía de Senderismo",
+    "intercityDesc": "El clásico Circuito Completo tiene unos 12-15 km de longitud con un desnivel de 600-800 metros. Los senderos suelen estar embarrados; se recomienda alquilar botas de goma.",
+    "cycling": "Otras Notas",
+    "cyclingDesc": "A lo largo de la ruta, cruzará varios puentes colgantes de madera. Por favor siga las instrucciones locales y preste atención a su seguridad.",
     "tips": "Consejos de Viaje",
-    "tipsDesc": "Los jeeps Willys generalmente comienzan a operar a las 6:00 AM. Se recomienda salir temprano para evitar multitudes."
+    "tipsDesc": "Los primeros jeeps Willys generalmente salen alrededor de las 6:00 AM. Comience temprano para evitar la lluvia de la tarde y las multitudes."
   },
   "gallery": {
     "title": "Fotos Impresionantes",

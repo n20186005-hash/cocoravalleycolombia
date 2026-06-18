@@ -29,7 +29,9 @@ export default function LanguageToggle() {
 
   const handleLanguageChange = (targetLocale: string) => {
     setOpen(false);
-    router.push(pathname, { locale: targetLocale });
+    // For static export, manually construct the path
+    const newPath = `/${targetLocale}${pathname === '/' ? '' : pathname}`;
+    window.location.href = newPath;
   };
 
   return (
