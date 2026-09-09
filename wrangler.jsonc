@@ -1,0 +1,21 @@
+{
+  // Cloudflare Workers 静态站点配置
+  // 本站是 Next.js 纯静态导出（output: 'export' → ./out），
+  // 因此以 Workers Static Assets 方式部署，无需 OpenNext/Pages。
+  // 有了该配置文件后，`npx wrangler deploy` 不会再触发 Next.js
+  // 框架自动迁移（OpenNext），避免 .next/standalone 缺失类报错。
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "cocoravalleycolombia",
+  "main": "worker.js",
+  "compatibility_date": "2026-09-08",
+  "assets": {
+    // Next.js 静态导出的产物目录
+    "directory": "./out",
+    "binding": "ASSETS",
+    // 由 worker.js 统一处理：静态导出是扁平 *.html，
+    // 需要把 /es → /es.html、/es/eje-cafetero → /es/eje-cafetero.html 映射成整洁 URL
+    "html_handling": "none",
+    "not_found_handling": "none",
+    "run_worker_first": true
+  }
+}
