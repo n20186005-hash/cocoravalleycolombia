@@ -10,8 +10,9 @@ export default function Hero() {
       <div className="absolute inset-0">
         <img
           src="/gallery/cocora-valley (1).jpg"
-          alt="Cocora Valley"
+          alt={t('imgAlt')}
           className="w-full h-full object-cover"
+          fetchPriority="high"
         />
         <div className="absolute inset-0" style={{ background: 'var(--hero-overlay)' }} />
       </div>
@@ -21,6 +22,9 @@ export default function Hero() {
         <div className="max-w-3xl">
           <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight mb-4 animate-fade-in-up">
             {t('title')}
+            <span className="block sm:inline text-2xl sm:text-4xl md:text-5xl lg:text-5xl font-light text-white/75">
+              {t('citySuffix')}
+            </span>
           </h1>
           <p className="text-lg sm:text-xl text-white/80 mb-8 animate-fade-in-up animation-delay-100 font-light">
             {t('subtitle')}

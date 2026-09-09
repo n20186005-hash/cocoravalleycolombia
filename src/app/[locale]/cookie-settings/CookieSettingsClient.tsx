@@ -69,8 +69,24 @@ export default function CookieSettingsClient() {
     } catch {}
   }, []);
 
+  function syncGtagConsent(nextAnalytics: boolean, nextPreferences: boolean, nextMarketing: boolean) {
+    try {
+      const gtag = (window as any).gtag;
+      if (typeof gtag === 'function') {
+        gtag('consent', 'update', {
+          analytics_storage: nextAnalytics ? 'granted' : 'denied',
+          ad_storage: nextMarketing ? 'granted' : 'denied',
+          ad_user_data: nextMarketing ? 'granted' : 'denied',
+          ad_personalization: nextMarketing ? 'granted' : 'denied',
+          personalization_storage: nextPreferences ? 'granted' : 'denied',
+        });
+      }
+    } catch {}
+  }
+
   function handleSave() {
     localStorage.setItem('cookiePrefs', JSON.stringify({ analytics, preferences, marketing }));
+    syncGtagConsent(analytics, preferences, marketing);
     setSaved(true);
     setTimeout(() => setSaved(false), 2000);
   }
@@ -80,6 +96,7 @@ export default function CookieSettingsClient() {
     setPreferences(false);
     setMarketing(false);
     localStorage.setItem('cookiePrefs', JSON.stringify({ analytics: false, preferences: false, marketing: false }));
+    syncGtagConsent(false, false, false);
     setSaved(true);
     setTimeout(() => setSaved(false), 2000);
   }

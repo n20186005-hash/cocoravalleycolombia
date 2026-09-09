@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Valle de Cocora | Paisaje Natural de Quindío, Colombia",
-    "description": "Explora el Valle de Cocora, una reserva natural en Quindío, Colombia, hogar de las palmas de cera más altas del mundo, bosques nubosos y diversos ecosistemas andinos."
+    "title": "Valle de Cocora 2026: Entradas, Senderos y Cómo Llegar (Salento)",
+    "description": "¿Cómo visitar el Valle del Cocora en Salento? Precios de entrada, cómo llegar en jeep Willys, horarios y la mejor ruta de senderismo. Planifica tu viaje."
   },
   "header": {
     "siteName": "Valle de Cocora",
@@ -13,9 +13,11 @@
   },
   "hero": {
     "title": "Valle de Cocora",
+    "citySuffix": "(Salento)",
+    "imgAlt": "Valle de Cocora (Cocora Valley) - Vista principal en Salento, Quindío, Colombia",
     "subtitle": "La joya verde de Colombia, hogar de las palmas más altas",
     "rating": "4.8",
-    "reviewCount": "25,522",
+    "reviewCount": "26,506",
     "hours": "Reserva Natural / Bosque Nuboso / Senderismo de Alta Montaña",
     "openMaps": "Ver Ubicación"
   },
@@ -225,10 +227,257 @@
   "mapSection": {
     "title": "Ubicación y Mapa",
     "subtitle": "Vía al Valle de Cocora, Km 11, Salento, Quindío, Colombia",
-    "openMaps": "Ver en Google Maps"
+    "openMaps": "Ver en Google Maps",
+    "tourismNote": "Para información oficial actualizada y turismo regional, visite"
+  },
+  "eje": {
+    "metaTitle": "Eje Cafetero: Guía Turística 2026 (Quindío, Risaralda y Caldas)",
+    "metaDescription": "Guía para viajar por el Eje Cafetero de Colombia: Salento, Filandia y el Valle de Cocora, cómo llegar por aire y tierra, e ideas para un itinerario de 3 días.",
+    "title": "Guía del Eje Cafetero: más allá del Valle de Cocora",
+    "lead": "El Valle de Cocora es una joya dentro de una región mucho más grande: el Eje Cafetero colombiano. Esta guía conecta Salento con los pueblos y ciudades del Quindío, Risaralda y Caldas.",
+    "overviewTitle": "Qué es el Eje Cafetero",
+    "overview": "Conocido también como Triángulo del Café, el Eje Cafetero abarca los departamentos de Quindío (capital Armenia), Risaralda (capital Pereira) y Caldas (capital Manizales). Sus montañas verdes, plantaciones de café, pueblos coloniales de fachadas coloridas y bosques de niebla fueron reconocidos como Paisaje Cultural Cafetero por la UNESCO en 2011.",
+    "destinationsTitle": "Destinos destacados",
+    "destinations": [
+      { "name": "Salento y el Valle de Cocora", "text": "El pueblo más tradicional del Quindío y la puerta de entrada al valle de las palmas de cera. Camine temprano y termine la tarde en la plaza y sus calles de colores." },
+      { "name": "Filandia (Quindío)", "text": "Apodada 'la Colina Iluminada', con mirador, calles empedradas y cafés con vista al paisaje cafetero. A unos 20-30 minutos en coche de Salento." },
+      { "name": "Armenia y Montenegro (Quindío)", "text": "La capital del departamento y una zona de parques temáticos y fincas cafeteras tradicionales (como el Parque Nacional del Café), cerca del aeropuerto El Edén." },
+      { "name": "Pereira, Santa Rosa de Cabal y Manizales", "text": "Hacia el norte, Pereira es la puerta por el aeropuerto Matecaña; Santa Rosa de Cabal ofrece termales y Manizales cierra el triángulo con vistas andinas." }
+    ],
+    "gettingTitle": "Cómo llegar y moverse",
+    "getting": "Por aire, los aeropuertos más cercanos son El Edén (Armenia), Matecaña (Pereira) y La Nubia (Manizales). Hay buses frecuentes entre ciudades y pueblos del eje; desde Salento parten los jeeps Willys hacia el Valle de Cocora. Es una región montañosa: las carreteras son curvas y los tiempos entre pueblos van de 30 minutos a dos horas.",
+    "itineraryTitle": "Itinerario sugerido de 3 días",
+    "itinerary": [
+      "Día 1 — Salento: circuito completo del Valle de Cocora por la mañana y el pueblo (Plaza de Bolívar) por la tarde.",
+      "Día 2 — Filandia y alrededores: miradores, cafés y una finca cafetera tradicional (con reserva previa).",
+      "Día 3 — Armenia o Pereira: parques temáticos o conexión de regreso."
+    ],
+    "valleyLink": "Volver a la guía completa del Valle de Cocora",
+    "valleyLinkSub": "Precios de entrada, rutas de senderismo, transporte en jeep Willys y todo lo necesario para su visita.",
+    "note": "Los horarios, precios y servicios pueden cambiar. Antes de viajar, confirme la información en las páginas oficiales de cada destino.",
+    "ctaTitle": "¿Explora el Eje Cafetero?",
+    "ctaText": "Convierta su viaje al Valle de Cocora en un recorrido por todo el Triángulo del Café: pueblos coloniales, miradores y el paisaje cafetero declarado por la UNESCO.",
+    "ctaButton": "Leer la guía del Eje Cafetero",
+    "ctaTopics": ["Pueblos y miradores", "Conexiones aéreas", "Itinerario de 3 días"],
+    "quickFaq": "Preguntas frecuentes del Valle de Cocora",
+    "quickMap": "Mapa y ubicación",
+    "quickReviews": "Reseñas de visitantes"
+  },
+  "faq": {
+    "title": "Valle de Cocora (Salento) — Preguntas Frecuentes",
+    "subtitle": "Todo lo que los visitantes preguntan sobre Cocora Valley, sus senderos, entradas y ubicación",
+    "items": [
+      {
+        "q": "¿Dónde se encuentra el Valle de Cocora (Cocora Valley)?",
+        "a": "El Valle de Cocora está ubicado en la Vía al Valle de Cocora, Km 11, a unos 25-30 minutos en coche al norte de Salento, en el departamento del Quindío, Colombia."
+      },
+      {
+        "q": "¿Cómo llego al Valle de Cocora desde Salento?",
+        "a": "Desde la Plaza de Bolívar en el centro de Salento, tome un jeep Willys tradicional hasta la entrada del valle. El viaje dura unos 25-30 minutos y los primeros jeeps suelen salir alrededor de las 6:00 AM."
+      },
+      {
+        "q": "¿Cuál es el horario de apertura del Valle de Cocora?",
+        "a": "El valle está abierto todos los días de 08:00 a 18:00. La madrugada es el mejor momento para visitarlo, con excelente luz y mayor probabilidad de evitar la niebla y la lluvia de la tarde."
+      },
+      {
+        "q": "¿Cuánto cuesta la entrada al Valle de Cocora?",
+        "a": "No existe un boleto único con todo incluido. La entrada se paga en efectivo en los diferentes puntos de control privados a lo largo del sendero, por un total aproximado de COP $30,000 - $50,000. Lleve suficiente efectivo."
+      },
+      {
+        "q": "¿Por qué es famoso el Valle de Cocora?",
+        "a": "El Valle de Cocora alberga las palmas más altas del mundo: la Palma de Cera (Ceroxylon quindiuense), el árbol nacional de Colombia, que alcanza los 50-60 metros de altura dentro de un espectacular bosque nuboso cerca del Parque Nacional Natural Los Nevados."
+      },
+      {
+        "q": "¿Qué ruta de senderismo debo elegir en el Valle de Cocora?",
+        "a": "El Circuito Completo clásico recorre unos 12-15 km en 5-6 horas y se recomienda hacerlo en sentido antihorario a través del bosque nuboso y el bosque de palmas de cera. Si dispone de menos tiempo, la ruta corta de 2-3 km llega a los miradores en 1.5-2 horas."
+      },
+      {
+        "q": "¿Qué debo llevar al visitar el Valle de Cocora?",
+        "a": "Lleve efectivo para las tarifas de entrada, alquile botas de goma para el barro en la entrada del valle o en Salento, lleve equipo para la lluvia y comience temprano para disfrutar al máximo su visita."
+      }
+    ]
+  },
+  "weather": {
+    "title": "Clima del Valle de Cocora y Pronóstico a 7 Días",
+    "subtitle": "Condiciones en vivo, pronóstico para los próximos 7 días y consejos prácticos de visita (Salento, Quindío, Colombia)",
+    "currentLabel": "Ahora",
+    "feelsLike": "Sensación",
+    "humidity": "Humedad",
+    "wind": "Viento",
+    "uvLabel": "UV",
+    "precipChance": "Prob. de lluvia hoy",
+    "updatedLabel": "Actualizado",
+    "loading": "Cargando el clima en vivo…",
+    "unavailable": "El clima en vivo no está disponible por el momento. Vuelva a intentarlo más tarde.",
+    "tip": "El clima de montaña cambia rápido: la niebla y la lluvia suelen llegar después del mediodía. Salga temprano.",
+    "todayLabel": "Hoy",
+    "nextDaysTitle": "Próximos 7 días",
+    "uvLevels": {
+      "low": "Baja",
+      "moderate": "Media",
+      "high": "Alta",
+      "veryHigh": "Muy alta",
+      "extreme": "Extrema"
+    },
+    "conds": {
+      "thunderstorm": "Tormenta",
+      "drizzle": "Llovizna",
+      "rain": "Lluvia",
+      "showers": "Chubascos",
+      "snow": "Nieve",
+      "fog": "Niebla",
+      "clear": "Cielo despejado",
+      "partly": "Parcialmente nublado",
+      "cloudy": "Nublado",
+      "overcast": "Cubierto"
+    },
+    "smart": {
+      "title": "Consejos inteligentes para su visita",
+      "riskLabel": "Alerta de riesgo",
+      "wearLabel": "Cómo vestir",
+      "planLabel": "Organice el día",
+      "packLabel": "Qué llevar",
+      "tips": {
+        "rainChance": {
+          "plan": "Es probable que llueva más tarde: haga el recorrido en la mañana, antes de que llegue la lluvia.",
+          "pack": ["Paraguas compacto o impermeable ligero"]
+        },
+        "lightRain": {
+          "plan": "Lluvia ligera: el sendero resbala, baje con calma en pendientes y escalones.",
+          "wear": "Use zapatos con buen agarre; lo ideal son botas o zapatos impermeables.",
+          "pack": ["Paraguas plegable"]
+        },
+        "moderateRain": {
+          "plan": "Con lluvia moderada el circuito completo se vuelve incómodo: haga un tramo corto o explore el pueblo de Salento hasta que amaine.",
+          "wear": "Chaqueta y calzado impermeables; cubra también su mochila.",
+          "pack": ["Impermeable (el paraguas estorba en el sendero)"]
+        },
+        "heavyRainRisk": {
+          "risk": [
+            "Lluvia fuerte: los senderos del valle pueden cerrarse temporalmente y hay riesgo de barro y pequeños deslizamientos.",
+            "Las quebradas crecen rápido con lluvia fuerte: aléjese de las orillas y de las zonas bajas y siga las indicaciones del personal."
+          ]
+        },
+        "stormRisk": {
+          "risk": [
+            "Tormenta eléctrica: no se detenga en praderas abiertas, filos ni bajo palmas altas aisladas; vuelva a un lugar seguro.",
+            "Las tormentas pueden crecer las quebradas muy rápido: manténgase lejos de los ríos y espere antes de caminar por el sendero."
+          ]
+        },
+        "strongWindRisk": {
+          "risk": [
+            "Viento fuerte en filos y zonas abiertas: cuide su pisada y aléjese de árboles secos y laderas sueltas."
+          ],
+          "wear": "Ajuste chaqueta y capucha; prefiera capas ceñidas y cortavientos."
+        },
+        "moderateWind": {
+          "wear": "Hoy hay viento: abríguese en los miradores expuestos y sujete bien el sombrero."
+        },
+        "fog": {
+          "plan": "La niebla hace el valle mágico, pero la visibilidad es limitada: siga el sendero principal y no tome atajos.",
+          "wear": "En la niebla se siente frío y humedad: lleve una capa extra."
+        },
+        "clear": {
+          "plan": "Buen tiempo: ideal para el circuito completo y las vistas amplias de las palmas y las montañas lejanas.",
+          "wear": "Soleado pero fresco: lleve una capa ligera y no olvide la protección solar."
+        },
+        "partly": {
+          "plan": "Nubes con ratos de sol: cómodo para todo el circuito y para tomar fotos.",
+          "wear": "Una camisa de manga larga ligera es perfecta."
+        },
+        "cloudy": {
+          "plan": "Cielo nublado y luz suave: excelente para una caminata larga con buenas fotos.",
+          "wear": "Ni mucho calor ni sol fuerte: una manga larga ligera basta."
+        },
+        "snow": {
+          "risk": ["Se pronostica nieve a esta altitud: el terreno se vuelve húmedo y resbaladizo — es mejor posponer la caminata."],
+          "wear": "Capas abrigadas e impermeables y calzado cálido."
+        },
+        "hot": {
+          "plan": "Más calor al mediodía: salga temprano o espere hasta que refresque por la tarde.",
+          "wear": "Use ropa ligera y transpirable.",
+          "pack": ["Agua en abundancia"]
+        },
+        "uvHigh": {
+          "plan": "La radiación UV es muy fuerte a esta altitud: protéjase incluso en zonas nubladas o a la sombra.",
+          "wear": "Prefiera manga larga o camisa de sol para cubrir la piel.",
+          "pack": ["Protector solar alto", "Gafas de sol", "Sombrero"]
+        },
+        "uvModerate": {
+          "plan": "UV media a alta: aplíquese protector solar antes de salir.",
+          "pack": ["Protector solar", "Gafas de sol"]
+        },
+        "cold": {
+          "wear": "Hoy hace frío: chaqueta abrigada o buzo; lleve guantes y bufanda si es sensible al frío."
+        },
+        "bigTempDiff": {
+          "wear": "Gran diferencia entre el día y la noche: vista por capas para quitar o poner ropa cuando salga el sol."
+        }
+      }
+    }
+  },
+  "facilities": {
+    "title": "Servicios e Instalaciones Prácticas",
+    "subtitle": "Guía práctica y neutral sobre lo que encontrará en el valle y en el pueblo de Salento",
+    "note": "Somos un sitio educativo sin ánimo de lucro y nunca recomendamos negocios concretos. Las notas describen solo tipos de servicio; la disponibilidad puede cambiar, así que confírmela en el lugar.",
+    "categories": [
+      {
+        "id": "wc",
+        "title": "Baños públicos (WC)",
+        "text": "Hay baños públicos de pago en la zona de la entrada del valle y en algunos restaurantes de finca a lo largo del sendero. Fuera de la zona de entrada las instalaciones son muy escasas: úselos antes de empezar y lleve papel higiénico y gel desinfectante."
+      },
+      {
+        "id": "parking",
+        "title": "Estacionamiento",
+        "text": "Los carros y motos pueden dejarse en los parqueaderos y espacios junto a la vía cerca de la entrada del valle; los vehículos no pueden entrar a los senderos. El espacio se llena rápido en fines de semana y festivos: llegue temprano y no deje objetos de valor a la vista."
+      },
+      {
+        "id": "dining",
+        "title": "Comida y bebida",
+        "text": "Restaurantes, cafés y pequeños puestos de comida se concentran en la entrada del valle y en el pueblo de Salento. Algunas fincas del recorrido también venden snacks y bebidas. Lleve su propia agua y algo de comer: los tramos remotos del circuito no tienen ventas."
+      },
+      {
+        "id": "lodging",
+        "title": "Alojamiento",
+        "text": "No hay hoteles dentro del valle protegido. La mayoría de los visitantes se hospedan en Salento, un pueblo cafetero tradicional con hostales, posadas y hoteles de varios niveles, o en pueblos cercanos como Filandia, Calarcá o Armenia. Reserve con anticipación en fines de semana y festivos."
+      },
+      {
+        "id": "shopping",
+        "title": "Supermercados, tiendas y efectivo",
+        "text": "En Salento hay supermercados, minimercados y tiendas de recuerdos; en la entrada del valle solo encontrará lo básico. No hay supermercados grandes en el valle y el pago con tarjeta es poco confiable en puntos remotos: retire efectivo en Salento antes de subir."
+      },
+      {
+        "id": "fuel",
+        "title": "Combustible y carga de vehículos",
+        "text": "La estación de servicio más cercana al valle está en el pueblo de Salento, en la carretera que sube desde Armenia; dentro del valle no hay estaciones. Los puntos de carga para vehículos eléctricos aún son escasos en la zona de montaña, por lo que es más seguro cargar en ciudades como Armenia o Pereira antes de subir."
+      }
+    ]
+  },
+  "culture": {
+    "title": "Historia, Leyenda y Ciencia Natural",
+    "subtitle": "Historias detrás de la postal: patrimonio, folklore y ecosistemas vivos del valle",
+    "parts": [
+      {
+        "title": "El Nombre y los Guardianes del Bosque de Niebla",
+        "text": "Se cree que el nombre Cocora tiene raíces en las lenguas indígenas de la región del Quindío —tierra del pueblo quimbaya mucho antes de la llegada de los españoles— aunque su significado exacto se debate. En la tradición oral local se dice que el valle brumoso está custodiado por espíritus amables del bosque, y se pide a los viajeros tratar con respeto las palmas gigantes porque resguardan el alma del bosque de niebla. Caminar bajo las palmas cubiertas de niebla al amanecer hace fácil entender por qué esas historias siguen vivas."
+      },
+      {
+        "title": "Del Asentamiento de Boquía a un Símbolo Nacional",
+        "text": "Salento, el pueblo más antiguo del Quindío y puerta de entrada al valle, nació en 1842 como un asentamiento en el Valle de Boquía durante la época de la colonización antioqueña y creció con la economía cafetera de las montañas. El 16 de septiembre de 1985 el Congreso colombiano declaró la palma de cera del Quindío (Ceroxylon quindiuense) Árbol Nacional y símbolo patrio de Colombia. En 2011 la región cafetera circundante, incluido Salento, fue inscrita en la Lista del Patrimonio Mundial de la UNESCO como el Paisaje Cultural Cafetero. El Valle de Cocora está en el borde del Parque Nacional Natural Los Nevados, y los arroyos que nacen en sus bosques de niebla alimentan la cuenca del río Quindío, abasteciendo de agua a los pueblos del valle."
+      },
+      {
+        "title": "Rincón Científico: El Gigante de Crecimiento Lento",
+        "text": "La palma de cera no es una palma común. Su tronco está cubierto por una capa cerosa blanquecina que da nombre al género (Ceroxylon, del griego «cera») y puede alcanzar los 50–60 metros, siendo una de las palmas más altas del mundo. Crece despacio, vive muchas décadas y solo florece tras años de crecimiento paciente; por eso el pastoreo de ganado que pisotea las plántulas pone en riesgo su regeneración. El bosque de niebla capta la humedad de la neblina, alimenta musgos, helechos y epífitas, y alberga colibríes y muchas otras aves andinas. El trabajo de los parques nacionales, la autoridad ambiental regional y reservas privadas como el santuario de colibríes de Acaime ayuda a que las palmas jóvenes se recuperen, plántula a plántula."
+      }
+    ]
   },
   "footer": {
     "rights": "© 2026 Valle de Cocora. Todos los derechos reservados.",
+    "officialName": "Valle de Cocora (Cocora Valley)",
+    "address": "Vía al Valle de Cocora, Km 11, Salento, Quindío, Colombia",
+    "phone": "+57 310 227 5091",
+    "getDirections": "Abrir en Google Maps",
+    "imageCredit": "Crédito de imágenes: todas las fotografías mostradas en este sitio web pertenecen a sus respectivos fotógrafos.",
     "privacy": "Política de Privacidad",
     "terms": "Términos de Servicio",
     "cookies": "Configuración de Cookies",
@@ -321,6 +570,18 @@
         "title": "Siglo XXI: Reconocimiento de Patrimonio Mundial",
         "plaque": "Identidad Cultural (Patrimonio Mundial)",
         "description": "Como parte del Paisaje Cultural Cafetero Colombiano, la región fue inscrita en la Lista del Patrimonio Mundial de la UNESCO, obteniendo reconocimiento y protección internacional."
+      },
+      {
+        "year": "1985",
+        "title": "1985: La Palma de Cera se Convierte en Árbol Nacional",
+        "plaque": "Símbolo Patrio (Ley 61 de 1985)",
+        "description": "El 16 de septiembre de 1985, Colombia declaró la palma de cera del Quindío (Ceroxylon quindiuense) Árbol Nacional y símbolo patrio, convirtiendo los palmares de Cocora en un icono de la identidad nacional."
+      },
+      {
+        "year": "2011 – Hoy",
+        "title": "Patrimonio Mundial y Conservación Actual",
+        "plaque": "Paisaje Cultural Cafetero UNESCO (2011)",
+        "description": "En 2011 el paisaje cafetero alrededor de Salento entró en la Lista del Patrimonio Mundial de la UNESCO como Paisaje Cultural Cafetero. Hoy el valle combina reconocimiento global con conservación cotidiana: el pastoreo controlado permite que las palmas jóvenes vuelvan a crecer y el bosque de niebla sigue abasteciendo de agua a las tierras bajas del Quindío."
       }
     ],
     "guideTitle": "Consejo de Guía para Visitantes",

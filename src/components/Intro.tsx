@@ -1,4 +1,5 @@
 import { useTranslations, useMessages } from 'next-intl';
+import LocationChain from '@/components/LocationChain';
 
 export default function Intro() {
   const t = useTranslations('intro');
@@ -10,6 +11,7 @@ export default function Intro() {
   return (
     <section className="section-padding">
       <div className="max-w-4xl mx-auto">
+        <LocationChain />
         <h2
           className="font-display text-3xl sm:text-4xl font-semibold mb-6"
           style={{ color: 'var(--text-primary)' }}

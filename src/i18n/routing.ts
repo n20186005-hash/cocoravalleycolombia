@@ -3,10 +3,11 @@ import { createNavigation } from 'next-intl/navigation';
 
 export const routing = defineRouting({
   locales: ['zh', 'en', 'es'],
-  defaultLocale: 'zh',
+  defaultLocale: 'es',
   localePrefix: 'always',
   pathnames: {
     '/': '/',
+    '/eje-cafetero': '/eje-cafetero',
     '/privacy-policy': '/privacy-policy',
     '/terms-of-service': '/terms-of-service',
     '/cookie-settings': '/cookie-settings',

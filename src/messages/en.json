@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Cocora Valley | Quindío's Natural Landscape, Colombia",
-    "description": "Explore Cocora Valley, a natural reserve in Quindío, Colombia, featuring the world's tallest wax palms, cloud forests, and diverse Andean ecosystems."
+    "title": "Cocora Valley Colombia: Hiking, Tickets & Visitor Guide 2026",
+    "description": "Everything you need to visit Cocora Valley in Salento, Quindío: 2026 ticket fees, hiking routes (12–15 km circuit), jeep schedule and top photo spots."
   },
   "header": {
     "siteName": "Cocora Valley",
@@ -13,9 +13,11 @@
   },
   "hero": {
     "title": "Cocora Valley",
+    "citySuffix": "(Salento)",
+    "imgAlt": "Cocora Valley (Valle de Cocora) - Main view in Salento, Quindío, Colombia",
     "subtitle": "Colombia's Green Gem, Home of the Tallest Palm Trees",
     "rating": "4.8",
-    "reviewCount": "25,522",
+    "reviewCount": "26,506",
     "hours": "Nature Reserve / Cloud Forest / High-Altitude Hiking",
     "openMaps": "View Location"
   },
@@ -27,14 +29,14 @@
       "items": [
         "🚙 Transport: Take a traditional WWII-era Willys Jeep from the main square (Plaza de Bolívar) in Salento. The ride takes about 25-30 minutes to the valley entrance. The first jeeps usually depart around 6:00 AM.",
         "🥾 Extreme Mud Warning: Due to year-round rainfall, the trails are often extremely muddy and slippery. It is highly recommended to rent specialized rubber mud boots at the valley entrance or in Salento.",
-        "�️ Weather Alert: Regardless of the season, there is a high probability of fog and rain after midday. It is essential to start early and bring rain gear."
+        "🌧️ Weather Alert: Regardless of the season, there is a high probability of fog and rain after midday. It is essential to start early and bring rain gear."
       ]
     },
     "alsoKnownAs": {
       "title": "Flora & Fauna",
       "items": [
         "🌴 Wax Palm (Ceroxylon quindiuense): Colombia's national tree, averaging 50-60 meters tall. Note that it is currently endangered as cattle grazing prevents the natural regeneration of seedlings.",
-        "� Andean Hummingbirds: At the Acaime hummingbird sanctuary, visitors can observe various wild hummingbirds endemic to the Andes up close.",
+        "🐦 Andean Hummingbirds: At the Acaime hummingbird sanctuary, visitors can observe various wild hummingbirds endemic to the Andes up close.",
         "🦅 Andean Condors: One of the largest flying birds in the world, occasionally spotted in the high-altitude areas of the valley.",
         "♻️ Leave No Trace: Please stay on designated trails, do not leave trash behind, and help protect this fragile alpine ecosystem."
       ]
@@ -225,10 +227,257 @@
   "mapSection": {
     "title": "Location & Map",
     "subtitle": "Vía al Valle de Cocora, Km 11, Salento, Quindío, Colombia",
-    "openMaps": "View on Google Maps"
+    "openMaps": "View on Google Maps",
+    "tourismNote": "For official updates and regional tourism information, visit"
+  },
+  "eje": {
+    "metaTitle": "Eje Cafetero Travel Guide 2026: Salento, Filandia & Quindío",
+    "metaDescription": "Travel guide to Colombia's Coffee Region (Eje Cafetero): Salento, Filandia and Cocora Valley, how to get there, plus a suggested 3-day itinerary.",
+    "title": "Eje Cafetero Travel Guide: Beyond Cocora Valley",
+    "lead": "Cocora Valley is a highlight of a much larger region: Colombia's Eje Cafetero (Coffee Axis). This guide connects Salento with the towns and cities of Quindío, Risaralda and Caldas.",
+    "overviewTitle": "What is the Eje Cafetero?",
+    "overview": "Also known as the Coffee Triangle, the Eje Cafetero spans the departments of Quindío (capital Armenia), Risaralda (capital Pereira) and Caldas (capital Manizales). Its green mountains, coffee plantations, colourful colonial towns and cloud forests were recognised as a UNESCO Coffee Cultural Landscape in 2011.",
+    "destinationsTitle": "Top destinations",
+    "destinations": [
+      { "name": "Salento & Cocora Valley", "text": "The most traditional town in Quindío and the gateway to the wax palm valley. Hike early, then finish the day on the main square among its colourful streets." },
+      { "name": "Filandia (Quindío)", "text": "Nicknamed 'the Illuminated Hill', with a viewpoint, cobbled streets and cafés overlooking the coffee landscape. About 20-30 minutes by car from Salento." },
+      { "name": "Armenia & Montenegro (Quindío)", "text": "The departmental capital and an area of theme and traditional coffee-farm attractions (such as the National Coffee Park), close to El Edén airport." },
+      { "name": "Pereira, Santa Rosa de Cabal & Manizales", "text": "Further north, Pereira is the gateway through Matecaña airport; Santa Rosa de Cabal offers thermal springs and Manizales closes the triangle with Andean views." }
+    ],
+    "gettingTitle": "Getting there and around",
+    "getting": "By air, the closest airports are El Edén (Armenia), Matecaña (Pereira) and La Nubia (Manizales). Frequent buses connect the cities and towns of the axis, and Willys jeeps leave Salento for Cocora Valley. This is a mountainous region: roads are winding and journeys between towns range from 30 minutes to two hours.",
+    "itineraryTitle": "Suggested 3-day itinerary",
+    "itinerary": [
+      "Day 1 — Salento: hike the full Cocora Valley circuit in the morning, then explore the town (Plaza de Bolívar) in the afternoon.",
+      "Day 2 — Filandia and surroundings: viewpoints, cafés and a traditional coffee farm (book in advance).",
+      "Day 3 — Armenia or Pereira: theme parks or your return connection."
+    ],
+    "valleyLink": "Back to the full Cocora Valley guide",
+    "valleyLinkSub": "Entrance fees, hiking trails, Willys jeep transport and everything else for your visit.",
+    "note": "Opening hours, prices and services can change. Before travelling, please confirm details on each destination's official pages.",
+    "ctaTitle": "Exploring the wider Eje Cafetero?",
+    "ctaText": "Turn your Cocora Valley trip into a full Coffee Triangle journey: colonial towns, viewpoints and the UNESCO-listed coffee landscape around Salento.",
+    "ctaButton": "Read the Eje Cafetero travel guide",
+    "ctaTopics": ["Towns & viewpoints", "Airport connections", "3-day itinerary"],
+    "quickFaq": "Cocora Valley FAQs",
+    "quickMap": "Map & location",
+    "quickReviews": "Visitor reviews"
+  },
+  "faq": {
+    "title": "Cocora Valley (Salento) — Frequently Asked Questions",
+    "subtitle": "Everything visitors ask about Valle de Cocora, its trails, tickets and location",
+    "items": [
+      {
+        "q": "Where is Cocora Valley (Valle de Cocora) located?",
+        "a": "Cocora Valley (Valle de Cocora) is located on the Vía al Valle de Cocora, Km 11, about a 25-30 minute drive north of Salento, in the department of Quindío, Colombia."
+      },
+      {
+        "q": "How do I get to Cocora Valley from Salento?",
+        "a": "From Plaza de Bolívar in the center of Salento, take a traditional Willys Jeep to the valley entrance. The ride takes about 25-30 minutes, and the first jeeps usually depart around 6:00 AM."
+      },
+      {
+        "q": "What are the opening hours of Cocora Valley?",
+        "a": "The valley is open every day from 08:00 to 18:00. Early morning is the best time to visit, offering excellent light and a much higher chance of avoiding afternoon fog and rain."
+      },
+      {
+        "q": "How much is the entrance fee to visit Cocora Valley?",
+        "a": "There is no single all-inclusive ticket. Entrance is paid in cash at the different private checkpoints along the trail, for a total of approximately COP $30,000 - $50,000, so bring enough cash."
+      },
+      {
+        "q": "Why is Cocora Valley famous?",
+        "a": "Cocora Valley is home to the world's tallest palm trees — the Wax Palm (Ceroxylon quindiuense), Colombia's national tree, which grows up to 50-60 meters tall inside a stunning cloud forest near Los Nevados National Natural Park."
+      },
+      {
+        "q": "Which hiking route should I take in Cocora Valley?",
+        "a": "The classic Full Loop covers about 12-15 km in 5-6 hours and is best done counter-clockwise through the cloud forest and the wax palm forest. If you have less time, the 2-3 km short route reaches the viewpoints in 1.5-2 hours."
+      },
+      {
+        "q": "What should I bring when visiting Cocora Valley?",
+        "a": "Bring cash for the entrance fees, rent rubber mud boots at the valley entrance or in Salento, carry rain gear for sudden afternoon showers, and start early to make the most of your visit."
+      }
+    ]
+  },
+  "weather": {
+    "title": "Weather & 7-Day Forecast at Cocora Valley",
+    "subtitle": "Live conditions, the next 7 days and practical trail advice (Salento, Quindío, Colombia)",
+    "currentLabel": "Now",
+    "feelsLike": "Feels like",
+    "humidity": "Humidity",
+    "wind": "Wind",
+    "uvLabel": "UV",
+    "precipChance": "Rain chance today",
+    "updatedLabel": "Updated",
+    "loading": "Loading live weather…",
+    "unavailable": "Live weather is temporarily unavailable. Please check again shortly.",
+    "tip": "Mountain weather changes fast: fog and rain often arrive after midday. Start your hike early.",
+    "todayLabel": "Today",
+    "nextDaysTitle": "Next 7 days",
+    "uvLevels": {
+      "low": "Low",
+      "moderate": "Moderate",
+      "high": "High",
+      "veryHigh": "Very high",
+      "extreme": "Extreme"
+    },
+    "conds": {
+      "thunderstorm": "Thunderstorm",
+      "drizzle": "Drizzle",
+      "rain": "Rain",
+      "showers": "Showers",
+      "snow": "Snow",
+      "fog": "Fog",
+      "clear": "Clear sky",
+      "partly": "Partly cloudy",
+      "cloudy": "Cloudy",
+      "overcast": "Overcast"
+    },
+    "smart": {
+      "title": "Smart advice for your visit",
+      "riskLabel": "Risk alert",
+      "wearLabel": "What to wear",
+      "planLabel": "Plan your day",
+      "packLabel": "What to bring",
+      "tips": {
+        "rainChance": {
+          "plan": "Rain is likely later today: do your walking in the morning, before it arrives.",
+          "pack": ["Compact umbrella or light rain jacket"]
+        },
+        "lightRain": {
+          "plan": "Light rain makes the trail slippery: take it easy on descents and steps.",
+          "wear": "Wear grippy shoes — waterproof walking shoes are ideal.",
+          "pack": ["Foldable umbrella"]
+        },
+        "moderateRain": {
+          "plan": "Moderate rain makes the full loop uncomfortable: do a short section or explore Salento town until it eases.",
+          "wear": "Waterproof jacket and shoes, plus a cover for your backpack.",
+          "pack": ["Rain jacket (an umbrella gets in the way on the trail)"]
+        },
+        "heavyRainRisk": {
+          "risk": [
+            "Heavy rain: the valley trails may close temporarily and there is a risk of mud and small landslides.",
+            "Streams rise quickly in heavy rain: stay away from riverbanks and low-lying ground and follow staff instructions."
+          ]
+        },
+        "stormRisk": {
+          "risk": [
+            "Thunderstorm: avoid open meadows, ridgelines and lone tall palms; head back to a safe place.",
+            "Lightning storms can swell the streams very fast — stay away from rivers and wait before walking the trail."
+          ]
+        },
+        "strongWindRisk": {
+          "risk": [
+            "Strong wind on ridges and open ground: watch your footing and stay away from dead trees and loose slopes."
+          ],
+          "wear": "Tighten your coat and hood; choose close-fitting, windproof layers."
+        },
+        "moderateWind": {
+          "wear": "It is breezy today: keep warm at exposed viewpoints and hold onto your hat."
+        },
+        "fog": {
+          "plan": "Fog makes the valley look magical, but visibility is limited: stay on the main trail and take no shortcuts.",
+          "wear": "It feels cooler and damp in the fog — bring an extra layer."
+        },
+        "clear": {
+          "plan": "Clear weather is ideal for the full loop and wide views of the palms and distant mountains.",
+          "wear": "Sunny but fresh: bring a light layer and do not skip sun protection."
+        },
+        "partly": {
+          "plan": "Clouds and sunny spells: comfortable for the whole loop and for photos.",
+          "wear": "Light long sleeves are perfect — not too hot, not too cold."
+        },
+        "cloudy": {
+          "plan": "Soft, overcast light is great for a long, photo-friendly walk.",
+          "wear": "Mild and not too sunny: light long sleeves will do."
+        },
+        "snow": {
+          "risk": ["Snow is forecast at this altitude: conditions become wet and slippery — it is better to postpone the hike."],
+          "wear": "Warm, waterproof layers and warm shoes."
+        },
+        "hot": {
+          "plan": "It gets hottest around midday: start early or set out in the late afternoon.",
+          "wear": "Choose light, breathable clothing.",
+          "pack": ["Plenty of drinking water"]
+        },
+        "uvHigh": {
+          "plan": "UV is very strong at this altitude: protect your skin even on cloudy or shaded sections.",
+          "wear": "Long sleeves or a sun shirt help a lot.",
+          "pack": ["High-SPF sunscreen", "Sunglasses", "Sun hat"]
+        },
+        "uvModerate": {
+          "plan": "UV is moderate to high: remember sunscreen before you set out.",
+          "pack": ["Sunscreen", "Sunglasses"]
+        },
+        "cold": {
+          "wear": "It is cold today: a warm jacket or fleece, plus gloves and a scarf if you feel the cold."
+        },
+        "bigTempDiff": {
+          "wear": "Big day–night swing: dress in layers so you can add or remove clothing as the sun comes out."
+        }
+      }
+    }
+  },
+  "facilities": {
+    "title": "Facilities & Everyday Services",
+    "subtitle": "Neutral, practical guidance on what is available at the valley and in the town of Salento",
+    "note": "We are a non-profit educational website and never recommend specific businesses. The notes below describe facility types only — availability may change, so please confirm on site.",
+    "categories": [
+      {
+        "id": "wc",
+        "title": "Public Restrooms (WC)",
+        "text": "Paid public toilets are available at the valley entrance area and at some farm restaurants along the trail. Once you leave the entrance zone there are very few facilities, so use them before starting and carry toilet paper and hand sanitiser."
+      },
+      {
+        "id": "parking",
+        "title": "Parking",
+        "text": "Cars and motorbikes can be parked in the lots and roadside spaces near the valley entrance; vehicles are not allowed on the hiking trails themselves. Parking fills up quickly on weekends and holidays, so arrive early and do not leave valuables visible in your car."
+      },
+      {
+        "id": "dining",
+        "title": "Food & Drink",
+        "text": "Restaurants, cafés and small food stalls cluster around the valley entrance and in Salento town. A few farm points along the route also sell snacks and drinks. Carry your own water and light snacks, because the remote sections of the loop have nothing for sale."
+      },
+      {
+        "id": "lodging",
+        "title": "Accommodation",
+        "text": "There is no hotel inside the protected valley. Most visitors stay overnight in Salento — a traditional coffee town with hostels, guesthouses and hotels of many levels — or in nearby towns such as Filandia, Calarcá or Armenia. Book ahead on weekends and public holidays."
+      },
+      {
+        "id": "shopping",
+        "title": "Supermarkets, Shops & Cash",
+        "text": "Grocery stores, minimarkets and souvenir shops are found in Salento town, while the entrance area only has basic essentials. There is no large supermarket in the valley and card payment is unreliable in remote spots: withdraw cash in Salento before you go."
+      },
+      {
+        "id": "fuel",
+        "title": "Fuel & Vehicle Charging",
+        "text": "The closest fuel station to the valley is in Salento town, on the road coming up from Armenia; there is no fuel station inside the valley. Charging points for electric vehicles are still rare in this mountain area, so it is safer to charge in larger cities such as Armenia or Pereira before heading up."
+      }
+    ]
+  },
+  "culture": {
+    "title": "History, Legend & Natural Science",
+    "subtitle": "Stories behind the postcard: the valley's heritage, folklore and living ecosystems",
+    "parts": [
+      {
+        "title": "The Name and the Guardians of the Cloud Forest",
+        "text": "The name Cocora is believed to have roots in the indigenous languages of the Quindío region — home of the Quimbaya people long before the Spanish arrived — although its exact meaning is debated. In local oral tradition, the misty valley is said to be watched over by gentle forest spirits, and travellers are told to treat the giant palms with respect because they shelter the soul of the cloud forest. Walking beneath the fog-covered palms at sunrise, it is easy to understand why those stories survive."
+      },
+      {
+        "title": "From the Boquía Settlement to a National Symbol",
+        "text": "Salento, the oldest town of Quindío and the gateway to the valley, began in 1842 as a settlement in the Valle de Boquía during the era of the Antioquia colonisation, later growing with the coffee economy of the highlands. On 16 September 1985 the Colombian congress declared the Quindío wax palm (Ceroxylon quindiuense) the national tree and patriotic symbol of Colombia. In 2011 the surrounding coffee region, including Salento, was inscribed on the UNESCO World Heritage List as the Coffee Cultural Landscape. Cocora Valley itself sits at the edge of Los Nevados National Natural Park, and the streams that rise in its cloud forests feed the Quindío river basin, supplying water to the valley towns below."
+      },
+      {
+        "title": "Science Corner: The Slow-Growing Giant",
+        "text": "The wax palm is no ordinary palm. Its trunk is covered in a waxy white coating that gives the genus its name (Ceroxylon, from the Greek for 'wax'), and it can reach 50–60 metres, making it one of the tallest palms on Earth. It grows slowly, lives for many decades, and only begins to flower after years of patient growth — which is why pastureland and cattle grazing that trample young seedlings threaten its regeneration. The cloud forest around it captures moisture from the fog, feeds countless mosses, ferns and epiphytes, and shelters hummingbirds and many other Andean birds. Conservation work by national parks, the regional environmental authority and private reserves such as the hummingbird sanctuary at Acaime helps the young palms recover, one seedling at a time."
+      }
+    ]
   },
   "footer": {
     "rights": "© 2026 Cocora Valley. All rights reserved.",
+    "officialName": "Cocora Valley (Valle de Cocora)",
+    "address": "Vía al Valle de Cocora, Km 11, Salento, Quindío, Colombia",
+    "phone": "+57 310 227 5091",
+    "getDirections": "Open in Google Maps",
+    "imageCredit": "Image credit: all photos displayed on this website are the property of their respective photographers.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "cookies": "Cookie Settings",
@@ -321,6 +570,18 @@
         "title": "21st Century: World Heritage Recognition",
         "plaque": "Cultural Identity (World Heritage)",
         "description": "As part of the Colombian Coffee Cultural Landscape, the region was inscribed on the UNESCO World Heritage List, gaining international recognition and protection."
+      },
+      {
+        "year": "1985",
+        "title": "1985: The Wax Palm Becomes the National Tree",
+        "plaque": "National Symbol (Law 61 of 1985)",
+        "description": "On 16 September 1985, Colombia declared the Quindío wax palm (Ceroxylon quindiuense) the national tree and patriotic symbol, turning the palm groves of Cocora into an icon of national identity."
+      },
+      {
+        "year": "2011 – Today",
+        "title": "World Heritage & Modern Conservation",
+        "plaque": "UNESCO Coffee Cultural Landscape (2011)",
+        "description": "In 2011 the coffee landscape around Salento joined the UNESCO World Heritage List as the Coffee Cultural Landscape. Today the valley couples global recognition with everyday conservation: managed grazing lets young wax palms regrow, and the cloud forest keeps supplying water to the Quindío lowlands."
       }
     ],
     "guideTitle": "Visitor Guide Tip",

@@ -1,8 +1,11 @@
 import { useTranslations } from 'next-intl';
+import { SITE } from '@/lib/site-config';
 
 export default function MapEmbed() {
   const t = useTranslations('mapSection');
-  const mapsUrl = "https://maps.app.goo.gl/BZN9DW5ac8TXbF3C9";
+  const tf = useTranslations('footer');
+  const officialLinks = tf.raw('officialLinks') as Record<string, { name: string; url: string }>;
+  const portal = officialLinks.colombiatravel;
 
   return (
     <section id="map" className="section-padding" style={{ background: 'var(--bg-secondary)' }}>
@@ -16,7 +19,7 @@ export default function MapEmbed() {
         <p className="mb-8 text-sm" style={{ color: 'var(--text-muted)' }}>{t('subtitle')}</p>
         <div className="w-12 h-0.5 mb-10" style={{ background: 'var(--accent)' }} />
 
-        {/* Map */}
+        {/* Map — 官方 Google Maps 嵌入（与商家资料同实体 pin） */}
         <div
           className="map-container relative rounded-xl overflow-hidden"
           style={{ border: '1px solid var(--map-border)' }}
@@ -26,21 +29,21 @@ export default function MapEmbed() {
             This is for visual cleanliness only. Google's Terms of Service apply.
           */}
           <iframe
-            src="https://maps.google.com/maps?q=Cocora+Valley,+Salento,+Quindío,+Colombia&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            src={SITE.mapsEmbedSrc}
             width="100%"
             height="450"
             style={{ border: 0 }}
             allowFullScreen
             loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-            title="Google Maps - Cocora Valley"
+            referrerPolicy="strict-origin-when-cross-origin"
+            title={`Google Maps - ${SITE.brandNames.en} (${SITE.city}, ${SITE.region}, ${SITE.country})`}
           />
         </div>
 
         {/* Open in Google Maps */}
         <div className="mt-6 flex justify-center">
           <a
-            href={mapsUrl}
+            href={SITE.mapsShareUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-medium text-white transition-colors"
@@ -58,6 +61,22 @@ export default function MapEmbed() {
             </svg>
           </a>
         </div>
+
+        {/* 权威出站链接（政府/旅游局） */}
+        {portal && (
+          <p className="mt-6 text-center text-sm leading-relaxed" style={{ color: 'var(--text-muted)' }}>
+            {t('tourismNote')}{' '}
+            <a
+              href={portal.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:opacity-80"
+              style={{ color: 'var(--accent)' }}
+            >
+              {portal.name}
+            </a>
+          </p>
+        )}
       </div>
     </section>
   );

@@ -8,7 +8,7 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const baseUrl = 'https://queensparksavannahpark.com';
+  const baseUrl = 'https://cocoravalleycolombia.com';
   const zhUrl = `${baseUrl}/zh/cookie-settings`;
   const enUrl = `${baseUrl}/en/cookie-settings`;
   const esUrl = `${baseUrl}/es/cookie-settings`;
@@ -21,7 +21,7 @@ export async function generateMetadata({
         'zh': zhUrl,
         'en': enUrl,
         'es': esUrl,
-        'x-default': enUrl,
+        'x-default': esUrl,
       },
     },
   };

@@ -1,6 +1,6 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useMessages } from 'next-intl';
 import { useState, useCallback } from 'react';
 
 const photoFiles = [
@@ -25,13 +25,16 @@ const photoFiles = [
 
 export default function Gallery() {
   const t = useTranslations('gallery');
+  const messages = useMessages() as any;
+  const brand = (messages?.header?.siteName as string) || 'Cocora Valley';
   const captions = t.raw('captions') as string[];
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
 
+  // 图片语义化：每张照片 alt 均绑定景点实体名称（SEO 实体绑定）
   const photos = photoFiles.map((file, i) => ({
     src: `/gallery/${file}`,
-    alt: captions?.[i] || `Cocora Valley ${i + 1}`,
+    alt: `${brand} · ${captions?.[i] || `Cocora Valley ${i + 1}`}`,
   }));
 
   const visiblePhotos = photos;
