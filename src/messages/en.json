@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Cocora Valley Colombia: Hiking, Tickets & Visitor Guide 2026",
-    "description": "Everything you need to visit Cocora Valley in Salento, Quindío: 2026 ticket fees, hiking routes (12–15 km circuit), jeep schedule and top photo spots."
+    "title": "Cocora Valley 2026: Hiking Trails, Fees & Salento Guide",
+    "description": "Plan your visit to Cocora Valley in Salento, Colombia. Explore wax palm forests, hiking routes, entrance fees, Willys Jeep transport and practical travel tips."
   },
   "header": {
     "siteName": "Cocora Valley",
@@ -17,7 +17,7 @@
     "imgAlt": "Cocora Valley (Valle de Cocora) - Main view in Salento, Quindío, Colombia",
     "subtitle": "Colombia's Green Gem, Home of the Tallest Palm Trees",
     "rating": "4.8",
-    "reviewCount": "26,506",
+    "reviewCount": "26,556",
     "hours": "Nature Reserve / Cloud Forest / High-Altitude Hiking",
     "openMaps": "View Location"
   },
@@ -112,7 +112,8 @@
     "winterTime": "Counter-clockwise Full Loop, Acaime Sanctuary, Wax Palm Forest, Suspension Bridges",
     "warning": "💡 Safety & Weather Warning",
     "warningTime": "The valley's weather changes rapidly, with a very high probability of fog and rain after midday, resulting in extremely muddy trails. It is strongly recommended to rent rubber mud boots and bring rain gear!",
-    "tip": "Hiking the full loop counter-clockwise saves the spectacular wax palm forest for the descent and effectively reduces pressure on the knees."
+    "tip": "Hiking the full loop counter-clockwise saves the spectacular wax palm forest for the descent and effectively reduces pressure on the knees.",
+    "verified": "Valley access is daily 08:00–18:00 (verified October 2026). Private checkpoints may close earlier; please confirm on arrival."
   },
   "tickets": {
     "title": "Important Information",
@@ -127,7 +128,8 @@
     "cardPrice": "Salento town, Acaime Sanctuary. 👉 [Go to Cocora Valley]",
     "officialNotice": "Much of the land here is privately owned, and hikers must pay cash separately at various private property checkpoints along the way. For more details, visit",
     "officialNoticeLinkLabel": "Official Website of Colombia's National Natural Parks",
-    "officialNoticeLink": "https://www.parquesnacionales.gov.co/"
+    "officialNoticeLink": "https://www.parquesnacionales.gov.co/",
+    "verified": "Information verified in October 2026. Prices and opening times vary by private checkpoint; please confirm on site before your visit."
   },
   "transport": {
     "title": "Transportation",
@@ -171,58 +173,9 @@
   },
   "reviews": {
     "title": "Visitor Reviews",
-    "declaration": "Review information can be viewed via Google Maps (external link).",
+    "declaration": "We show the aggregate Google Maps rating (external link). We do not publish invented individual reviews; read real traveller opinions on the official profile.",
     "moreReviews": "View More Reviews on Google Maps",
-    "items": [
-      {
-        "name": "Carlos Mendoza",
-        "date": "2 months ago",
-        "rating": 5,
-        "text": "One of the most beautiful hiking spots in the world! The Wax Palms tower into the clouds, the scenery is breathtaking."
-      },
-      {
-        "name": "Li Xiaoming",
-        "date": "1 month ago",
-        "rating": 5,
-        "text": "Taking the Willys Jeep from Salento to get here is so much fun. The hiking trails are clear, the scenery is stunning, highly recommended!"
-      },
-      {
-        "name": "María González",
-        "date": "3 weeks ago",
-        "rating": 5,
-        "text": "A must-visit place in Colombia! The morning mist makes the entire valley look like a fairyland."
-      },
-      {
-        "name": "John Smith",
-        "date": "Over 6 months ago",
-        "rating": 5,
-        "text": "An unforgettable experience! I chose horseback riding, and the local guides were very friendly and professional."
-      },
-      {
-        "name": "Ana Silva",
-        "date": "2 months ago",
-        "rating": 4,
-        "text": "Beautiful scenery, but it gets quite crowded on weekends. Recommend visiting on weekdays for a better experience in nature."
-      },
-      {
-        "name": "Zhang Wei",
-        "date": "1 month ago",
-        "rating": 5,
-        "text": "Absolutely worth a visit! Remember to bring your camera, every angle is a postcard-perfect view."
-      },
-      {
-        "name": "Roberto Pérez",
-        "date": "3 months ago",
-        "rating": 5,
-        "text": "This is Colombia's pride! The Wax Palm is the national tree, and seeing them so tall is truly awe-inspiring."
-      },
-      {
-        "name": "Emma Wilson",
-        "date": "2 months ago",
-        "rating": 5,
-        "text": "I completed the full hiking trail, which took about 6 hours. Tiring but absolutely worth it!"
-      }
-    ]
+    "snapshotNote": "Aggregate rating synced with Google Maps (October 2026). Individual reviews belong to their authors on Google Maps."
   },
   "mapSection": {
     "title": "Location & Map",
@@ -504,7 +457,7 @@
         "url": "https://www.crq.gov.co/"
       }
     },
-    "disclaimer": "This website is an independent third-party travel information project. We have no affiliation with local government or other official institutions."
+    "disclaimer": "This website is an independent third-party travel information project. We have no affiliation with local government or other official institutions. We do not sell tickets and are not an official ticket office."
   },
   "privacy": {
     "title": "Privacy Policy",
@@ -557,7 +510,7 @@
         "year": "Early Period",
         "title": "Early Period: Nature Conservation & Discovery",
         "plaque": "Nature Conservation (Park)",
-        "description": "Cocora Valley, as part of Los Nevados National Natural Park, has long been an important nature reserve and biodiversity hotspot in Colombia."
+        "description": "Cocora Valley, located at the edge of the buffer zone of Los Nevados National Natural Park, has long been an important nature reserve and biodiversity hotspot in Colombia."
       },
       {
         "year": "20th Century",
@@ -589,7 +542,7 @@
   },
   "officialManagement": {
     "title": "About Cocora Valley",
-    "text": "Cocora Valley is a famous natural landscape in Quindío, Colombia, known for the world's tallest palm trees—the Wax Palm. It is managed by Colombia's National Natural Parks administration and relevant local governments."
+    "text": "Cocora Valley sits at the edge of the buffer zone of Los Nevados National Natural Park. Most of the trails cross privately owned land, so entrance is paid in segments to local landowners. It is not a fenced national park and has no single ticket office."
   },
   "cookieSettings": {
     "title": "Cookie Settings",

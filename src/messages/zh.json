@@ -17,7 +17,7 @@
     "imgAlt": "可可拉山谷 Cocora Valley（Valle de Cocora）—— 位于哥伦比亚金迪奥省萨伦托的山谷主景观",
     "subtitle": "哥伦比亚的绿色宝石，最高棕榈树的家园",
     "rating": "4.8",
-    "reviewCount": "26,506",
+    "reviewCount": "26,556",
     "hours": "自然保护区 / 云雾森林 / 高海拔徒步线路",
     "openMaps": "查看位置"
   },
@@ -112,7 +112,8 @@
     "winterTime": "逆时针大环线、Acaime 蜂鸟保护区、蜡棕榈林、悬索桥",
     "warning": "💡 行前预警 (Safety & Weather Warning)",
     "warningTime": "山谷气候瞬息万变，中午之后有极大概率起雾和降雨，导致路面极为泥泞。强烈建议租用橡胶雨靴，并携带防雨衣物！",
-    "tip": "逆时针走大环线不仅能在下山时以蜡棕榈林作为压轴美景，还能有效减轻下坡时对膝盖的压力。"
+    "tip": "逆时针走大环线不仅能在下山时以蜡棕榈林作为压轴美景，还能有效减轻下坡时对膝盖的压力。",
+    "verified": "山谷每日开放时间为 08:00–18:00（已于 2026 年 10 月核实）。私人检查站可能提前关闭，请到达时现场确认。"
   },
   "tickets": {
     "title": "注意事项",
@@ -127,7 +128,8 @@
     "cardPrice": "萨伦托小镇、Acaime 蜂鸟保护区。👉 [前往可可拉山谷]",
     "officialNotice": "这里的土地多为私人拥有，徒步者需要在沿途的不同私人领地检查站分别支付现金。详情可查阅",
     "officialNoticeLinkLabel": "哥伦比亚国家自然公园管理局官方网站",
-    "officialNoticeLink": "https://www.parquesnacionales.gov.co/"
+    "officialNoticeLink": "https://www.parquesnacionales.gov.co/",
+    "verified": "信息已于 2026 年 10 月核实。各私人检查站的价格与开放时间可能不同，请在到达现场前向当地确认。"
   },
   "transport": {
     "title": "交通方式",
@@ -171,58 +173,9 @@
   },
   "reviews": {
     "title": "游客评价",
-    "declaration": "评价信息可透过 Google Maps 查看（外部链接）。",
-    "moreReviews": "在 Google Maps 查看更多评价",
-    "items": [
-      {
-        "name": "Carlos Mendoza",
-        "date": "2个月前",
-        "rating": 5,
-        "text": "世界上最美的徒步地点之一！蜡棕榈树高耸入云，景色令人叹为观止。"
-      },
-      {
-        "name": "李小明",
-        "date": "1个月前",
-        "rating": 5,
-        "text": "从萨伦托乘坐吉普车到达这里非常有趣。徒步路线清晰，景色美不胜收，强烈推荐！"
-      },
-      {
-        "name": "María González",
-        "date": "3周前",
-        "rating": 5,
-        "text": "哥伦比亚必去的地方！清晨的雾气让整个山谷如同仙境一般。"
-      },
-      {
-        "name": "John Smith",
-        "date": "半年多前",
-        "rating": 5,
-        "text": "令人难忘的体验！我选择了骑马游览，当地的导游非常友好且专业。"
-      },
-      {
-        "name": "Ana Silva",
-        "date": "2个月前",
-        "rating": 4,
-        "text": "美丽的风景，但周末人比较多。建议工作日前往，可以更好地享受大自然。"
-      },
-      {
-        "name": "张伟",
-        "date": "1个月前",
-        "rating": 5,
-        "text": "绝对值得一游！记得带上相机，每个角度都是明信片般的风景。"
-      },
-      {
-        "name": "Roberto Pérez",
-        "date": "3个月前",
-        "rating": 5,
-        "text": "这里是哥伦比亚的骄傲！蜡棕榈是国树，看到它们如此高大真是太震撼了。"
-      },
-      {
-        "name": "Emma Wilson",
-        "date": "2个月前",
-        "rating": 5,
-        "text": "我走完了完整的徒步路线，大约花了6小时。虽然有些累，但绝对值得！"
-      }
-    ]
+    "declaration": "我们展示 Google Maps 的聚合评分（外部链接）。我们不会发布虚构的逐条评价；真实的游客评论请前往官方资料页查看。",
+    "moreReviews": "在 Google Maps 上查看更多评价",
+    "snapshotNote": "聚合评分已与 Google Maps 同步（2026 年 10 月）。逐条评价归 Google Maps 上的原作者所有。"
   },
   "mapSection": {
     "title": "地图位置",
@@ -504,7 +457,7 @@
         "url": "https://www.crq.gov.co/"
       }
     },
-    "disclaimer": "本网站是一个独立的第三方旅游资讯项目。我们与当地政府或其他官方机构没有任何关联。"
+    "disclaimer": "本网站是一个独立的第三方旅游资讯项目。我们与当地政府或其他官方机构没有任何关联，也不出售门票、并非官方售票处。"
   },
   "privacy": {
     "title": "隐私政策",
@@ -557,7 +510,7 @@
         "year": "早期",
         "title": "早期：自然保护与发现",
         "plaque": "自然保护 (公园)",
-        "description": "可可拉山谷作为洛斯内瓦多斯国家公园的一部分，长期以来一直是哥伦比亚重要的自然保护区和生物多样性热点。"
+        "description": "可可拉山谷位于洛斯内瓦多斯国家公园缓冲区的边缘，长期以来一直是哥伦比亚重要的自然保护区和生物多样性热点。"
       },
       {
         "year": "20世纪",
@@ -589,7 +542,7 @@
   },
   "officialManagement": {
     "title": "关于可可拉山谷",
-    "text": "可可拉山谷是哥伦比亚金迪奥省的著名自然景观，以世界上最高的棕榈树——蜡棕榈而闻名，由哥伦比亚国家自然公园管理局与相关地方政府共同管理。"
+    "text": "可可拉山谷位于洛斯内瓦多斯国家公园（Los Nevados National Natural Park）缓冲区的边缘。大部分徒步路线穿越私人土地，因此门票需沿途分段向当地土地所有者支付。它并非封闭式的国家公园，也没有统一的售票管理处。"
   },
   "cookieSettings": {
     "title": "Cookie 设置",

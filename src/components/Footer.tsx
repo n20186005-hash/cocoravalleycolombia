@@ -1,6 +1,7 @@
 import { useTranslations } from 'next-intl';
 import { useLocale } from 'next-intl';
 import { EJE_PATH, SITE } from '@/lib/site-config';
+import { TOPICS } from '@/lib/topics';
 
 export default function Footer() {
   const t = useTranslations('footer');
@@ -80,6 +81,16 @@ export default function Footer() {
             >
               {eje('ctaButton')}
             </a>
+            {TOPICS.map((topic) => (
+              <a
+                key={topic.key}
+                href={`${prefix}/${topic.slug[locale as 'es' | 'en' | 'zh']}`}
+                style={{ color: 'var(--text-secondary)' }}
+                className="hover:underline"
+              >
+                {topic.title[locale as 'es' | 'en' | 'zh']}
+              </a>
+            ))}
             <a href={`${prefix}/privacy-policy`} style={{ color: 'var(--text-secondary)' }} className="hover:underline">
               {t('privacy')}
             </a>

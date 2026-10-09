@@ -60,10 +60,10 @@ export const SITE = {
   phoneDisplay: '+57 310 227 5091',
   phoneHref: '+573102275091',
 
-  // ----- Google Maps 展示数据 -----
+  // ----- Google Maps 展示数据（与 Google Maps 商家资料一致，最后核对：2026 年 10 月）-----
   googleRating: '4.8',
-  reviewCount: '26,506',
-  category: 'National Park / Nature Reserve',
+  reviewCount: '26,556',
+  category: 'Nature Reserve / Cloud Forest',
 
   // ----- 地理坐标（取自官方 Google Maps 嵌入链接：lat 4.6413864 / lng -75.5031952）-----
   latitude: 4.6413864,

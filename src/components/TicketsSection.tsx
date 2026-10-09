@@ -104,6 +104,17 @@ export default function TicketsSection() {
             </div>
           </div>
         )}
+
+        {/* Verification note */}
+        {t.has('verified') && (
+          <p className="mt-4 text-xs flex items-start gap-2" style={{ color: 'var(--text-muted)' }}>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="flex-shrink-0 mt-0.5">
+              <path d="M9 11l3 3L22 4"/>
+              <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>
+            </svg>
+            <span>{t('verified')}</span>
+          </p>
+        )}
       </div>
     </section>
   );

@@ -1,10 +1,12 @@
 import { MetadataRoute } from 'next';
+import { LOCALES } from '@/lib/site-config';
+import { TOPICS } from '@/lib/topics';
 
 export const dynamic = 'force-static';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://cocoravalleycolombia.com';
-  const locales = ['zh', 'en', 'es'];
+  const locales = LOCALES;
 
   // [主页, 是否周更优先], 周边词
   const routes: Array<{ path: string; freq: 'weekly' | 'monthly'; priority: number }> = [
@@ -24,6 +26,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModified: new Date(),
         changeFrequency: route.freq,
         priority: route.priority,
+      });
+    }
+    for (const topic of TOPICS) {
+      sitemap.push({
+        url: `${baseUrl}/${locale}/${topic.slug[locale]}`,
+        lastModified: new Date(),
+        changeFrequency: 'monthly',
+        priority: 0.8,
       });
     }
   }

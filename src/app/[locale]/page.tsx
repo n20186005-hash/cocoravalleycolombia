@@ -7,6 +7,7 @@ import HistoryTimeline from '@/components/HistoryTimeline';
 import CultureSection from '@/components/CultureSection';
 import WeatherSection from '@/components/WeatherSection';
 import RouteSection from '@/components/RouteSection';
+import TopicLinks from '@/components/TopicLinks';
 import HoursSection from '@/components/HoursSection';
 import TicketsSection from '@/components/TicketsSection';
 import TransportSection from '@/components/TransportSection';
@@ -62,6 +63,7 @@ export default async function HomePage({
         <HistoryTimeline />
         <CultureSection />
         <RouteSection />
+        <TopicLinks locale={locale} />
         <HoursSection />
         <TicketsSection />
         <TransportSection />
