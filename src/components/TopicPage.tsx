@@ -100,6 +100,28 @@ export default function TopicPage({ locale, topic }: { locale: Locale; topic: To
             <TopicSectionBlock key={i} heading={s.heading} paragraphs={s.paragraphs} list={s.list} />
           ))}
 
+          {t.mapStops && (
+            <section className="mb-10">
+              <h2 className="font-display text-2xl font-semibold mb-4">
+                {locale === 'es' ? 'Mapa de las paradas' : locale === 'en' ? 'Map the stops' : '行程地点地图'}
+              </h2>
+              <ol className="list-decimal pl-6 space-y-2">
+                {t.mapStops.map((stop) => (
+                  <li key={stop.query}>
+                    <a
+                      className="underline underline-offset-4"
+                      href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(stop.query)}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {stop.name[locale]}
+                    </a>
+                  </li>
+                ))}
+              </ol>
+            </section>
+          )}
+
           {/* FAQ */}
           <div className="mt-4 mb-12">
             <h2 className="font-display text-2xl font-semibold mb-6" style={{ color: 'var(--text-primary)' }}>
