@@ -1,7 +1,8 @@
 import type { Locale } from './site-config';
+import { salentoAttractions } from './salento-attractions';
 import { salentoDayTrip } from './salento-day-trip';
 
-export type TopicKey = 'fees' | 'hiking' | 'getting' | 'salento-day-trip';
+export type TopicKey = 'fees' | 'hiking' | 'getting' | 'salento-day-trip' | 'salento-plaza' | 'salento-alto';
 
 export interface TopicSection {
   heading: string;
@@ -14,6 +15,16 @@ export interface TopicFaq {
   a: string;
 }
 
+export interface TopicPlace {
+  address: string;
+  mapUrl: string;
+  management: Record<Locale, string>;
+  managementSource: string;
+  transport: Record<Locale, string>;
+  photo?: { file: string; source: string; author: string };
+  rating?: { score: string; count: number; source: string; checked: string };
+}
+
 export interface Topic {
   key: TopicKey;
   slug: Record<Locale, string>;
@@ -23,6 +34,7 @@ export interface Topic {
   lead: Record<Locale, string>;
   verifiedLabel: Record<Locale, string>;
   source: { name: Record<Locale, string>; url: string };
+  place?: TopicPlace;
   mapStops?: { name: Record<Locale, string>; query: string }[];
   sections: Record<Locale, TopicSection[]>;
   faq: Record<Locale, TopicFaq[]>;
@@ -539,6 +551,7 @@ export const TOPICS: Topic[] = [
     },
   },
   salentoDayTrip,
+  ...salentoAttractions,
 ];
 
 export function getTopic(locale: Locale, slug: string): Topic | undefined {

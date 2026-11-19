@@ -1,4 +1,5 @@
 import { SITE, BASE_URL, type Locale } from '@/lib/site-config';
+import { TopicPlaceDetails, valleyPlace } from './TopicPlaceDetails';
 import { TOPICS, type Topic } from '@/lib/topics';
 
 function TopicSectionBlock({ heading, paragraphs, list }: { heading: string; paragraphs?: string[]; list?: string[] }) {
@@ -28,6 +29,7 @@ function TopicSectionBlock({ heading, paragraphs, list }: { heading: string; par
 
 export default function TopicPage({ locale, topic }: { locale: Locale; topic: Topic }) {
   const t = topic;
+  const place = t.place ?? valleyPlace;
   const selfUrl = `${BASE_URL}/${locale}/${t.slug[locale]}`;
   const homeUrl = `${BASE_URL}/${locale}`;
   const ejePath = `/${locale}/eje-cafetero`;
@@ -93,9 +95,19 @@ export default function TopicPage({ locale, topic }: { locale: Locale; topic: To
         </div>
       </section>
 
+      {t.place?.photo && (
+        <figure className="max-w-3xl mx-auto px-4 sm:px-6 mb-6">
+          <img src={t.place.photo.file} alt={t.title[locale]} width={960} height={640} className="w-full h-auto rounded-xl" />
+          <figcaption className="mt-2 text-sm" style={{ color: 'var(--text-muted)' }}>
+            <a href={t.place.photo.source} className="underline">{t.place.photo.author} · Wikimedia Commons</a>
+          </figcaption>
+        </figure>
+      )}
+
       {/* Content */}
       <section className="section-padding pt-4">
         <div className="max-w-3xl mx-auto">
+          <TopicPlaceDetails locale={locale} place={place} />
           {t.sections[locale].map((s, i) => (
             <TopicSectionBlock key={i} heading={s.heading} paragraphs={s.paragraphs} list={s.list} />
           ))}
@@ -125,7 +137,7 @@ export default function TopicPage({ locale, topic }: { locale: Locale; topic: To
           {/* FAQ */}
           <div className="mt-4 mb-12">
             <h2 className="font-display text-2xl font-semibold mb-6" style={{ color: 'var(--text-primary)' }}>
-              FAQ
+              {locale === 'es' ? 'Preguntas frecuentes' : locale === 'en' ? 'Frequently asked questions' : '常见问题'}
             </h2>
             <div className="space-y-4">
               {t.faq[locale].map((f, i) => (

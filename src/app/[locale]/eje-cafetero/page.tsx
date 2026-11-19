@@ -3,6 +3,8 @@ import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import type { Metadata } from 'next';
 import JsonLd from '@/components/JsonLd';
+import { salentoAttractions } from '@/lib/salento-attractions';
+import { topicPath } from '@/lib/topics';
 import {
   BASE_URL,
   EJE_PATH,
@@ -170,6 +172,20 @@ export default async function EjePage({
             </div>
           </section>
         )}
+
+        <section className="mb-12">
+          <h2 className="font-display text-2xl font-semibold mb-3">
+            {loc === 'es' ? 'Lugares para visitar en Salento' : loc === 'en' ? 'Places to visit in Salento' : '萨伦托周边景点'}
+          </h2>
+          <ul className="space-y-3">
+            {salentoAttractions.map((place) => (
+              <li key={place.key}>
+                <a className="underline underline-offset-4" href={topicPath(loc, place)}>{place.title[loc]}</a>
+                <p className="mt-1" style={{ color: 'var(--text-secondary)' }}>{place.lead[loc]}</p>
+              </li>
+            ))}
+          </ul>
+        </section>
 
         {/* 交通 */}
         <section className="mb-12">
