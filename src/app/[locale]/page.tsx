@@ -58,6 +58,7 @@ export default async function HomePage({
       <main>
         <Hero />
         <Intro />
+        <TopicLinks locale={loc} nearby />
         <BasicInfo />
         <WeatherSection />
         <HistoryTimeline />

@@ -24,14 +24,15 @@ const labels = {
   zh: { management: '管理主体', source: '查看资料来源', basic: '基础信息', address: '地址', map: '在 Google 地图打开', transport: '交通方式', reviews: '游客评价', count: '条评价', snapshot: '资料日期', read: '在 Google 地图查看游客评价' },
 };
 
-export function TopicPlaceDetails({ locale, place }: { locale: Locale; place: TopicPlace }) {
+export function TopicPlaceDetails({ locale, place, title }: { locale: Locale; place: TopicPlace; title?: string }) {
   const t = labels[locale];
+  const aboutTitle = title && { es: `Acerca de ${title}`, en: `About ${title}`, zh: `关于${title}` }[locale];
   const rating = place.rating;
   const placeName = place === valleyPlace ? SITE.brandNames[locale] : undefined;
   return (
     <div className="mb-10 space-y-6 rounded-xl border p-5 sm:p-6" style={{ borderColor: 'var(--border-color)', background: 'var(--bg-secondary)' }}>
       <section>
-        <h2 className="font-display text-xl font-semibold mb-2">{t.management}</h2>
+        <h2 className="font-display text-xl font-semibold mb-2">{aboutTitle ?? t.management}</h2>
         <p>{place.management[locale]} <a className="underline" href={place.managementSource}>{t.source}</a></p>
       </section>
       <section>

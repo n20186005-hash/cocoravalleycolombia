@@ -53,7 +53,9 @@ export default function TopicPage({ locale, topic }: { locale: Locale; topic: To
     ],
   };
 
-  const related = TOPICS.filter((x) => x.key !== topic.key);
+  const related = TOPICS.filter((x) => x.key !== topic.key && !x.key.startsWith('quindio-'));
+  const nearbyLabel = { es: 'Todos los lugares cercanos', en: 'All nearby attractions', zh: '查看全部周边景点' };
+  const mapLabel = { es: 'Ubicación en Google Maps', en: 'Location on Google Maps', zh: '在 Google 地图查看位置' };
 
   return (
     <div className="min-h-screen" style={{ background: 'var(--bg-primary)' }}>
@@ -92,14 +94,22 @@ export default function TopicPage({ locale, topic }: { locale: Locale; topic: To
               {t.source.name[locale]}
             </a>
           </div>
+          {t.place && (
+            <div className="mt-4 flex flex-wrap gap-3 text-sm">
+              <a className="underline underline-offset-4" href={t.place.mapUrl}>{mapLabel[locale]}</a>
+              {t.place.rating && (
+                <a className="underline underline-offset-4" href={t.place.rating.source}>{t.place.rating.score} / 5 · Google</a>
+              )}
+            </div>
+          )}
         </div>
       </section>
 
       {t.place?.photo && (
         <figure className="max-w-3xl mx-auto px-4 sm:px-6 mb-6">
-          <img src={t.place.photo.file} alt={t.title[locale]} width={960} height={640} className="w-full h-auto rounded-xl" />
+          <img src={t.place.photo.file} alt={t.title[locale]} className="w-full max-h-80 object-contain rounded-xl" />
           <figcaption className="mt-2 text-sm" style={{ color: 'var(--text-muted)' }}>
-            <a href={t.place.photo.source} className="underline">{t.place.photo.author} · Wikimedia Commons</a>
+            <a href={t.place.photo.source} className="underline">{t.place.photo.author && `${t.place.photo.author} · `}Wikimedia Commons</a>
           </figcaption>
         </figure>
       )}
@@ -107,7 +117,7 @@ export default function TopicPage({ locale, topic }: { locale: Locale; topic: To
       {/* Content */}
       <section className="section-padding pt-4">
         <div className="max-w-3xl mx-auto">
-          <TopicPlaceDetails locale={locale} place={place} />
+          <TopicPlaceDetails locale={locale} place={place} title={t.place ? t.title[locale] : undefined} />
           {t.sections[locale].map((s, i) => (
             <TopicSectionBlock key={i} heading={s.heading} paragraphs={s.paragraphs} list={s.list} />
           ))}
@@ -162,6 +172,7 @@ export default function TopicPage({ locale, topic }: { locale: Locale; topic: To
             <h3 className="font-display text-xl font-semibold mb-4" style={{ color: 'var(--text-primary)' }}>
               {locale === 'es' ? 'También te puede interesar' : locale === 'en' ? 'You might also like' : '你可能还想知道'}
             </h3>
+            <a className="inline-block underline underline-offset-4 mb-4" href={`/${locale}#nearby`}>{nearbyLabel[locale]}</a>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {related.map((r) => (
                 <a

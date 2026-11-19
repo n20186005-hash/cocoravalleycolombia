@@ -1,8 +1,9 @@
 import type { Locale } from './site-config';
+import { quindioAttractions } from './quindio-attractions';
 import { salentoAttractions } from './salento-attractions';
 import { salentoDayTrip } from './salento-day-trip';
 
-export type TopicKey = 'fees' | 'hiking' | 'getting' | 'salento-day-trip' | 'salento-plaza' | 'salento-alto';
+export type TopicKey = 'fees' | 'hiking' | 'getting' | 'salento-day-trip' | 'salento-plaza' | 'salento-alto' | `quindio-${string}`;
 
 export interface TopicSection {
   heading: string;
@@ -21,7 +22,7 @@ export interface TopicPlace {
   management: Record<Locale, string>;
   managementSource: string;
   transport: Record<Locale, string>;
-  photo?: { file: string; source: string; author: string };
+  photo?: { file: string; source: string; author?: string };
   rating?: { score: string; count: number; source: string; checked: string };
 }
 
@@ -552,6 +553,7 @@ export const TOPICS: Topic[] = [
   },
   salentoDayTrip,
   ...salentoAttractions,
+  ...quindioAttractions,
 ];
 
 export function getTopic(locale: Locale, slug: string): Topic | undefined {
