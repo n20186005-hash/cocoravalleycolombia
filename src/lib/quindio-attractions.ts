@@ -205,9 +205,9 @@ export const quindioAttractions: Topic[] = landmarks.map((item) => {
     },
     sections: Object.fromEntries(locales.map((locale, index) => [locale, [
       { heading: headings.history[locale], paragraphs: [item.history[index]] },
-      { heading: headings.access[locale], paragraphs: [item.access[index]] },
-      { heading: headings.route[locale], paragraphs: [item.route[index]] },
-      { heading: headings.photo[locale], paragraphs: [item.photoTip[index]] },
+      { role: 'access', heading: headings.access[locale], paragraphs: [item.access[index]] },
+      { role: 'route', heading: headings.route[locale], paragraphs: [item.route[index]] },
+      { role: 'photo', heading: headings.photo[locale], paragraphs: [item.photoTip[index]] },
     ]])) as Topic['sections'],
     faq: {
       es: [{ q: item.question[0], a: item.answer[0] }],

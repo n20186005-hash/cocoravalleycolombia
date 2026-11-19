@@ -6,6 +6,7 @@ import { salentoDayTrip } from './salento-day-trip';
 export type TopicKey = 'fees' | 'hiking' | 'getting' | 'salento-day-trip' | 'salento-plaza' | 'salento-alto' | `quindio-${string}`;
 
 export interface TopicSection {
+  role?: 'access' | 'route' | 'photo';
   heading: string;
   paragraphs?: string[];
   list?: string[];

@@ -1,3 +1,5 @@
+import NearbyVisitDetails, { NearbyVisitHours } from './NearbyVisitDetails';
+import { nearbyVisits } from '@/lib/nearby-visits';
 import { SITE, BASE_URL, type Locale } from '@/lib/site-config';
 import { TopicPlaceDetails, valleyPlace } from './TopicPlaceDetails';
 import { TOPICS, type Topic } from '@/lib/topics';
@@ -30,6 +32,7 @@ function TopicSectionBlock({ heading, paragraphs, list }: { heading: string; par
 export default function TopicPage({ locale, topic }: { locale: Locale; topic: Topic }) {
   const t = topic;
   const place = t.place ?? valleyPlace;
+  const expandedVisit = t.place && nearbyVisits[t.key];
   const selfUrl = `${BASE_URL}/${locale}/${t.slug[locale]}`;
   const homeUrl = `${BASE_URL}/${locale}`;
   const ejePath = `/${locale}/eje-cafetero`;
@@ -97,6 +100,7 @@ export default function TopicPage({ locale, topic }: { locale: Locale; topic: To
           {t.place && (
             <div className="mt-4 flex flex-wrap gap-3 text-sm">
               <a className="underline underline-offset-4" href={t.place.mapUrl}>{mapLabel[locale]}</a>
+              {expandedVisit && <NearbyVisitHours locale={locale} topic={t} />}
               {t.place.rating && (
                 <a className="underline underline-offset-4" href={t.place.rating.source}>{t.place.rating.score} / 5 · Google</a>
               )}
@@ -117,10 +121,16 @@ export default function TopicPage({ locale, topic }: { locale: Locale; topic: To
       {/* Content */}
       <section className="section-padding pt-4">
         <div className="max-w-3xl mx-auto">
-          <TopicPlaceDetails locale={locale} place={place} title={t.place ? t.title[locale] : undefined} />
-          {t.sections[locale].map((s, i) => (
-            <TopicSectionBlock key={i} heading={s.heading} paragraphs={s.paragraphs} list={s.list} />
-          ))}
+          {expandedVisit ? (
+            <NearbyVisitDetails locale={locale} topic={t} />
+          ) : (
+            <>
+              <TopicPlaceDetails locale={locale} place={place} title={t.place ? t.title[locale] : undefined} />
+              {t.sections[locale].map((s, i) => (
+                <TopicSectionBlock key={i} heading={s.heading} paragraphs={s.paragraphs} list={s.list} />
+              ))}
+            </>
+          )}
 
           {t.mapStops && (
             <section className="mb-10">
