@@ -99,9 +99,9 @@ export const nearbyVisits: Partial<Record<TopicKey, Visit>> = {
   'quindio-jardin-botanico-quindio': {
     type: ['Jardín botánico y mariposario', 'Botanical garden and butterfly house', '植物园与蝴蝶馆'], area: ['Calarcá, Quindío', 'Calarcá, Quindío', '金迪奥省卡拉尔卡'],
     hours: ['Todos los días 09:00–15:30 según el jardín.', 'Daily 09:00–15:30, according to the garden.', '园方公布每天 09:00–15:30 开放。'],
-    admission: ['Entrada de pago. El jardín ofrece compra en taquilla y anticipada.', 'Paid admission. The garden offers tickets at the gate and in advance.', '需购票，园方提供现场及预购选项。'],
+    admission: ['La tarifa publicada es de COP 75.000 para adultos y COP 30.000 para niños de 3 a 12 años. Se vende en taquilla y por anticipado.', 'Published admission is COP 75,000 for adults and COP 30,000 for children aged 3–12. Buy at the gate or in advance.', '园方公布成人票 75,000 哥伦比亚比索，3–12 岁儿童票 30,000 哥伦比亚比索，可现场购买或预购。'],
     hoursSource: 'https://jardinbotanicoquindio.org/preguntas-frecuentes/',
-    ticketSource: 'https://jardinbotanicoquindio.org/producto/entrada-compras-anticipadas/',
+    ticketSource: 'https://jardinbotanicoquindio.org/faq-items/que-precio-tiene-el-ingreso-al-jardin/',
     advice: ['Planea llegar con margen para seguir la ruta que indique el jardín.', 'Arrive with enough time to follow the route suggested by the garden.', '预留足够时间，按园方当天建议的路线走。'],
     highlights: ['Bosque, colecciones de plantas y un recinto para observar mariposas.', 'Forest, plant collections and an enclosure for observing butterflies.', '林地、植物收藏以及可观察蝴蝶的馆区。'],
     steps: [['Llega a la entrada del km 3 y pasa por taquilla.', 'Arrive at the kilometer 3 entrance and check in at the desk.', '到 3 公里处入口，在售票处办理入园。'], ['Sigue el recorrido indicado entre bosque y colecciones.', 'Follow the designated route through the forest and collections.', '沿指定路线看林地和植物收藏。'], ['Reserva tiempo en el mariposario antes de salir.', 'Leave time for the butterfly house before exiting.', '离开前留时间在蝴蝶馆观察。']],
@@ -112,7 +112,7 @@ export const nearbyVisits: Partial<Record<TopicKey, Visit>> = {
   'quindio-parque-del-cafe': {
     type: ['Parque temático', 'Theme park', '主题公园'], area: ['Montenegro, Quindío', 'Montenegro, Quindío', '金迪奥省蒙特内格罗'],
     hours: ['El horario cambia según el calendario del parque. Confirma tu fecha antes de salir.', 'Hours vary by the park calendar. Check your date before traveling.', '开放日与时段按园方日历安排，出发前按日期确认。'],
-    admission: ['Entrada de pago. Compara los pasaportes por estatura, edad y actividades incluidas.', 'Paid admission. Compare passes by height, age and included activities.', '需购票。按身高、年龄及包含项目比较票种。'],
+    admission: ['La web oficial publica desde COP 63.000 para Junior y Senior y COP 90.000 para Múltiple con compra anticipada en línea. Confirma el precio y los requisitos para tu fecha.', 'Official advance online prices start at COP 63,000 for Junior and Senior and COP 90,000 for Multiple. Check the rate and eligibility for your date.', '园方公布的线上提前购票参考价为青少年和长者票 63,000 哥伦比亚比索起，多项目通票 90,000 哥伦比亚比索起。请按日期核对票价及资格。'],
     hoursSource: 'https://parquedelcafe.co/',
     ticketSource: 'https://parquedelcafe.co/pasaportes-y-tarifas/',
     advice: ['Elige un espectáculo o ruta del café antes de distribuir el resto del día.', 'Pick a show or a coffee route before planning the rest of the day.', '先选定一场表演或一段咖啡路线，再排其余项目。'],
