@@ -1,14 +1,13 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { useLocale } from 'next-intl';
+import type { Locale } from '@/lib/site-config';
 import LanguageToggle from './LanguageToggle';
 import ThemeToggle from './ThemeToggle';
 import { useState, useEffect } from 'react';
 
-export default function Header() {
+export default function Header({ locale }: { locale: Locale }) {
   const t = useTranslations('header');
-  const locale = useLocale();
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -48,7 +47,7 @@ export default function Header() {
 
         <div className="flex items-center gap-2">
           <ThemeToggle />
-          <LanguageToggle />
+          <LanguageToggle locale={locale} />
         </div>
       </div>
     </header>

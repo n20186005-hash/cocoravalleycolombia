@@ -12,7 +12,7 @@ const LANGUAGE_NAMES: Record<Locale, string> = {
 };
 
 function translatePath(pathname: string, from: Locale, to: Locale): string {
-  const topic = TOPICS.find((t) => t.slug[from] === pathname);
+  const topic = TOPICS.find((t) => `/${t.slug[from]}` === pathname);
   if (!topic) return pathname;
   return `/${topic.slug[to]}`;
 }

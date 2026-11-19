@@ -54,7 +54,7 @@ export default async function HomePage({
       {schemas.map((schema, i) => (
         <JsonLd key={i} data={schema} />
       ))}
-      <Header />
+      <Header locale={loc} />
       <main>
         <Hero />
         <Intro />
@@ -63,7 +63,7 @@ export default async function HomePage({
         <HistoryTimeline />
         <CultureSection />
         <RouteSection />
-        <TopicLinks locale={locale} />
+        <TopicLinks locale={loc} />
         <HoursSection />
         <TicketsSection />
         <TransportSection />

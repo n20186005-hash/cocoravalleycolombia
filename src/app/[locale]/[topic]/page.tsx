@@ -42,7 +42,7 @@ export async function generateMetadata({
       title: t.metaTitle[locale as Locale],
       description: t.metaDescription[locale as Locale],
       url: self,
-      siteName: SITE.title,
+      siteName: SITE.brandNames[locale as Locale],
       locale,
       type: 'website',
     },
