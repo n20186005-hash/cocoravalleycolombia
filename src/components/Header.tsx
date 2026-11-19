@@ -17,7 +17,6 @@ export default function Header({ locale }: { locale: Locale }) {
   }, []);
 
   const homeHref = `/${locale}`;
-  const nearby = { es: 'Alrededores', en: 'Nearby', zh: '周边景点' };
 
   return (
     <header
@@ -52,7 +51,7 @@ export default function Header({ locale }: { locale: Locale }) {
             className="shrink-0 rounded-full px-2 py-1 text-xs font-semibold sm:px-3 sm:text-sm"
             style={{ background: 'var(--bg-tertiary)', color: 'var(--text-primary)' }}
           >
-            {nearby[locale]}
+            {t('nearby')}
           </a>
           <ThemeToggle />
           <LanguageToggle locale={locale} />

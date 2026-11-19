@@ -1,7 +1,8 @@
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { SITE } from '@/lib/site-config';
 
 export default function MapEmbed() {
+  const locale = useLocale();
   const t = useTranslations('mapSection');
   const tf = useTranslations('footer');
   const officialLinks = tf.raw('officialLinks') as Record<string, { name: string; url: string }>;
@@ -29,14 +30,14 @@ export default function MapEmbed() {
             This is for visual cleanliness only. Google's Terms of Service apply.
           */}
           <iframe
-            src={SITE.mapsEmbedSrc}
+            src={`${SITE.mapsEmbedSrc}&hl=${locale === 'zh' ? 'zh-CN' : locale}`}
             width="100%"
             height="450"
             style={{ border: 0 }}
             allowFullScreen
             loading="lazy"
             referrerPolicy="strict-origin-when-cross-origin"
-            title={`Google Maps - ${SITE.brandNames.en} (${SITE.city}, ${SITE.region}, ${SITE.country})`}
+            title={t('iframeTitle')}
           />
         </div>
 

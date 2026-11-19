@@ -50,7 +50,7 @@ export async function generateMetadata({
       url: selfUrl,
       siteName: SITE.brandNames[loc],
       type: 'website',
-      images: [{ url: OG_IMAGE_URL, alt: `${SITE.brandNames[loc]} region guide` }],
+      images: [{ url: OG_IMAGE_URL, alt: eje.imageAlt }],
     },
     twitter: {
       card: 'summary_large_image',
@@ -76,7 +76,7 @@ export default async function EjePage({
 
   const messages = (await getMessages()) as any;
   const eje = messages?.eje ?? {};
-  const homeLabel = (messages?.header?.home as string) || 'Home';
+  const homeLabel = messages.header.home as string;
   const homeUrl = localizedPageUrl(loc);
   const pageUrl = localizedPageUrl(loc, EJE_PATH);
 
@@ -175,7 +175,7 @@ export default async function EjePage({
 
         <section className="mb-12">
           <h2 className="font-display text-2xl font-semibold mb-3">
-            {loc === 'es' ? 'Lugares para visitar en Salento' : loc === 'en' ? 'Places to visit in Salento' : '萨伦托周边景点'}
+            {eje.nearbyHeading}
           </h2>
           <ul className="space-y-3">
             {salentoAttractions.map((place) => (

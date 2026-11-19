@@ -28,6 +28,7 @@ function Stars({ count }: { count: number }) {
  */
 export default function Reviews() {
   const t = useTranslations('reviews');
+  const map = useTranslations('mapSection');
   const mapsUrl = SITE.mapsShareUrl;
   const rating = SITE.googleRating;
   const reviewCount = SITE.reviewCount;
@@ -62,7 +63,7 @@ export default function Reviews() {
                 <span className="text-lg font-medium" style={{ color: 'var(--text-muted)' }}> / 5</span>
               </div>
               <div className="text-sm" style={{ color: 'var(--text-secondary)' }}>
-                {reviewCount} · Google Maps
+                {reviewCount} · {map('provider')}
               </div>
             </div>
           </div>

@@ -38,7 +38,7 @@ export default async function HomePage({
   // 从本地化消息中读取 FAQ / meta，构建对应语言的 JSON-LD
   const messages = (await getMessages()) as any;
   const description = (messages?.meta?.description as string) || '';
-  const homeLabel = (messages?.header?.home as string) || 'Home';
+  const homeLabel = messages.header.home as string;
   const faqItems = (messages?.faq?.items || []) as Array<{ q: string; a: string }>;
 
   const schemas: object[] = [

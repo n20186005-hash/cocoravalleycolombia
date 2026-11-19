@@ -1,0 +1,46 @@
+{
+  "id": "/",
+  "name": "可可拉山谷游览指南",
+  "short_name": "可可拉山谷",
+  "description": "哥伦比亚金迪奥省萨伦托的可可拉山谷游览指南，提供地图、徒步路线、开放时间和出行建议。",
+  "start_url": "/zh",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#1a3a24",
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "categories": [
+    "travel",
+    "tourism"
+  ],
+  "icons": [
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "位置和地图",
+      "short_name": "地图",
+      "url": "/zh#map",
+      "description": "打开可可拉山谷地图"
+    },
+    {
+      "name": "照片图库",
+      "short_name": "照片",
+      "url": "/zh#gallery",
+      "description": "查看可可拉山谷的照片"
+    }
+  ]
+}

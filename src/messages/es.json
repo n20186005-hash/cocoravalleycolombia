@@ -1,7 +1,8 @@
 {
   "meta": {
     "title": "Valle del Cocora, Salento | Entradas, senderos y Jeeps",
-    "description": "Organiza tu visita al Valle del Cocora desde Salento. Consulta accesos, compara el paseo de las palmas y el circuito largo, y planifica el regreso en Jeep Willys."
+    "description": "Organiza tu visita al Valle del Cocora desde Salento. Consulta accesos, compara el paseo de las palmas y el circuito largo, y planifica el regreso en Jeep Willys.",
+    "category": "viajes"
   },
   "header": {
     "siteName": "Valle de Cocora",
@@ -9,7 +10,11 @@
     "gallery": "Galería",
     "reviews": "Reseñas",
     "map": "Mapa",
-    "backToHome": "Volver al Inicio"
+    "backToHome": "Volver al Inicio",
+    "nearby": "Alrededores",
+    "toggleTheme": "Cambiar tema",
+    "changeLanguage": "Cambiar idioma",
+    "geographicLocation": "Ubicación geográfica"
   },
   "hero": {
     "title": "Valle de Cocora",
@@ -17,7 +22,7 @@
     "imgAlt": "Valle de Cocora (Cocora Valley) - Vista principal en Salento, Quindío, Colombia",
     "subtitle": "La joya verde de Colombia, hogar de las palmas más altas",
     "rating": "4.8",
-    "reviewCount": "26,556",
+    "reviewCount": "26,652",
     "hours": "Reserva Natural / Bosque Nuboso / Senderismo de Alta Montaña",
     "openMaps": "Ver Ubicación"
   },
@@ -152,7 +157,7 @@
     "captions": [
       "Vista panorámica del bosque de palmas de cera",
       "Paisaje de bosque nuboso",
-      "Senderos de hiking",
+      "Senderos de caminata",
       "Jeep Willys de Salento",
       "Río del valle",
       "Palmas en la neblina matutina",
@@ -169,19 +174,25 @@
       "Ecología verde"
     ],
     "viewAll": "Ver más fotos en Google Maps",
-    "showAllPhotos": "Mostrar Todas las Fotos"
+    "showAllPhotos": "Mostrar Todas las Fotos",
+    "close": "Cerrar visor de fotos",
+    "previous": "Foto anterior",
+    "next": "Foto siguiente",
+    "photoNumber": "Foto {number}"
   },
   "reviews": {
     "title": "Reseñas de Visitantes",
     "declaration": "Mostramos la calificación agregada de Google Maps (enlace externo). No publicamos reseñas individuales inventadas; lea las opiniones reales de los viajeros en el perfil oficial.",
     "moreReviews": "Ver Más Reseñas en Google Maps",
-    "snapshotNote": "Calificación agregada sincronizada con Google Maps (octubre de 2026). Las reseñas individuales pertenecen a sus autores en Google Maps."
+    "snapshotNote": "El número de reseñas de Google Maps se actualizó el 19 de noviembre de 2026. Las reseñas pertenecen a sus autores."
   },
   "mapSection": {
     "title": "Ubicación y Mapa",
     "subtitle": "Vía al Valle de Cocora, Km 11, Salento, Quindío, Colombia",
     "openMaps": "Ver en Google Maps",
-    "tourismNote": "Para información oficial actualizada y turismo regional, visite"
+    "tourismNote": "Para información oficial actualizada y turismo regional, visite",
+    "iframeTitle": "Mapa del Valle del Cocora en Google Maps",
+    "provider": "Google Maps"
   },
   "eje": {
     "metaTitle": "Eje Cafetero: Guía Turística 2026 (Quindío, Risaralda y Caldas)",
@@ -214,7 +225,9 @@
     "ctaTopics": ["Pueblos y miradores", "Conexiones aéreas", "Itinerario de 3 días"],
     "quickFaq": "Preguntas frecuentes del Valle de Cocora",
     "quickMap": "Mapa y ubicación",
-    "quickReviews": "Reseñas de visitantes"
+    "quickReviews": "Reseñas de visitantes",
+    "nearbyHeading": "Lugares para visitar en Salento",
+    "imageAlt": "Paisaje del Valle del Cocora en el Eje Cafetero"
   },
   "faq": {
     "title": "Valle de Cocora (Salento) — Preguntas Frecuentes",
@@ -538,7 +551,7 @@
       }
     ],
     "guideTitle": "Consejo de Guía para Visitantes",
-    "guideContent": "Al visitar, puede tomar un jeep Willys desde Salento al Valle de Cocora; luego siga los senderos de hiking para admirar el bosque de palmas de cera y el bosque nuboso; si tiene tiempo suficiente, puede caminar o montar a caballo en el valle para experimentar la belleza natural de Colombia. Finalmente, regrese a Salento para explorar el encanto del pueblo."
+    "guideContent": "Al visitar, puede tomar un jeep Willys desde Salento al Valle de Cocora; luego siga los senderos para admirar el bosque de palmas de cera y el bosque nuboso; si tiene tiempo suficiente, puede caminar o montar a caballo en el valle para experimentar la belleza natural de Colombia. Finalmente, regrese a Salento para explorar el encanto del pueblo."
   },
   "officialManagement": {
     "title": "Acerca del Valle de Cocora",
@@ -589,5 +602,63 @@
     },
     "consentManagement": "Gestión del Consentimiento: Puede cambiar su configuración de cookies en cualquier momento. Tenga en cuenta que deshabilitar ciertas cookies puede afectar la funcionalidad del sitio web.",
     "rejectAll": "Rechazar Todas"
+  },
+  "nearbyVisit": {
+    "explore": "Explora el lugar",
+    "advice": "Consejos de visita",
+    "highlights": "Lo más destacado",
+    "about": "Acerca del lugar",
+    "basic": "Datos básicos",
+    "name": "Nombre",
+    "type": "Tipo de lugar",
+    "area": "Municipio y departamento",
+    "address": "Dirección",
+    "management": "Gestión",
+    "hours": "Horario",
+    "admission": "Entradas y precios",
+    "transport": "Cómo llegar",
+    "charm": "Historia, arquitectura y observación",
+    "route": "Recorrido sugerido",
+    "notice": "Antes de la visita",
+    "photo": "Dónde hacer fotos",
+    "stay": "Dónde alojarte",
+    "reviews": "Opiniones de visitantes",
+    "reviewCount": "opiniones",
+    "reviewed": "Datos consultados",
+    "directions": "Dirección y mapa",
+    "map": "Abrir ubicación en Google Maps",
+    "readReviews": "Consultar valoración y opiniones en Google Maps",
+    "source": "Consultar fuente"
+  },
+  "topicPlace": {
+    "management": "Gestión del lugar",
+    "source": "Consultar la fuente",
+    "basic": "Datos básicos",
+    "address": "Ubicación",
+    "map": "Abrir en Google Maps",
+    "transport": "Cómo llegar",
+    "reviews": "Opiniones de visitantes",
+    "count": "opiniones",
+    "snapshot": "Referencia",
+    "read": "Consultar opiniones en Google Maps",
+    "about": "Acerca de {name}"
+  },
+  "topicLinks": {
+    "nearby": "Lugares para visitar cerca del Valle del Cocora",
+    "guides": "Guías prácticas del Valle de Cocora",
+    "more": "Leer más"
+  },
+  "topic": {
+    "allNearby": "Todos los lugares cercanos",
+    "mapLocation": "Ubicación en Google Maps",
+    "mapStops": "Mapa de las paradas",
+    "faq": "Preguntas frecuentes",
+    "related": "También te puede interesar",
+    "coffeeRegion": "Eje Cafetero",
+    "coffeeTowns": "Salento, Filandia, Armenia y Pereira."
+  },
+  "error404": {
+    "title": "Página no encontrada",
+    "description": "No se encontró la página solicitada."
   }
 }

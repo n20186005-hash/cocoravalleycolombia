@@ -1,5 +1,6 @@
 'use client';
 
+import { useTranslations } from 'next-intl';
 import { useState } from 'react';
 import { usePathname } from '@/i18n/routing';
 import { LOCALES, type Locale } from '@/lib/site-config';
@@ -18,6 +19,7 @@ function translatePath(pathname: string, from: Locale, to: Locale): string {
 }
 
 export default function LanguageToggle({ locale }: { locale: Locale }) {
+  const t = useTranslations('header');
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
 
@@ -37,14 +39,14 @@ export default function LanguageToggle({ locale }: { locale: Locale }) {
           color: 'var(--text-secondary)',
           border: '1px solid var(--border-color)',
         }}
-        aria-label="Change language"
+        aria-label={t('changeLanguage')}
       >
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
           <circle cx="12" cy="12" r="10" />
           <line x1="2" y1="12" x2="22" y2="12" />
           <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
         </svg>
-        <span>{LANGUAGE_NAMES[locale]}</span>
+        <span lang={locale}>{LANGUAGE_NAMES[locale]}</span>
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
           <polyline points="6 9 12 15 18 9" />
         </svg>
@@ -58,6 +60,7 @@ export default function LanguageToggle({ locale }: { locale: Locale }) {
           {LOCALES.map((loc) => (
             <button
               key={loc}
+              lang={loc}
               onClick={() => handleLanguageChange(loc)}
               className="w-full text-left px-4 py-2 text-sm transition-colors hover:opacity-80"
               style={{

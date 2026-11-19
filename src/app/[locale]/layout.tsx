@@ -66,7 +66,7 @@ export async function generateMetadata({
     metadataBase: new URL(BASE_URL),
     title: messages.meta.title as string,
     description: messages.meta.description as string,
-    applicationName: 'Cocora Valley',
+    applicationName: brand,
     alternates: {
       canonical: selfUrl,
       languages,
@@ -81,7 +81,7 @@ export async function generateMetadata({
       images: [
         {
           url: OG_IMAGE_URL,
-          alt: `${brand} in ${SITE.city}, ${SITE.country}`,
+          alt: messages.hero.imgAlt,
         },
       ],
     },
@@ -96,7 +96,7 @@ export async function generateMetadata({
       follow: true,
       googleBot: { index: true, follow: true },
     },
-    manifest: '/manifest.webmanifest',
+    manifest: loc === 'es' ? '/manifest.webmanifest' : `/manifest.${loc}.webmanifest`,
     icons: {
       icon: [{ url: '/icons/icon-512.png', sizes: '512x512', type: 'image/png' }],
       apple: [{ url: '/icons/icon-512.png', sizes: '180x180', type: 'image/png' }],
@@ -106,7 +106,7 @@ export async function generateMetadata({
       title: brand,
       statusBarStyle: 'black-translucent',
     },
-    category: 'travel',
+    category: messages.meta.category,
   };
 }
 

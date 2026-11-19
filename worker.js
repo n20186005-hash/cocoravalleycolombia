@@ -4,7 +4,7 @@
 //   2) 优先把请求交给 ASSETS（静态文件直出，保留缓存头）；
 //   3) Next.js 静态导出产生的是扁平 .html（out/es.html、out/es/eje-cafetero.html），
 //      这里把干净 URL（/es、/es/eje-cafetero、/es/…）映射到对应 .html 文件；
-//   4) 真正不存在的路径返回 out/404.html（HTTP 404）；
+//   4) 真正不存在的路径返回对应语言的静态错误页（HTTP 404）；
 //   5) 给所有响应追加基础安全头（HSTS 等）。
 export default {
   async fetch(request, env) {
@@ -23,6 +23,12 @@ export default {
       const target = new URL(request.url);
       target.protocol = 'https:';
       return Response.redirect(target.toString(), 301);
+    }
+
+    if (url.pathname === '/') {
+      const target = new URL('/es', url);
+      target.search = url.search;
+      return Response.redirect(target, 307);
     }
 
     // 3) 能直接命中的静态资源直接返回
@@ -46,12 +52,13 @@ export default {
     }
 
     // 5) 兜底：渲染静态 404 页面并返回真实 404 状态码
-    const notFoundPage = await env.ASSETS.fetch(new Request(new URL('/404.html', url)));
+    const locale = /^\/(es|en|zh)(?:\/|$)/.exec(pathname)?.[1] ?? 'es';
+    const notFoundPage = await env.ASSETS.fetch(new Request(new URL(`/${locale}/404.html`, url), { method: request.method }));
     const headers = new Headers(notFoundPage.headers);
     if (!headers.get('content-type')) {
       headers.set('content-type', 'text/html; charset=utf-8');
     }
-    return new Response(notFoundPage.body, { status: 404, headers });
+    return secure(new Response(notFoundPage.body, { status: 404, headers }));
   },
 };
 

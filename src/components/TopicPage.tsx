@@ -1,3 +1,4 @@
+import { useTranslations } from 'next-intl';
 import NearbyVisitDetails, { NearbyVisitHours } from './NearbyVisitDetails';
 import { nearbyVisits } from '@/lib/nearby-visits';
 import { SITE, BASE_URL, type Locale } from '@/lib/site-config';
@@ -32,7 +33,7 @@ function TopicSectionBlock({ heading, paragraphs, list }: { heading: string; par
 export default function TopicPage({ locale, topic }: { locale: Locale; topic: Topic }) {
   const t = topic;
   const place = t.place ?? valleyPlace;
-  const expandedVisit = t.place && nearbyVisits[t.key];
+  const expandedVisit = nearbyVisits[t.key];
   const selfUrl = `${BASE_URL}/${locale}/${t.slug[locale]}`;
   const homeUrl = `${BASE_URL}/${locale}`;
   const ejePath = `/${locale}/eje-cafetero`;
@@ -57,8 +58,7 @@ export default function TopicPage({ locale, topic }: { locale: Locale; topic: To
   };
 
   const related = TOPICS.filter((x) => x.key !== topic.key && !x.key.startsWith('quindio-'));
-  const nearbyLabel = { es: 'Todos los lugares cercanos', en: 'All nearby attractions', zh: '查看全部周边景点' };
-  const mapLabel = { es: 'Ubicación en Google Maps', en: 'Location on Google Maps', zh: '在 Google 地图查看位置' };
+  const copy = useTranslations('topic');
 
   return (
     <div className="min-h-screen" style={{ background: 'var(--bg-primary)' }}>
@@ -97,12 +97,12 @@ export default function TopicPage({ locale, topic }: { locale: Locale; topic: To
               {t.source.name[locale]}
             </a>
           </div>
-          {t.place && (
+          {expandedVisit && (
             <div className="mt-4 flex flex-wrap gap-3 text-sm">
-              <a className="underline underline-offset-4" href={t.place.mapUrl}>{mapLabel[locale]}</a>
+              <a className="underline underline-offset-4" href={place.mapUrl}>{copy('mapLocation')}</a>
               {expandedVisit && <NearbyVisitHours locale={locale} topic={t} />}
-              {t.place.rating && (
-                <a className="underline underline-offset-4" href={t.place.rating.source}>{t.place.rating.score} / 5 · Google</a>
+              {place.rating && (
+                <a className="underline underline-offset-4" href={place.rating.source}>{place.rating.score} / 5 · Google</a>
               )}
             </div>
           )}
@@ -122,7 +122,7 @@ export default function TopicPage({ locale, topic }: { locale: Locale; topic: To
       <section className="section-padding pt-4">
         <div className="max-w-3xl mx-auto">
           {expandedVisit ? (
-            <NearbyVisitDetails locale={locale} topic={t} />
+            <NearbyVisitDetails locale={locale} topic={t} place={place} />
           ) : (
             <>
               <TopicPlaceDetails locale={locale} place={place} title={t.place ? t.title[locale] : undefined} />
@@ -135,7 +135,7 @@ export default function TopicPage({ locale, topic }: { locale: Locale; topic: To
           {t.mapStops && (
             <section className="mb-10">
               <h2 className="font-display text-2xl font-semibold mb-4">
-                {locale === 'es' ? 'Mapa de las paradas' : locale === 'en' ? 'Map the stops' : '行程地点地图'}
+                {copy('mapStops')}
               </h2>
               <ol className="list-decimal pl-6 space-y-2">
                 {t.mapStops.map((stop) => (
@@ -157,7 +157,7 @@ export default function TopicPage({ locale, topic }: { locale: Locale; topic: To
           {/* FAQ */}
           <div className="mt-4 mb-12">
             <h2 className="font-display text-2xl font-semibold mb-6" style={{ color: 'var(--text-primary)' }}>
-              {locale === 'es' ? 'Preguntas frecuentes' : locale === 'en' ? 'Frequently asked questions' : '常见问题'}
+              {copy('faq')}
             </h2>
             <div className="space-y-4">
               {t.faq[locale].map((f, i) => (
@@ -180,9 +180,9 @@ export default function TopicPage({ locale, topic }: { locale: Locale; topic: To
           {/* Related */}
           <div className="border-t pt-8" style={{ borderColor: 'var(--border-color)' }}>
             <h3 className="font-display text-xl font-semibold mb-4" style={{ color: 'var(--text-primary)' }}>
-              {locale === 'es' ? 'También te puede interesar' : locale === 'en' ? 'You might also like' : '你可能还想知道'}
+              {copy('related')}
             </h3>
-            <a className="inline-block underline underline-offset-4 mb-4" href={`/${locale}#nearby`}>{nearbyLabel[locale]}</a>
+            <a className="inline-block underline underline-offset-4 mb-4" href={`/${locale}#nearby`}>{copy('allNearby')}</a>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {related.map((r) => (
                 <a
@@ -201,10 +201,10 @@ export default function TopicPage({ locale, topic }: { locale: Locale; topic: To
                 style={{ background: 'var(--bg-secondary)', border: '1px solid var(--border-color)' }}
               >
                 <div className="font-semibold mb-1" style={{ color: 'var(--text-primary)' }}>
-                  {locale === 'es' ? 'Eje Cafetero' : locale === 'en' ? 'Coffee Axis' : '咖啡文化区'}
+                  {copy('coffeeRegion')}
                 </div>
                 <div className="text-sm" style={{ color: 'var(--text-muted)' }}>
-                  {locale === 'es' ? 'Salento, Filandia, Armenia y Pereira.' : locale === 'en' ? 'Salento, Filandia, Armenia and Pereira.' : '萨伦托、菲兰迪亚、阿曼尼亚与佩雷拉。'}
+                  {copy('coffeeTowns')}
                 </div>
               </a>
             </div>

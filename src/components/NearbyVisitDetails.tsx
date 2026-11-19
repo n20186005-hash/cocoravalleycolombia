@@ -1,43 +1,8 @@
+import { useTranslations } from 'next-intl';
 import type { ReactNode } from 'react';
-import type { Locale } from '@/lib/site-config';
+import { SITE, type Locale } from '@/lib/site-config';
 import { nearbyVisits } from '@/lib/nearby-visits';
-import type { Topic } from '@/lib/topics';
-
-const labels = {
-  es: {
-    explore: 'Explora el lugar', advice: 'Consejos de visita', highlights: 'Lo más destacado',
-    about: 'Acerca del lugar', basic: 'Datos básicos', name: 'Nombre', type: 'Tipo de lugar',
-    area: 'Municipio y departamento', address: 'Dirección', management: 'Gestión',
-    hours: 'Horario', admission: 'Entradas y precios', transport: 'Cómo llegar',
-    charm: 'Historia, arquitectura y observación', route: 'Recorrido sugerido',
-    notice: 'Antes de la visita', photo: 'Dónde hacer fotos', stay: 'Dónde alojarte',
-    reviews: 'Opiniones de visitantes', reviewCount: 'opiniones', reviewed: 'Datos consultados',
-    directions: 'Dirección y mapa', map: 'Abrir ubicación en Google Maps',
-    readReviews: 'Consultar valoración y opiniones en Google Maps', source: 'Consultar fuente',
-  },
-  en: {
-    explore: 'Explore the attraction', advice: 'Visiting tips', highlights: 'Highlights',
-    about: 'About the attraction', basic: 'Basic information', name: 'Name', type: 'Attraction type',
-    area: 'Town and department', address: 'Address', management: 'Management',
-    hours: 'Opening hours', admission: 'Admission and ticket prices', transport: 'Getting there',
-    charm: 'History, architecture and what to look for', route: 'Suggested walking route',
-    notice: 'Before you go', photo: 'Where to take photos', stay: 'Where to stay',
-    reviews: 'Visitor reviews', reviewCount: 'reviews', reviewed: 'Snapshot',
-    directions: 'Address and map', map: 'Open location in Google Maps',
-    readReviews: 'See rating and reviews on Google Maps', source: 'View source',
-  },
-  zh: {
-    explore: '探索景点', advice: '游览建议', highlights: '景区特色',
-    about: '关于景点', basic: '基础信息', name: '景点名称', type: '景点类型',
-    area: '所在市镇与省份', address: '地址', management: '管理主体',
-    hours: '开放时间', admission: '门票价格', transport: '交通方式',
-    charm: '历史、建筑与观察重点', route: '游览路线',
-    notice: '游览须知', photo: '拍照机位', stay: '住宿建议',
-    reviews: '游客评价', reviewCount: '条评价', reviewed: '资料日期',
-    directions: '交通指南', map: '在 Google 地图打开位置',
-    readReviews: '在 Google 地图查看评分与评价', source: '查看资料来源',
-  },
-};
+import type { Topic, TopicPlace } from '@/lib/topics';
 
 const localeIndex = { es: 0, en: 1, zh: 2 } as const;
 
@@ -60,12 +25,10 @@ export function NearbyVisitHours({ locale, topic }: { locale: Locale; topic: Top
   return <a href="#opening-hours" className="underline underline-offset-4">{visit.hours[localeIndex[locale]]}</a>;
 }
 
-export default function NearbyVisitDetails({ locale, topic }: { locale: Locale; topic: Topic }) {
+export default function NearbyVisitDetails({ locale, topic, place }: { locale: Locale; topic: Topic; place: TopicPlace }) {
   const visit = nearbyVisits[topic.key];
-  const place = topic.place;
-  if (!visit || !place) return null;
-
-  const t = labels[locale];
+  const t = useTranslations('nearbyVisit');
+  if (!visit) return null;
   const index = localeIndex[locale];
   const lead = topic.lead[locale];
   const details = topic.sections[locale];
@@ -73,27 +36,30 @@ export default function NearbyVisitDetails({ locale, topic }: { locale: Locale; 
     details.filter((section) => section.role === role).flatMap((section) => section.paragraphs ?? [])
       .map((paragraph) => <p key={paragraph}>{paragraph}</p>);
   const facts = [
-    [t.name, topic.title[locale]],
-    [t.type, visit.type[index]],
-    [t.area, visit.area[index]],
-    [t.address, place.address],
-    [t.management, place.management[locale]],
+    [t('name'), topic.place ? topic.title[locale] : SITE.brandNames[locale]],
+    [t('type'), visit.type[index]],
+    [t('area'), visit.area[index]],
+    [t('address'), place.address],
+    [t('hours'), visit.hours[index]],
+    [t('admission'), visit.admission[index]],
+    ...(place.rating ? [[t('reviews'), `${place.rating.score} / 5 · ${new Intl.NumberFormat(locale).format(place.rating.count)} ${t('reviewCount')}`]] : []),
+    [t('management'), place.management[locale]],
   ];
   return (
     <>
-      <VisitSection title={t.explore}>
+      <VisitSection title={t('explore')}>
         <p>{lead}</p>
-        <h3 className="font-display text-lg font-semibold">{t.advice}</h3>
+        <h3 className="font-display text-lg font-semibold">{t('advice')}</h3>
         <p>{visit.advice[index]}</p>
-        <h3 className="font-display text-lg font-semibold">{t.highlights}</h3>
+        <h3 className="font-display text-lg font-semibold">{t('highlights')}</h3>
         <p>{visit.highlights[index]}</p>
       </VisitSection>
 
-      <VisitSection title={t.about}>
-        <p>{place.management[locale]} <Reference href={place.managementSource}>{t.source}</Reference></p>
+      <VisitSection title={t('about')}>
+        <p>{place.management[locale]} <Reference href={place.managementSource}>{t('source')}</Reference></p>
       </VisitSection>
 
-      <VisitSection title={t.basic}>
+      <VisitSection title={t('basic')}>
         <dl className="overflow-hidden rounded-xl border" style={{ borderColor: 'var(--border-color)' }}>
           {facts.map(([label, value]) => (
             <div key={label} className="grid gap-1 border-b px-4 py-3 last:border-b-0 sm:grid-cols-[10rem_1fr] sm:gap-4" style={{ borderColor: 'var(--border-color)' }}>
@@ -104,22 +70,22 @@ export default function NearbyVisitDetails({ locale, topic }: { locale: Locale; 
         </dl>
       </VisitSection>
 
-      <VisitSection id="opening-hours" title={t.hours}>
+      <VisitSection id="opening-hours" title={t('hours')}>
         <p>{visit.hours[index]}</p>
         {extra('access')}
-        {visit.hoursSource && <Reference href={visit.hoursSource}>{t.source}</Reference>}
+        {visit.hoursSource && <Reference href={visit.hoursSource}>{t('source')}</Reference>}
       </VisitSection>
 
-      <VisitSection title={t.admission}>
+      <VisitSection title={t('admission')}>
         <p>{visit.admission[index]}</p>
-        {visit.ticketSource && <Reference href={visit.ticketSource}>{t.source}</Reference>}
+        {visit.ticketSource && <Reference href={visit.ticketSource}>{t('source')}</Reference>}
       </VisitSection>
 
-      <VisitSection title={t.transport}>
+      <VisitSection title={t('transport')}>
         <p>{place.transport[locale]}</p>
       </VisitSection>
 
-      <VisitSection title={t.charm}>
+      <VisitSection title={t('charm')}>
         {details.filter((section) => !section.role).map((section) => (
           <div key={section.heading} className="space-y-2">
             <h3 className="font-display text-lg font-semibold">{section.heading}</h3>
@@ -129,33 +95,33 @@ export default function NearbyVisitDetails({ locale, topic }: { locale: Locale; 
         ))}
       </VisitSection>
 
-      <VisitSection title={t.route}>
+      <VisitSection title={t('route')}>
         <ol className="list-decimal space-y-2 pl-6">{visit.steps.map((step) => <li key={step[index]}>{step[index]}</li>)}</ol>
         {extra('route')}
       </VisitSection>
 
-      <VisitSection title={t.notice}><p>{visit.notice[index]}</p></VisitSection>
-      <VisitSection title={t.photo}>
+      <VisitSection title={t('notice')}><p>{visit.notice[index]}</p></VisitSection>
+      <VisitSection title={t('photo')}>
         <p>{visit.photo[index]}</p>
         {extra('photo')}
       </VisitSection>
-      <VisitSection title={t.stay}><p>{visit.stay[index]}</p></VisitSection>
+      <VisitSection title={t('stay')}><p>{visit.stay[index]}</p></VisitSection>
 
-      <VisitSection title={t.reviews}>
+      <VisitSection title={t('reviews')}>
         {place.rating && (
           <p>
             <Reference href={place.rating.source}>
-              <strong>{place.rating.score} / 5</strong> · {new Intl.NumberFormat(locale).format(place.rating.count)} {t.reviewCount}
+              <strong>{place.rating.score} / 5</strong> · {new Intl.NumberFormat(locale).format(place.rating.count)} {t('reviewCount')}
             </Reference>
-            {' · '}{t.reviewed} <time dateTime={place.rating.checked}>{place.rating.checked}</time>
+            {' · '}{t('reviewed')} <time dateTime={place.rating.checked}>{place.rating.checked}</time>
           </p>
         )}
-        <Reference href={place.mapUrl}>{t.readReviews}</Reference>
+        <Reference href={place.mapUrl}>{t('readReviews')}</Reference>
       </VisitSection>
 
-      <VisitSection title={t.directions}>
+      <VisitSection title={t('directions')}>
         <p>{place.address}</p>
-        <Reference href={place.mapUrl}>{t.map}</Reference>
+        <Reference href={place.mapUrl}>{t('map')}</Reference>
       </VisitSection>
     </>
   );

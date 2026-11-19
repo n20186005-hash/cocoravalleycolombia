@@ -30,7 +30,42 @@ const churchHours: Text = ['La visita interior depende del horario parroquial y 
 const churchAdmission: Text = ['El exterior se observa desde la plaza sin pagar. Consulta a la parroquia para visitas especiales.', 'The exterior is free to view from the square. Ask the parish about special visits.', '从广场观看外观免费，特殊参观安排请向堂区查询。'];
 const churches: Text = ['Templo católico', 'Catholic church', '天主教堂'];
 
+const valleyVisit: Omit<Visit, 'advice' | 'highlights' | 'steps'> = {
+  type: ['Valle de montaña y senderos', 'Mountain valley and hiking trails', '山地谷地与徒步路线'],
+  area: salento,
+  hours: ['Horario de referencia del valle: 08:00–18:00. Confirma los cierres de cada acceso.', 'Valley reference hours are 08:00–18:00. Confirm closing times at individual entrances.', '山谷参考开放时间为 08:00–18:00，各入口的关闭时间请分别核对。'],
+  admission: ['El coste depende del recorrido y de los predios que atravieses. Lleva efectivo y consulta las tarifas en cada entrada.', 'The cost depends on your route and the properties you cross. Bring cash and check prices at each entrance.', '费用取决于路线及经过的地块。请备现金，并在各入口查询收费。'],
+  notice: ['Confirma los tramos abiertos y el regreso antes de empezar. La lluvia puede volver resbaladizos los senderos.', 'Confirm open sections and return transport before starting. Rain can make paths slippery.', '出发前确认开放路段和返程安排。雨天步道可能湿滑。'],
+  photo: ['Desde un sendero abierto, encuadra las palmas con la ladera al fondo sin salir de la ruta.', 'From an open path, frame the wax palms against the hillside without stepping off the trail.', '在开放步道上将蜡棕榈与背景山坡一同入镜，拍摄时留在步道内。'],
+  stay: salentoStay,
+};
+
 export const nearbyVisits: Partial<Record<TopicKey, Visit>> = {
+  fees: {
+    ...valleyVisit,
+    advice: ['Define la ruta antes de calcular el gasto. Reserva efectivo aparte para el Willys de regreso.', 'Choose your route before budgeting. Set aside cash for the return jeep.', '先确定路线再估算门票，并把返程吉普车费用单独留出来。'],
+    highlights: ['El paseo corto por las palmas y el circuito largo pueden pasar por accesos distintos.', 'The short palm walk and the full loop can pass through different entrances.', '蜡棕榈短线与大环线可能经过不同入口。'],
+    steps: [['Elige el paseo corto o el circuito largo.', 'Choose the short walk or the full loop.', '选择短线或大环线。'], ['Pregunta qué cobros corresponden al recorrido elegido.', 'Ask which charges apply to your route.', '查询所选路线各段的收费。'], ['Guarda efectivo para el regreso.', 'Keep cash for the journey back.', '留好返程所需现金。']],
+  },
+  hiking: {
+    ...valleyVisit,
+    advice: ['Elige el circuito largo solo si tienes tiempo para volver con luz; en caso de duda, haz el paseo corto.', 'Choose the full loop only if you have enough daylight to return. If in doubt, take the short walk.', '只有在能赶在天黑前返回时才选大环线，时间不够可走短线。'],
+    highlights: ['La ruta corta se centra en las palmas; el circuito largo añade bosque nuboso y puentes.', 'The short walk focuses on the palms; the full loop adds cloud forest and bridges.', '短线以蜡棕榈为主，大环线还经过云雾森林和桥梁。'],
+    steps: [['Consulta el estado de los senderos al llegar.', 'Check trail conditions at the entrance.', '到入口查询步道状况。'], ['Sigue la señalización del tramo elegido.', 'Follow the signs for your chosen route.', '沿所选路段的标识前行。'], ['Regresa al acceso con margen para el transporte.', 'Leave enough time to return to the entrance for transport.', '留足时间返回入口搭车。']],
+  },
+  getting: {
+    ...valleyVisit,
+    advice: ['Localiza el despacho de Willys en el Parque Principal de Salento antes de organizar la caminata.', 'Locate the Willys departure point at Salento’s main square before planning the walk.', '安排步行前，先找萨伦托主广场的威利斯吉普车乘车点。'],
+    highlights: ['El viaje conecta el centro histórico de Salento con el acceso a los senderos del valle.', 'The trip links Salento’s historic center with the valley trail entrances.', '这段车程连接萨伦托老城与山谷步道入口。'],
+    steps: [['Ve al Parque Principal de Salento.', 'Go to Salento’s main square.', '到萨伦托主广场。'], ['Confirma el destino y el último regreso al abordar.', 'Confirm the destination and last return when boarding.', '上车前确认目的地与末班返程。'], ['Al bajar, localiza el punto de recogida para volver.', 'On arrival, find the return pickup point.', '抵达后确认返程乘车点。']],
+  },
+  'salento-day-trip': {
+    ...valleyVisit,
+    advice: ['Reserva la mañana para Cocora y la tarde para el centro de Salento.', 'Set aside the morning for Cocora and the afternoon for central Salento.', '上午留给可可拉山谷，下午逛萨伦托镇中心。'],
+    highlights: ['El itinerario combina palmas de cera, la Plaza de Bolívar y los balcones de la Calle Real.', 'The day combines wax palms, Plaza de Bolívar and the balconies of Calle Real.', '同一天可以看蜡棕榈、玻利瓦尔广场和皇家街的阳台。'],
+    steps: [['Sal desde la plaza principal hacia el valle.', 'Leave the main square for the valley.', '从萨伦托主广场出发前往山谷。'], ['Haz un paseo corto entre las palmas y vuelve a Salento.', 'Take a short walk among the palms and return to Salento.', '走一段蜡棕榈短线，再返回萨伦托。'], ['Recorre la Calle Real y decide al pie de las escaleras si subes al mirador.', 'Walk Calle Real and decide at the steps whether to climb to the viewpoint.', '逛皇家街，到台阶底部再决定是否登观景台。']],
+  },
+
   'salento-plaza': {
     type: ['Plaza cívica', 'Civic square', '市镇广场'], area: salento, hours: publicHours, admission: publicAdmission,
     advice: ['Si llegas para tomar un Willys, ubica primero el despacho y pasea mientras esperas.', 'If you are catching a Willys jeep, find the departure point before walking around.', '赶着搭威利斯吉普车时先找乘车点，再利用候车时间逛广场。'],

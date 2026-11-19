@@ -1,7 +1,8 @@
 {
   "meta": {
     "title": "Cocora Valley, Colombia | Entry Fees, Hikes & Jeeps",
-    "description": "Plan your Cocora Valley visit from Salento. Compare the short wax-palm walk and the full hiking loop, check entry fees and find out where to catch a Willys jeep."
+    "description": "Plan your Cocora Valley visit from Salento. Compare the short wax-palm walk and the full hiking loop, check entry fees and find out where to catch a Willys jeep.",
+    "category": "travel"
   },
   "header": {
     "siteName": "Cocora Valley",
@@ -9,7 +10,11 @@
     "gallery": "Gallery",
     "reviews": "Reviews",
     "map": "Map",
-    "backToHome": "Back to Home"
+    "backToHome": "Back to Home",
+    "nearby": "Nearby",
+    "toggleTheme": "Toggle theme",
+    "changeLanguage": "Change language",
+    "geographicLocation": "Geographic location"
   },
   "hero": {
     "title": "Cocora Valley",
@@ -17,7 +22,7 @@
     "imgAlt": "Cocora Valley (Valle de Cocora) - Main view in Salento, Quindío, Colombia",
     "subtitle": "Colombia's Green Gem, Home of the Tallest Palm Trees",
     "rating": "4.8",
-    "reviewCount": "26,556",
+    "reviewCount": "26,652",
     "hours": "Nature Reserve / Cloud Forest / High-Altitude Hiking",
     "openMaps": "View Location"
   },
@@ -169,19 +174,25 @@
       "Green ecology"
     ],
     "viewAll": "View more photos on Google Maps",
-    "showAllPhotos": "Show All Photos"
+    "showAllPhotos": "Show All Photos",
+    "close": "Close photo viewer",
+    "previous": "Previous photo",
+    "next": "Next photo",
+    "photoNumber": "Photo {number}"
   },
   "reviews": {
     "title": "Visitor Reviews",
     "declaration": "We show the aggregate Google Maps rating (external link). We do not publish invented individual reviews; read real traveller opinions on the official profile.",
     "moreReviews": "View More Reviews on Google Maps",
-    "snapshotNote": "Aggregate rating synced with Google Maps (October 2026). Individual reviews belong to their authors on Google Maps."
+    "snapshotNote": "Google Maps review count updated on November 19, 2026. Individual reviews belong to their authors."
   },
   "mapSection": {
     "title": "Location & Map",
     "subtitle": "Vía al Valle de Cocora, Km 11, Salento, Quindío, Colombia",
     "openMaps": "View on Google Maps",
-    "tourismNote": "For official updates and regional tourism information, visit"
+    "tourismNote": "For official updates and regional tourism information, visit",
+    "iframeTitle": "Cocora Valley on Google Maps",
+    "provider": "Google Maps"
   },
   "eje": {
     "metaTitle": "Eje Cafetero Travel Guide 2026: Salento, Filandia & Quindío",
@@ -214,7 +225,9 @@
     "ctaTopics": ["Towns & viewpoints", "Airport connections", "3-day itinerary"],
     "quickFaq": "Cocora Valley FAQs",
     "quickMap": "Map & location",
-    "quickReviews": "Visitor reviews"
+    "quickReviews": "Visitor reviews",
+    "nearbyHeading": "Places to visit in Salento",
+    "imageAlt": "Cocora Valley landscape in Colombia’s Coffee Region"
   },
   "faq": {
     "title": "Cocora Valley (Salento) — Frequently Asked Questions",
@@ -589,5 +602,63 @@
     },
     "consentManagement": "Consent Management: You can change your cookie settings at any time. Please note that disabling certain cookies may affect the website's functionality.",
     "rejectAll": "Reject All"
+  },
+  "nearbyVisit": {
+    "explore": "Explore the attraction",
+    "advice": "Visiting tips",
+    "highlights": "Highlights",
+    "about": "About the attraction",
+    "basic": "Basic information",
+    "name": "Name",
+    "type": "Attraction type",
+    "area": "Town and department",
+    "address": "Address",
+    "management": "Management",
+    "hours": "Opening hours",
+    "admission": "Admission and ticket prices",
+    "transport": "Getting there",
+    "charm": "History, architecture and what to look for",
+    "route": "Suggested walking route",
+    "notice": "Before you go",
+    "photo": "Where to take photos",
+    "stay": "Where to stay",
+    "reviews": "Visitor reviews",
+    "reviewCount": "reviews",
+    "reviewed": "Snapshot",
+    "directions": "Address and map",
+    "map": "Open location in Google Maps",
+    "readReviews": "See rating and reviews on Google Maps",
+    "source": "View source"
+  },
+  "topicPlace": {
+    "management": "Site management",
+    "source": "View source",
+    "basic": "Basic information",
+    "address": "Location",
+    "map": "Open in Google Maps",
+    "transport": "Getting there",
+    "reviews": "Visitor reviews",
+    "count": "reviews",
+    "snapshot": "Snapshot",
+    "read": "See visitor reviews on Google Maps",
+    "about": "About {name}"
+  },
+  "topicLinks": {
+    "nearby": "Places to Visit Near Cocora Valley",
+    "guides": "Practical Cocora Valley guides",
+    "more": "Read more"
+  },
+  "topic": {
+    "allNearby": "All nearby attractions",
+    "mapLocation": "Location on Google Maps",
+    "mapStops": "Map the stops",
+    "faq": "Frequently asked questions",
+    "related": "You might also like",
+    "coffeeRegion": "Coffee Region",
+    "coffeeTowns": "Salento, Filandia, Armenia and Pereira."
+  },
+  "error404": {
+    "title": "Page not found",
+    "description": "The requested page could not be found."
   }
 }

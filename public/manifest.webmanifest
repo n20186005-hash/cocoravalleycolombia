@@ -1,8 +1,8 @@
 {
   "id": "/",
-  "name": "Cocora Valley Visitor Guide - Salento, Quindío, Colombia",
-  "short_name": "Cocora Valley",
-  "description": "Official visitor guide to Cocora Valley (Valle de Cocora) in Salento, Quindío, Colombia. Location map, trails, opening hours and travel tips.",
+  "name": "Guía del Valle del Cocora",
+  "short_name": "Valle del Cocora",
+  "description": "Guía de visita con mapa, senderos, horarios y consejos para el Valle del Cocora en Salento, Quindío.",
   "start_url": "/es",
   "scope": "/",
   "display": "standalone",
@@ -11,7 +11,10 @@
   "theme_color": "#1a3a24",
   "lang": "es",
   "dir": "ltr",
-  "categories": ["travel", "tourism"],
+  "categories": [
+    "travel",
+    "tourism"
+  ],
   "icons": [
     {
       "src": "/icons/icon-512.png",
@@ -28,16 +31,16 @@
   ],
   "shortcuts": [
     {
-      "name": "Location & Map",
-      "short_name": "Map",
+      "name": "Ubicación y mapa",
+      "short_name": "Mapa",
       "url": "/es#map",
-      "description": "Open the location map of Cocora Valley"
+      "description": "Abrir el mapa del Valle del Cocora"
     },
     {
-      "name": "Photo Gallery",
-      "short_name": "Photos",
+      "name": "Galería de fotos",
+      "short_name": "Fotos",
       "url": "/es#gallery",
-      "description": "View photos of Cocora Valley"
+      "description": "Ver fotos del Valle del Cocora"
     }
   ]
 }

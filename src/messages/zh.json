@@ -1,7 +1,8 @@
 {
   "meta": {
     "title": "可可拉山谷 2026 旅游攻略：门票价格、徒步路线与交通指南",
-    "description": "位于萨伦托（Salento）附近的 2026 年旅行指南：门票分段现金收费约 3 万–5 万比索、乘坐 Willys 吉普车抵达方式、徒步路线与地图，一文说清。"
+    "description": "位于萨伦托（Salento）附近的 2026 年旅行指南：门票分段现金收费约 3 万–5 万比索、乘坐 Willys 吉普车抵达方式、徒步路线与地图，一文说清。",
+    "category": "旅行"
   },
   "header": {
     "siteName": "可可拉山谷",
@@ -9,7 +10,11 @@
     "gallery": "图库",
     "reviews": "评价",
     "map": "地图",
-    "backToHome": "返回首页"
+    "backToHome": "返回首页",
+    "nearby": "周边景点",
+    "toggleTheme": "切换主题",
+    "changeLanguage": "切换语言",
+    "geographicLocation": "地理位置"
   },
   "hero": {
     "title": "可可拉山谷",
@@ -17,40 +22,40 @@
     "imgAlt": "可可拉山谷 Cocora Valley（Valle de Cocora）—— 位于哥伦比亚金迪奥省萨伦托的山谷主景观",
     "subtitle": "哥伦比亚的绿色宝石，最高棕榈树的家园",
     "rating": "4.8",
-    "reviewCount": "26,556",
+    "reviewCount": "26,652",
     "hours": "自然保护区 / 云雾森林 / 高海拔徒步线路",
     "openMaps": "查看位置"
   },
   "intro": {
     "title": "探索可可拉山谷",
-    "description": "可可拉山谷（Valle de Cocora）是哥伦比亚金迪奥省的天然宝藏，位于萨伦托（Salento）以北约25至30分钟车程处。这里以世界上最高的棕榈树——哥伦比亚国树蜡棕榈（学名：Ceroxylon quindiuense）而闻名，这些雄伟的棕榈树平均高度可达50-60米。\n\n作为洛斯内瓦多斯国家公园（Los Nevados National Natural Park）的缓冲区，可可拉山谷提供了令人惊叹的云雾森林景观、极具科研价值的生态系统和多条高海拔徒步路线。这里是观察安第斯山脉特有动植物（如蜂鸟与安第斯神鹫）的绝佳地点，也是极具生态科普价值的非盈利自然景观。",
+    "description": "可可拉山谷（Valle de Cocora）是哥伦比亚金迪奥省的天然宝藏，位于萨伦托（Salento）以北约25至30分钟车程处。这里以世界上最高的棕榈树——哥伦比亚国树蜡棕榈（学名：Ceroxylon quindiuense）而闻名，这些雄伟的棕榈树平均高度可达50-60米。\n\n作为洛斯内瓦多斯国家公园的缓冲区，可可拉山谷提供了令人惊叹的云雾森林景观、极具科研价值的生态系统和多条高海拔徒步路线。这里是观察安第斯山脉特有动植物（如蜂鸟与安第斯神鹫）的绝佳地点，也是极具生态科普价值的非盈利自然景观。",
     "visitGuide": {
-      "title": "行前与生态建议 (Preparation & Ecology)",
+      "title": "行前与生态建议",
       "items": [
         "🚙 交通换乘：请前往萨伦托镇中心的玻利瓦尔广场（Plaza de Bolívar）乘坐被称为 Willys 的传统二战老式吉普车，车程约 25-30 分钟即可抵达山谷入口。头班车通常在早上 6:00 左右发车。",
-        "🥾 应对极端泥泞：山谷由于常年降水，林间小道通常极为泥泞湿滑。强烈建议在山谷入口或萨伦托镇上租用专门的橡胶雨靴（Mud boots）。",
+        "🥾 应对极端泥泞：山谷由于常年降水，林间小道通常极为泥泞湿滑。强烈建议在山谷入口或萨伦托镇上租用专门的橡胶雨靴。",
         "🌦️ 天气预警：无论旱季雨季，中午之后都有极大概率起雾和降雨，因此必须早起出发并携带防雨衣物。"
       ]
     },
     "alsoKnownAs": {
-      "title": "动植物科普与生态 (Flora & Fauna)",
+      "title": "动植物科普与生态",
       "items": [
         "🌴 蜡棕榈 (Ceroxylon quindiuense)：哥伦比亚国树，平均高度 50-60 米。需注意其目前因牛群啃食幼苗而面临濒危的生态现状。",
         "🐦 安第斯蜂鸟：在 Acaime 蜂鸟保护区，游客可以近距离观察多种安第斯山脉特有的野生蜂鸟。",
-        "🦅 安第斯神鹫 (Andean Condors)：世界上体型最大的飞鸟之一，运气好时可在高海拔区域瞥见其雄姿。",
+        "🦅 安第斯神鹫：世界上体型最大的飞鸟之一，运气好时可在高海拔区域瞥见其雄姿。",
         "♻️ 无痕山林：请在指定的步道内活动，切勿留下垃圾，共同保护这片脆弱的高山生态系统。"
       ]
     }
   },
   "route": {
-    "title": "徒步路线深度解析 (Trail Guide)",
+    "title": "徒步路线深度解析",
     "overview": "探索可可拉山谷主要有以下两种方式，请根据您的体能和时间进行选择：",
     "steps": [
-      "1. 经典大环线 (The Full Loop - 强烈推荐逆时针路线)：全长约 12-15公里 ｜ 耗时 5-6 小时 ｜ 海拔爬升 600-800米",
-      "路线亮点：从入口右侧的蓝门（Blue Gate）出发，您将首先穿越茂密的云雾森林，期间需要跨越五六座横跨湍急河流的悬索桥。路线中途可以绕行前往 Acaime 蜂鸟保护区（需额外付费）。",
+      "1. 经典大环线（推荐逆时针）：全长约 12-15公里 ｜ 耗时 5-6 小时 ｜ 海拔爬升 600-800米",
+      "路线亮点：从入口右侧的蓝门出发，您将首先穿越茂密的云雾森林，期间需要跨越五六座横跨湍急河流的悬索桥。路线中途可以绕行前往 Acaime 蜂鸟保护区（需额外付费）。",
       "随后是一段陡峭的爬升到达最高点 Finca La Montaña，最后在下山时，以最壮观的蜡棕榈林（Bosque de Palmas）作为徒步的完美终点。",
-      "2. 棕榈林精华短线 (The Short Route - 顺时针)：约 2-3公里 ｜ 耗时 1.5-2 小时",
-      "路线亮点：如果您时间有限或只想观赏最高大的棕榈树，可以从入口直接向左侧主路前进。这是一条直接通往 1 号和 2 号观景台（Viewpoint）的陡峭捷径，早晨光线极佳，非常适合科普摄影。"
+      "2. 棕榈林精华短线（顺时针）：约 2-3公里 ｜ 耗时 1.5-2 小时",
+      "路线亮点：如果您时间有限或只想观赏最高大的棕榈树，可以从入口直接向左侧主路前进。这是一条直接通往 1 号和 2 号观景台的陡峭捷径，早晨光线极佳，非常适合科普摄影。"
     ],
     "supplementsTitle": "游览补充建议",
     "supplements": [
@@ -80,7 +85,7 @@
     ]
   },
   "basicInfo": {
-    "title": "核心标签 (Quick Facts)",
+    "title": "核心标签",
     "officialName": "正式名称",
     "officialNameValue": "可可拉山谷 (Cocora Valley / Valle de Cocora)",
     "type": "景点类型",
@@ -102,7 +107,7 @@
     "ticketsValue": "按路段分段收费。总费用约 COP $30,000 - $50,000（需备足现金）"
   },
   "hours": {
-    "title": "开放时间与游览建议 (Visitor Info)",
+    "title": "开放时间与游览建议",
     "outdoor": "公园开放时间",
     "outdoorTime": "每天 08:00–18:00",
     "lighthouse": "最佳游览时间",
@@ -110,7 +115,7 @@
     "summerTime": "清晨光线极佳，且能大概率避开午后的浓雾和降雨",
     "winter": "游览亮点",
     "winterTime": "逆时针大环线、Acaime 蜂鸟保护区、蜡棕榈林、悬索桥",
-    "warning": "💡 行前预警 (Safety & Weather Warning)",
+    "warning": "💡 行前预警",
     "warningTime": "山谷气候瞬息万变，中午之后有极大概率起雾和降雨，导致路面极为泥泞。强烈建议租用橡胶雨靴，并携带防雨衣物！",
     "tip": "逆时针走大环线不仅能在下山时以蜡棕榈林作为压轴美景，还能有效减轻下坡时对膝盖的压力。",
     "verified": "山谷每日开放时间为 08:00–18:00（已于 2026 年 10 月核实）。私人检查站可能提前关闭，请到达时现场确认。"
@@ -168,20 +173,26 @@
       "徒步者",
       "绿色生态"
     ],
-    "viewAll": "在 Google Maps 查看更多照片",
-    "showAllPhotos": "显示全部照片"
+    "viewAll": "在 Google 地图 查看更多照片",
+    "showAllPhotos": "显示全部照片",
+    "close": "关闭照片查看器",
+    "previous": "上一张照片",
+    "next": "下一张照片",
+    "photoNumber": "第 {number} 张照片"
   },
   "reviews": {
     "title": "游客评价",
-    "declaration": "我们展示 Google Maps 的聚合评分（外部链接）。我们不会发布虚构的逐条评价；真实的游客评论请前往官方资料页查看。",
-    "moreReviews": "在 Google Maps 上查看更多评价",
-    "snapshotNote": "聚合评分已与 Google Maps 同步（2026 年 10 月）。逐条评价归 Google Maps 上的原作者所有。"
+    "declaration": "我们展示 Google 地图 的聚合评分（外部链接）。我们不会发布虚构的逐条评价；真实的游客评论请前往官方资料页查看。",
+    "moreReviews": "在 Google 地图 上查看更多评价",
+    "snapshotNote": "页面于 2026 年 11 月 19 日更新 Google 地图评价数。评价内容归原作者所有。"
   },
   "mapSection": {
     "title": "地图位置",
     "subtitle": "Vía al Valle de Cocora, Km 11, Salento, Quindío, 哥伦比亚",
-    "openMaps": "在 Google Maps 查看位置",
-    "tourismNote": "如需官方最新资讯与地区旅游信息，请访问"
+    "openMaps": "在 Google 地图 查看位置",
+    "tourismNote": "如需官方最新资讯与地区旅游信息，请访问",
+    "iframeTitle": "可可拉山谷的 Google 地图",
+    "provider": "Google 地图"
   },
   "eje": {
     "metaTitle": "哥伦比亚咖啡区 Eje Cafetero 2026 攻略：萨伦托与金迪奥",
@@ -214,7 +225,9 @@
     "ctaTopics": ["小镇与观景台", "机场接驳", "3 日行程建议"],
     "quickFaq": "可可拉山谷常见问题",
     "quickMap": "地图与位置",
-    "quickReviews": "游客评价"
+    "quickReviews": "游客评价",
+    "nearbyHeading": "萨伦托周边景点",
+    "imageAlt": "哥伦比亚咖啡文化区的可可拉山谷景观"
   },
   "faq": {
     "title": "关于可可拉山谷（萨伦托 Salento）的常见问题",
@@ -392,7 +405,7 @@
       {
         "id": "lodging",
         "title": "住宿",
-        "text": "保护区内部没有酒店。绝大多数游客选择住在萨伦托镇——一个传统的咖啡小镇，拥有青年旅舍、民宿、客栈与酒店等多种选择；也可考虑菲兰迪亚（Filandia）、卡拉尔卡（Calarcá）或亚美尼亚（Armenia）等邻近城镇。周末与公共假期请提前预订。"
+        "text": "保护区内部没有酒店。绝大多数游客选择住在萨伦托镇——一个传统的咖啡小镇，拥有青年旅舍、民宿、客栈与酒店等多种选择；也可考虑菲兰迪亚（Filandia）、卡拉尔卡（Calarcá）或亚美尼亚市（Armenia）等邻近城镇。周末与公共假期请提前预订。"
       },
       {
         "id": "shopping",
@@ -429,7 +442,7 @@
     "officialName": "可可拉山谷 Cocora Valley（Valle de Cocora）",
     "address": "Vía al Valle de Cocora, Km 11, Salento, Quindío, 哥伦比亚",
     "phone": "+57 310 227 5091",
-    "getDirections": "在 Google Maps 中打开",
+    "getDirections": "在 Google 地图 中打开",
     "imageCredit": "图片产权声明：本网站所展示的全部图片产权及版权均归原摄影者所有。",
     "privacy": "隐私政策",
     "terms": "服务条款",
@@ -542,7 +555,7 @@
   },
   "officialManagement": {
     "title": "关于可可拉山谷",
-    "text": "可可拉山谷位于洛斯内瓦多斯国家公园（Los Nevados National Natural Park）缓冲区的边缘。大部分徒步路线穿越私人土地，因此门票需沿途分段向当地土地所有者支付。它并非封闭式的国家公园，也没有统一的售票管理处。"
+    "text": "可可拉山谷位于洛斯内瓦多斯国家公园缓冲区的边缘。大部分徒步路线穿越私人土地，因此门票需沿途分段向当地土地所有者支付。它并非封闭式的国家公园，也没有统一的售票管理处。"
   },
   "cookieSettings": {
     "title": "Cookie 设置",
@@ -589,5 +602,63 @@
     },
     "consentManagement": "同意管理：您可以随时更改您的 Cookie 设置。请注意，禁用某些 Cookie 可能会影响网站的功能。",
     "rejectAll": "拒绝一切"
+  },
+  "nearbyVisit": {
+    "explore": "探索景点",
+    "advice": "游览建议",
+    "highlights": "景区特色",
+    "about": "关于景点",
+    "basic": "基础信息",
+    "name": "景点名称",
+    "type": "景点类型",
+    "area": "所在市镇与省份",
+    "address": "地址",
+    "management": "管理主体",
+    "hours": "开放时间",
+    "admission": "门票价格",
+    "transport": "交通方式",
+    "charm": "历史、建筑与观察重点",
+    "route": "游览路线",
+    "notice": "游览须知",
+    "photo": "拍照机位",
+    "stay": "住宿建议",
+    "reviews": "游客评价",
+    "reviewCount": "条评价",
+    "reviewed": "资料日期",
+    "directions": "交通指南",
+    "map": "在 Google 地图打开位置",
+    "readReviews": "在 Google 地图查看评分与评价",
+    "source": "查看资料来源"
+  },
+  "topicPlace": {
+    "management": "管理主体",
+    "source": "查看资料来源",
+    "basic": "基础信息",
+    "address": "地址",
+    "map": "在 Google 地图打开",
+    "transport": "交通方式",
+    "reviews": "游客评价",
+    "count": "条评价",
+    "snapshot": "资料日期",
+    "read": "在 Google 地图查看游客评价",
+    "about": "关于{name}"
+  },
+  "topicLinks": {
+    "nearby": "周边景点",
+    "guides": "可可拉山谷实用指南",
+    "more": "阅读更多"
+  },
+  "topic": {
+    "allNearby": "查看全部周边景点",
+    "mapLocation": "在 Google 地图查看位置",
+    "mapStops": "行程地点地图",
+    "faq": "常见问题",
+    "related": "你可能还想知道",
+    "coffeeRegion": "咖啡文化区",
+    "coffeeTowns": "萨伦托、菲兰迪亚、亚美尼亚市与佩雷拉。"
+  },
+  "error404": {
+    "title": "页面未找到",
+    "description": "找不到您访问的页面。"
   }
 }
