@@ -28,17 +28,17 @@ export default function Header({ locale, solid = false }: { locale: Locale; soli
         backdropFilter: filled ? 'blur(12px)' : 'none',
       }}
     >
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+      <div className="mx-auto grid max-w-6xl grid-cols-[1fr_auto] items-center gap-x-4 px-4 sm:px-6 md:h-16 md:grid-cols-[1fr_auto_1fr]">
         <a href={homeHref} className="font-display text-lg font-semibold tracking-tight" style={{ color: filled ? 'var(--text-primary)' : '#fff' }}>
           {t('siteName')}
         </a>
 
-        <nav className="hidden md:flex items-center gap-6">
-          {(['gallery', 'reviews', 'map'] as const).map((section) => (
+        <nav className="col-span-2 row-start-2 flex items-center justify-center gap-4 sm:gap-6 md:col-span-1 md:col-start-2 md:row-start-1">
+          {(['gallery', 'reviews', 'map', 'nearby'] as const).map((section) => (
             <a
               key={section}
-              href={`/${locale}/#${section}`}
-              className="text-sm font-medium transition-colors"
+              href={`/${locale}#${section}`}
+              className="inline-flex min-h-10 items-center whitespace-nowrap text-sm font-medium transition-colors hover:underline underline-offset-4"
               style={{ color: filled ? 'var(--text-secondary)' : 'rgba(255,255,255,0.85)' }}
             >
               {t(section)}
@@ -46,14 +46,7 @@ export default function Header({ locale, solid = false }: { locale: Locale; soli
           ))}
         </nav>
 
-        <div className="flex items-center gap-2">
-          <a
-            href={`${homeHref}#nearby`}
-            className="shrink-0 rounded-full px-2 py-1 text-xs font-semibold sm:px-3 sm:text-sm"
-            style={{ background: 'var(--bg-tertiary)', color: 'var(--text-primary)' }}
-          >
-            {t('nearby')}
-          </a>
+        <div className="col-start-2 row-start-1 flex min-h-12 items-center justify-end gap-2 md:col-start-3">
           <ThemeToggle />
           <LanguageToggle locale={locale} />
         </div>

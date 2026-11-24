@@ -190,3 +190,20 @@ h1, h2, h3, h4, h5, h6 {
 a {
   transition: color 0.2s ease;
 }
+
+/* Leave the selected section visible below the fixed navigation. */
+:is(#gallery, #reviews, #map, #nearby) {
+  scroll-margin-top: 5.5rem;
+}
+
+@media (min-width: 48rem) {
+  :is(#gallery, #reviews, #map, #nearby) {
+    scroll-margin-top: 4rem;
+  }
+}
+
+@media (max-width: 47.999rem) {
+  header + .section-padding {
+    padding-top: 6.5rem;
+  }
+}
