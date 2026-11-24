@@ -5,8 +5,6 @@ export default function MapEmbed() {
   const locale = useLocale();
   const t = useTranslations('mapSection');
   const tf = useTranslations('footer');
-  const officialLinks = tf.raw('officialLinks') as Record<string, { name: string; url: string }>;
-  const portal = officialLinks.colombiatravel;
 
   return (
     <section id="map" className="section-padding" style={{ background: 'var(--bg-secondary)' }}>
@@ -63,21 +61,9 @@ export default function MapEmbed() {
           </a>
         </div>
 
-        {/* 权威出站链接（政府/旅游局） */}
-        {portal && (
-          <p className="mt-6 text-center text-sm leading-relaxed" style={{ color: 'var(--text-muted)' }}>
-            {t('tourismNote')}{' '}
-            <a
-              href={portal.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline hover:opacity-80"
-              style={{ color: 'var(--accent)' }}
-            >
-              {portal.name}
-            </a>
-          </p>
-        )}
+        <p className="mt-5 text-center text-sm">
+          <a href={`/${locale}/sources`} className="text-[var(--accent)] underline underline-offset-4">{tf('sources')}</a>
+        </p>
       </div>
     </section>
   );

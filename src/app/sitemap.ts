@@ -12,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const routes: Array<{ path: string; freq: 'weekly' | 'monthly'; priority: number }> = [
     { path: '', freq: 'weekly', priority: 1 },
     { path: '/eje-cafetero', freq: 'monthly', priority: 0.8 },
+    { path: '/sources', freq: 'monthly', priority: 0.4 },
     { path: '/privacy-policy', freq: 'monthly', priority: 0.2 },
     { path: '/terms-of-service', freq: 'monthly', priority: 0.2 },
     { path: '/cookie-settings', freq: 'monthly', priority: 0.1 },

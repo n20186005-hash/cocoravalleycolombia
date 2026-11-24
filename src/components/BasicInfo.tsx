@@ -1,5 +1,7 @@
 'use client';
 
+import { SITE } from '@/lib/site-config';
+import type { ReactNode } from 'react';
 import { useTranslations } from 'next-intl';
 
 export default function BasicInfo() {
@@ -26,8 +28,8 @@ export default function BasicInfo() {
           <InfoCard title={t('city')} value={t('cityValue')} />
           <InfoCard title={t('plusCode')} value={t('plusCodeValue')} />
           <InfoCard title={t('googleRating')} value={`${tHero('rating')}/5 (${tHero('reviewCount')})`} />
-          <InfoCard title={t('phone')} value={t('phoneValue')} />
-          <div className="md:col-span-3">
+          <InfoCard title={t('phone')} value={<a href={`tel:${SITE.phoneHref}`} className="hover:underline">{t('phoneValue')}</a>} />
+          <div className="col-span-full">
             <InfoCard title={t('address')} value={t('addressValue')} />
           </div>
         </div>
@@ -36,7 +38,7 @@ export default function BasicInfo() {
   );
 }
 
-function InfoCard({ title, value }: { title: string; value: string }) {
+function InfoCard({ title, value }: { title: string; value: ReactNode }) {
   return (
     <div
       className="rounded-xl p-5"
