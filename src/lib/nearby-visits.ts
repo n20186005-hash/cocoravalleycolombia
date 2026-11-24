@@ -1,7 +1,8 @@
+import regional from './regional-visitor-details.json';
 import type { TopicKey } from './topics';
 
-type Text = [es: string, en: string, zh: string];
-type Steps = [Text, Text, Text];
+type Text = readonly string[];
+type Steps = readonly Text[];
 
 interface Visit {
   type: Text;
@@ -41,6 +42,7 @@ const valleyVisit: Omit<Visit, 'advice' | 'highlights' | 'steps'> = {
 };
 
 export const nearbyVisits: Partial<Record<TopicKey, Visit>> = {
+  ...regional,
   fees: {
     ...valleyVisit,
     advice: ['Define la ruta antes de calcular el gasto. Reserva efectivo aparte para el Willys de regreso.', 'Choose your route before budgeting. Set aside cash for the return jeep.', '先确定路线再估算门票，并把返程吉普车费用单独留出来。'],

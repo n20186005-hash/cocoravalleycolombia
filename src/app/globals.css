@@ -207,3 +207,14 @@ a {
     padding-top: 6.5rem;
   }
 }
+
+/* Keep the homepage photograph treatment and its light text on place guides. */
+.place-photo-hero {
+  --text-primary: #fff;
+  --text-secondary: #fff;
+  --text-muted: #fff;
+  --bg-tertiary: rgba(20, 35, 29, .75);
+  --border-color: rgba(255, 255, 255, .5);
+  color: white;
+}
+.place-photo-hero a { text-shadow: 0 1px 4px rgba(0, 0, 0, .75); }

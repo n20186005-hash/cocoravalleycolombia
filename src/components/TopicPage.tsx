@@ -1,3 +1,4 @@
+import HeroBackdrop from "./HeroBackdrop";
 import Header from './Header';
 import Footer from './Footer';
 import { useTranslations } from 'next-intl';
@@ -5,6 +6,7 @@ import NearbyVisitDetails, { NearbyVisitHours } from './NearbyVisitDetails';
 import { nearbyVisits } from '@/lib/nearby-visits';
 import { SITE, BASE_URL, type Locale } from '@/lib/site-config';
 import { TopicPlaceDetails, valleyPlace } from './TopicPlaceDetails';
+import { getFieldNote, routeNeighbours } from '@/lib/attraction-notes';
 import { TOPICS, type Topic } from '@/lib/topics';
 
 function TopicSectionBlock({ heading, paragraphs, list }: { heading: string; paragraphs?: string[]; list?: string[] }) {
@@ -36,14 +38,19 @@ export default function TopicPage({ locale, topic }: { locale: Locale; topic: To
   const t = topic;
   const place = t.place ?? valleyPlace;
   const expandedVisit = nearbyVisits[t.key];
+  const heroPhoto = t.place?.photo;
+  const note = getFieldNote(t.key);
+  const index = { es: 0, en: 1, zh: 2 }[locale];
+  const nearbyPlaces = routeNeighbours(t, TOPICS);
   const selfUrl = `${BASE_URL}/${locale}/${t.slug[locale]}`;
   const homeUrl = `${BASE_URL}/${locale}`;
   const ejePath = `/${locale}/eje-cafetero`;
 
-  const accessQuestion = { es: '¿Cómo llego al acceso de visita?', en: 'How do I reach the visitor entrance?', zh: '如何抵达参观入口？' };
-  const managerQuestion = { es: '¿Quién atiende las consultas de visita?', en: 'Who handles visitor enquiries here?', zh: '参观事宜由哪个单位负责？' };
+  const accessQuestion = { es: `¿Cómo llego a ${t.title.es}?`, en: `How do I reach ${t.title.en}?`, zh: `如何抵达${t.title.zh}？` };
+  const managerQuestion = { es: `¿Quién informa sobre la visita a ${t.title.es}?`, en: `Who handles visitor enquiries for ${t.title.en}?`, zh: `${t.title.zh}的现场参观由谁负责？` };
   const questions = topic.place ? [
     ...t.faq[locale],
+    ...(note ? [{ q: note.question[index], a: note.answer[index] }] : []),
     { q: accessQuestion[locale], a: topic.place.transport[locale] },
     { q: managerQuestion[locale], a: topic.place.management[locale] },
   ] : t.faq[locale];
@@ -73,8 +80,9 @@ export default function TopicPage({ locale, topic }: { locale: Locale; topic: To
     <div className="min-h-screen" style={{ background: 'var(--bg-primary)' }}>
       <Header locale={locale} solid />
       {/* Hero */}
-      <section className="section-padding pt-20 sm:pt-24">
-        <div className="max-w-3xl mx-auto">
+      <section className={heroPhoto ? "place-photo-hero relative min-h-[75vh] flex items-end overflow-hidden pt-28 pb-12 sm:pb-20" : "section-padding pt-20 sm:pt-24"}>
+        {heroPhoto && <HeroBackdrop src={heroPhoto.file} alt={t.title[locale]} />}
+        <div className={heroPhoto ? "relative z-10 max-w-6xl mx-auto w-full px-4 sm:px-6" : "max-w-3xl mx-auto"}>
           <nav className="text-sm mb-4" style={{ color: 'var(--text-muted)' }}>
             <a href={homeUrl} className="hover:underline">{SITE.brandNames[locale]}</a>
             <span className="mx-2">/</span>
@@ -87,10 +95,10 @@ export default function TopicPage({ locale, topic }: { locale: Locale; topic: To
                 className={language === locale ? 'font-semibold' : 'underline'}>{({es: 'Español', en: 'English', zh: '中文'})[language]}</a>
             ))}
           </nav>
-          <h1 className="font-display text-3xl sm:text-4xl lg:text-5xl font-semibold leading-tight" style={{ color: 'var(--text-primary)' }}>
+          <h1 className="font-display text-3xl sm:text-4xl lg:text-5xl font-semibold leading-tight max-w-4xl" style={{ color: 'var(--text-primary)' }}>
             {t.title[locale]}
           </h1>
-          <p className="mt-5 text-lg leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
+          <p className="mt-5 text-lg leading-relaxed max-w-3xl" style={{ color: 'var(--text-secondary)' }}>
             {t.lead[locale]}
           </p>
           <div className="mt-6 flex flex-wrap items-center gap-3">
@@ -115,9 +123,10 @@ export default function TopicPage({ locale, topic }: { locale: Locale; topic: To
             </a>
           </div>
           {expandedVisit && (
-            <div className="mt-4 flex flex-wrap gap-3 text-sm">
+            <div className="mt-4 flex flex-wrap gap-3 text-sm max-w-3xl">
               <a className="underline underline-offset-4" href={place.mapUrl}>{copy('mapLocation')}</a>
-              {expandedVisit && <NearbyVisitHours locale={locale} topic={t} />}
+              <NearbyVisitHours locale={locale} topic={t} />
+              {!place.rating && place.photo && <a className="underline" href={place.mapUrl}>{({ es: 'Consultar reseñas del lugar', en: 'See place reviews', zh: '查看本景点评价' })[locale]}</a>}
               {place.rating && (
                 <a className="underline underline-offset-4" href={place.rating.source}>{place.rating.score} / 5 · Google</a>
               )}
@@ -128,7 +137,7 @@ export default function TopicPage({ locale, topic }: { locale: Locale; topic: To
 
       {t.place?.photo && (
         <figure className="max-w-3xl mx-auto px-4 sm:px-6 mb-6">
-          <img src={t.place.photo.file} alt={t.title[locale]} className="w-full max-h-80 object-contain rounded-xl" />
+          <a href={t.place.photo.file} className="underline text-sm">{({ es: 'Ver la fotografía completa', en: 'View the full photograph', zh: '查看完整实景照片' })[locale]}</a>
           <figcaption className="mt-2 text-sm" style={{ color: 'var(--text-muted)' }}>
             <a href={t.place.photo.source} className="underline">{t.place.photo.author && `${t.place.photo.author} · `}{t.place.photo.provider ?? 'Wikimedia Commons'}</a>
           </figcaption>
@@ -194,6 +203,13 @@ export default function TopicPage({ locale, topic }: { locale: Locale; topic: To
             </div>
           </div>
 
+          {nearbyPlaces.length > 0 && (
+            <section id="nearby-places" className="my-10 rounded-xl border p-5 sm:p-6" style={{ borderColor: 'var(--border-color)', background: 'var(--bg-secondary)' }}>
+              <h2 className="font-display text-2xl font-semibold mb-3">{({ es: 'Lugares cercanos para continuar', en: 'Nearby places to visit next', zh: '周边景点与接续游线' })[locale]}</h2>
+              <p className="mb-4">{({ es: 'Use las direcciones de cada guía para distinguir un tramo a pie de un traslado entre localidades.', en: 'Check each guide’s directions to distinguish a walk from a transfer between towns.', zh: '请结合各页的详细地址安排下一站，区分可步行接续的街区和需要搭车前往的乡间景点。' })[locale]}</p>
+              <ul className="space-y-4">{nearbyPlaces.map(r => <li key={r.key}><a className="font-semibold underline underline-offset-4" href={`/${locale}/${r.slug[locale]}`}>{r.title[locale]}</a><p className="mt-1 text-sm">{r.place?.transport[locale]}</p></li>)}</ul>
+            </section>
+          )}
           {/* Related */}
           <div className="border-t pt-8" style={{ borderColor: 'var(--border-color)' }}>
             <h3 className="font-display text-xl font-semibold mb-4" style={{ color: 'var(--text-primary)' }}>

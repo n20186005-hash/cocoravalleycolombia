@@ -1,6 +1,7 @@
 import { useTranslations } from 'next-intl';
 import type { ReactNode } from 'react';
 import { SITE, type Locale } from '@/lib/site-config';
+import { getFieldNote } from '@/lib/attraction-notes';
 import { nearbyVisits } from '@/lib/nearby-visits';
 import type { Topic, TopicPlace } from '@/lib/topics';
 
@@ -30,6 +31,7 @@ export default function NearbyVisitDetails({ locale, topic, place }: { locale: L
   const t = useTranslations('nearbyVisit');
   if (!visit) return null;
   const index = localeIndex[locale];
+  const note = getFieldNote(topic.key);
   const lead = topic.lead[locale];
   const details = topic.sections[locale];
   const extra = (role: 'access' | 'route' | 'photo') =>
@@ -86,6 +88,7 @@ export default function NearbyVisitDetails({ locale, topic, place }: { locale: L
       </VisitSection>
 
       <VisitSection title={t('charm')}>
+        {note && <p>{note.readout[index]}</p>}
         {details.filter((section) => !section.role).map((section) => (
           <div key={section.heading} className="space-y-2">
             <h3 className="font-display text-lg font-semibold">{section.heading}</h3>

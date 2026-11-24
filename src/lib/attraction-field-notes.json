@@ -1,0 +1,529 @@
+{
+  "quindio-centro-comercial-cielos-abiertos": {
+    "question": [
+      "¿Puedo enlazar dos plazas sin volver sobre mis pasos?",
+      "Can I link two squares without retracing the promenade?",
+      "能否把两个广场连起来而不用折返？"
+    ],
+    "answer": [
+      "Parta del Parque Sucre y termine junto a la catedral en la Plaza de Bolívar. Los cruces intermedios siguen siendo calles con tráfico.",
+      "Start at Parque Sucre and finish by the cathedral on Plaza de Bolívar. The intervening cross streets still carry traffic.",
+      "从苏克雷公园出发，在玻利瓦尔广场大教堂一端结束。中途穿过的横街仍可能有车辆。"
+    ],
+    "readout": [
+      "Mire la unión del paseo con Parque Sucre. El proyecto urbano permite pasar de un espacio para permanecer a otro para circular y comprar sin abandonar la misma línea de Carrera 14.",
+      "Look at the seam with Parque Sucre. The urban design takes you from a place to linger into a corridor for movement and commerce along the same Carrera 14 axis.",
+      "看步行街在苏克雷公园边缘如何接续：沿同一条第14大道，人们从可久坐停留的广场自然转入行进、购物的商业走廊。"
+    ]
+  },
+  "quindio-museo-de-arte-de-armenia-y-del-quindio-maqui": {
+    "question": [
+      "¿Qué conviene mirar además de las obras?",
+      "What should I look at besides the artworks?",
+      "除展品本身，还应看什么？"
+    ],
+    "answer": [
+      "Observe la longitud de la antigua bodega y el modo en que la muestra aprovecha o divide ese espacio; mire desde los dos extremos autorizados de la sala.",
+      "Compare the old warehouse’s length with the way the exhibition uses or subdivides it from the two accessible ends of the room.",
+      "可从展厅两端对比仓库原有长度和展陈如何分隔、利用这一空间。"
+    ],
+    "readout": [
+      "El patrimonio ferroviario permanece en la escala del espacio aunque las cargas ya no lo ocupen. Compare la distancia necesaria para abarcar una obra grande con la que permite ver la nave entera.",
+      "Railway heritage survives here in the building’s scale. Compare the distance needed to view a large work with the distance needed to take in the entire shed.",
+      "现在虽已不堆放货物，仓库尺度仍保留铁路时代的痕迹。分别找能看全大幅作品、能看全展厅的位置，体会两种视距。"
+    ]
+  },
+  "quindio-parque-sucre-armenia": {
+    "question": [
+      "¿Se puede ver la ceiba sin pisar las raíces?",
+      "Can I see the ceiba without stepping over its roots?",
+      "不踩到树根也能看清木棉树吗？"
+    ],
+    "answer": [
+      "La senda pavimentada junto al estanque da una vista del tronco y la copa. Recorra su borde en lugar de atravesar el jardín.",
+      "The paving beside the pond gives a view of trunk and canopy. Follow the paved edge rather than cutting across the garden.",
+      "池旁铺装步道可看见树干与树冠，沿池边走即可，不必横穿绿地。"
+    ],
+    "readout": [
+      "La memoria del antiguo quiosco musical y las placas actuales cuentan usos distintos del parque: escuchar juntos, recordar a una figura pública y descansar a la sombra. Busque estos indicios en una vuelta completa al estanque.",
+      "The former band kiosk and present plaques point to different uses: listening together, remembering public figures and resting under trees. Look for these traces in one circuit around the pond.",
+      "昔日音乐亭和今日铭牌说明这片广场承担过不同角色：集体听乐、纪念公共人物，也供居民在树荫下休息。绕池一圈时可分别寻找线索。"
+    ]
+  },
+  "quindio-teatro-azul-armenia": {
+    "question": [
+      "¿Hay que comprar entrada para ver el mural?",
+      "Do I need a theatre ticket to see the mural?",
+      "只想看剧场壁画需要买演出票吗？"
+    ],
+    "answer": [
+      "El mural se ve desde la acera opuesta. La entrada corresponde a la función o actividad interior que reserve.",
+      "The mural is visible from the opposite pavement. A ticket applies to the performance or indoor event you book.",
+      "从对街人行道即可看壁画；演出票针对所选剧目或室内活动。"
+    ],
+    "readout": [
+      "Una compañía independiente da continuidad al espacio aunque cambie la obra. Compare el color permanente de la fachada con la cartelera de una noche concreta: ambos cuentan la identidad del teatro a escalas de tiempo distintas.",
+      "The independent company gives the venue continuity as plays change. Compare the enduring painted facade with one night’s programme: each reflects the theatre's identity at a different timescale.",
+      "剧目常换，但独立剧团维持着空间的持续性。把长期保留的彩绘门面与某一晚的节目单对照，就能看到剧场身份在不同时间尺度上如何呈现。"
+    ]
+  },
+  "quindio-casa-museo-musical-del-quindio": {
+    "question": [
+      "¿Qué comparación sencilla ayuda a distinguir dos instrumentos?",
+      "What simple comparison helps distinguish the instruments?",
+      "想看懂乐器差别，最容易先比较什么？"
+    ],
+    "answer": [
+      "Observe cómo se agrupan las cuerdas y la forma de las cajas de guitarra y tiple. Pregunte después si hay una interpretación en que pueda oír esa diferencia.",
+      "Compare the string groupings and bodies of the guitar and tiple, then ask whether a performance lets you hear the difference.",
+      "可先比较吉他与蒂普莱琴的弦组和琴箱，再问当天是否有演奏能听见差异。"
+    ],
+    "readout": [
+      "El archivo no se limita a reunir instrumentos. Los nombres de intérpretes y repertorios relacionan la pieza expuesta con ocasiones en que fue escuchada; pida un ejemplo asociado al instrumento que acaba de observar.",
+      "The archive does more than collect instruments. Performers and repertories connect displays to occasions when music was heard. Ask for an example linked to the instrument you have just examined.",
+      "这里不只是收藏乐器。演奏者与曲目档案把展品和实际演奏场景联系起来；看完一件乐器后，可以请教一首与之相关的地方曲目。"
+    ]
+  },
+  "quindio-pacea-puerto-alegre-buenavista": {
+    "question": [
+      "¿Cómo identifico la construcción de guadua en la visita?",
+      "What identifies the bamboo structure on the walk?",
+      "参观时怎样辨认瓜杜阿竹建筑？"
+    ],
+    "answer": [
+      "Ubique el volumen circular y siga con la mirada los tallos que forman los apoyos hasta los encuentros de la cubierta.",
+      "Find the round building and trace the culms forming its supports up to the roof joints.",
+      "先找圆形建筑，再沿作支撑的竹材向上追踪到屋顶接头。"
+    ],
+    "readout": [
+      "La guadua se reconoce por los nudos visibles de los tallos. En el edificio, observe cómo se resuelve el cambio de dirección entre soporte y cubierta; en los cultivos, compare esa geometría construida con la irregularidad de las copas.",
+      "Bamboo nodes remain visible along the culms. In the building look for the turn between support and roof; in the fields compare that constructed geometry with the irregular tree crowns.",
+      "竹材节间清晰可辨。观察支撑与屋顶交接处如何改变方向，再把人工几何秩序与种植区遮阴树冠的不规则轮廓作比较。"
+    ]
+  },
+  "quindio-ecoparque-penas-blancas": {
+    "question": [
+      "¿Dónde se aprecia mejor el contraste entre roca y bosque?",
+      "Where can I see the contrast between forest and rock?",
+      "在哪里更容易看出岩壁与森林的对比？"
+    ],
+    "answer": [
+      "Pida el punto habilitado donde se abre el dosel. Permanezca en el sendero y encuadre la pared entre las ramas.",
+      "Ask for the open viewpoint where the canopy breaks. Stay on the trail and frame the cliff between branches.",
+      "请向导指出树冠开口的开放观景点，站在步道上透过枝条看岩壁。"
+    ],
+    "readout": [
+      "La apariencia de la pared cambia cuando el camino pasa de bosque cerrado a un claro. Observe primero la silueta y luego las diferencias de luz en la roca; no hace falta aproximarse a un sector reservado a escaladores.",
+      "The face changes appearance as the trail passes from enclosed forest into a clearing. Notice the outline before the variations of light on the rock; the climbing sectors need not be approached.",
+      "步道由密林转向开阔处时，岩壁外观随之改变。先读整体轮廓，再看岩面的明暗差异，无需接近专供攀岩的地段。"
+    ]
+  },
+  "quindio-recuca": {
+    "question": [
+      "¿La visita se limita a probar una taza?",
+      "Is the visit just a coffee tasting?",
+      "体验是否只有最后喝一杯咖啡？"
+    ],
+    "answer": [
+      "El recorrido explica los trabajos anteriores a la taza. Pregunte por la demostración de cosecha y beneficio de su salida y por el espectáculo cultural incluido en su plan.",
+      "The route covers work before brewing. Ask about the picking and processing demonstrations for your departure and the cultural show in your package.",
+      "行程重点还包括冲煮前的农事劳动。订票时询问该场是否安排采摘、处理示范，以及套餐里的文化节目。"
+    ],
+    "readout": [
+      "Haga una pregunta en cada fase: qué indica la madurez en la planta, qué separa el beneficio y qué reconoce al final en la taza. Ese hilo conductor ayuda a recordar procesos distintos que suelen confundirse bajo la palabra café.",
+      "Use a different question at each stage: what marks ripeness on the plant, what processing separates, and what you can identify in the cup. That thread distinguishes jobs often bundled into the word coffee.",
+      "沿途分阶段提问：枝头怎样判断成熟、处理工序分离什么、最后杯中又能辨认什么。带着这条线索参观，才不会把性质不同的工作都笼统地称作咖啡制作。"
+    ]
+  },
+  "quindio-parque-de-los-fundadores-armenia": {
+    "question": [
+      "¿Desde qué lado se distingue el hacha?",
+      "How do I pick out the axe?",
+      "从哪里更容易看清斧头？"
+    ],
+    "answer": [
+      "Dé una vuelta por el sendero que rodea la obra. La mejor posición es aquella en que la hoja deja de superponerse al tronco.",
+      "Circle the work on the path and stop where the blade clears the outline of the trunk.",
+      "在纪念物周围沿步道转一圈，停在斧刃与树干轮廓不重叠的位置。"
+    ],
+    "readout": [
+      "El motivo del tronco y el hacha presenta una interpretación pública del poblamiento. Observe quién o qué ocupa el centro de la composición y qué localiza la inscripción; la obra conmemorativa cuenta una selección del pasado local.",
+      "The trunk and axe present a civic interpretation of settlement. Notice what occupies the centre and what the inscription identifies; a commemorative work represents a selection from local history.",
+      "树干与斧头是城市对早期开拓历史的一种公共表述。可对照造型中心与铭文说明，理解纪念作品如何从地方历史中选取主题。"
+    ]
+  },
+  "quindio-qinti-patas-arriba": {
+    "question": [
+      "¿Puedo combinar una visita interior con un tramo al aire libre?",
+      "Can I combine the indoor set with an outdoor walk?",
+      "倒置屋室内参观后还有户外路线吗？"
+    ],
+    "answer": [
+      "Además de la casa existe un sendero ecológico. Consulte en la entrada su estado y si forma parte del billete que compró.",
+      "There is an ecological trail as well as the house. Check at reception which part is open and whether your ticket includes it.",
+      "除房屋布景外还有生态步道，应在接待处确认开放路段及门票是否包含。"
+    ],
+    "readout": [
+      "Una casa corriente se vuelve desconcertante cuando se invierten las referencias de suelo y techo. Localice la puerta antes de mirar los objetos pequeños; esa secuencia explica cómo el montaje dirige el ojo.",
+      "An ordinary house becomes disorienting when floor and ceiling cues are reversed. Locate the doorway before examining small objects to see how the set leads the eye.",
+      "当原本熟悉的地板、天花板参照被颠倒，日常屋舍就变得难以判断方向。先找门框再看小物件，能看出布景如何引导视线。"
+    ]
+  },
+  "quindio-fonda-asael-filandia": {
+    "question": [
+      "¿Necesito entrar para apreciar la fonda?",
+      "Do I have to go inside to appreciate the fonda?",
+      "若店家暂未接待，还能看什么？"
+    ],
+    "answer": [
+      "El frente forma parte del paseo por Calle del Tiempo Detenido; deje la colección y las conversaciones para un momento en que el anfitrión pueda atenderle.",
+      "The frontage is part of the Calle del Tiempo Detenido walk. Save the collection and conversation for a time when the host can receive you.",
+      "这里的外立面属于时间停驻街建筑游线的一部分；音乐收藏和交谈可留待店家方便时。"
+    ],
+    "readout": [
+      "Una fonda es también un punto de encuentro. Preguntar por un disco y escuchar la respuesta del anfitrión ayuda a leer los objetos como parte de conversaciones pasadas, no solo como decoración de un comercio.",
+      "A fonda is also a meeting place. Ask about a recording and hear the host’s answer: the collection then reads as part of earlier conversations rather than merely shop decor.",
+      "传统客栈也是街坊聚会之处。问一张唱片、听主人讲解，这些收藏便不只是装饰，而成了理解以往交往与聆听习惯的线索。"
+    ]
+  },
+  "quindio-tambo-jardin-filandia": {
+    "question": [
+      "¿Es este el comienzo de una excursión por los cafetales?",
+      "Does the coffee stop include access to the surrounding farms?",
+      "在驿站喝咖啡代表可以顺路进入周边农田吗？"
+    ],
+    "answer": [
+      "La visita se hace en los espacios del tambo. Para recorrer cultivos reserve por separado con la finca correspondiente.",
+      "Use the tambo’s own spaces. Arrange any visit to the surrounding fields privately with the relevant farm.",
+      "参观范围是驿站开放区。要进入周边农田，应与相应农庄另行预约。"
+    ],
+    "readout": [
+      "El interés del tambo está en la pausa del viaje. Gire desde la vista del cultivo hacia la vía de llegada para ver cómo una parada rural conecta la aproximación por carretera con el pueblo cercano.",
+      "The stop makes sense as a pause in a journey. Turn from the agricultural view to the approach road to see how a rural halt links the road journey with the nearby town.",
+      "这处驿站的意义在旅途中停下来片刻。看过农田后转向来路，可明白公路停靠点如何连接乡间景观与邻近小镇。"
+    ]
+  },
+  "quindio-calle-del-tiempo-detenido": {
+    "question": [
+      "¿Dónde conviene girar para hacer un recorrido corto?",
+      "Where can I turn for a short out-and-back walk?",
+      "只走一小段，应在哪里折返？"
+    ],
+    "answer": [
+      "Parta de la plaza, camine hasta el frente de Fonda Asael y cruce por una esquina para regresar por la otra acera.",
+      "Start at the square, walk to Fonda Asael and use a corner crossing to return along the other pavement.",
+      "从主广场走到阿萨埃尔客栈的临街面，在路口过街，沿另一侧步道返回。"
+    ],
+    "readout": [
+      "La unidad visual de una calle patrimonial no significa que todas las casas sean idénticas. Compare dos balcones contiguos: la altura del antepecho y el ritmo de sus piezas de madera cambian lo que se percibe desde la acera.",
+      "A coherent heritage street need not have identical houses. Compare two neighbouring balconies: parapet height and the rhythm of timber pieces alter what is visible from the pavement.",
+      "传统街道整体协调，并不意味着每户完全相同。比较相邻两个阳台的栏板高度与木件间距，可见同一条街上不同住户与行人视线的关系。"
+    ]
+  },
+  "quindio-kindia-park": {
+    "question": [
+      "¿Una abertura entre hojas indica un atajo permitido?",
+      "Does a gap in the foliage mark an authorised shortcut?",
+      "树篱中透光的位置可以当成捷径吗？"
+    ],
+    "answer": [
+      "Siga el corredor habilitado y la salida señalizada. La densidad variable de las hojas permite ver luz sin que exista un paso destinado al público.",
+      "Use the designated passage and marked exit. Different leaf densities let light through without creating a public path.",
+      "请走开放通道与标示出口。叶片密度不同会透光，不代表那里是游客可走的通道。"
+    ],
+    "readout": [
+      "Un laberinto vegetal necesita mantenimiento continuo porque sus paredes crecen. Observe dónde las hojas recortadas dibujan esquinas claras y dónde una curva oculta el siguiente tramo: esa diferencia crea la experiencia de orientación.",
+      "A living maze needs ongoing care because its walls grow. Look for trimmed corners and curves that hide the next section; this difference creates the navigation experience.",
+      "植物迷宫的墙会持续生长，因此形状离不开养护。留意修剪明晰的直角与遮住下段道路的弯角，二者的变化才造成人的方向感起伏。"
+    ]
+  },
+  "quindio-las-bailarinas": {
+    "question": [
+      "¿Todo el grupo necesita utilizar los toboganes?",
+      "Does everyone in the group have to use the slides?",
+      "一组人都必须玩滑道吗？"
+    ],
+    "answer": [
+      "Sitúe primero un punto seco de reunión. Consulte en recepción las áreas incluidas en el pasadía para quienes solo desean caminar u observar.",
+      "Agree on a dry meeting point first. Ask reception which day-pass areas are open to people who just want to walk or watch.",
+      "先约干区会合点，再向接待处确认当天通票允许只散步或观看的游客进入哪些区域。"
+    ],
+    "readout": [
+      "El parque se entiende desde el cambio de niveles. Antes de entrar al agua, siga con la vista el recorrido de un tobogán de arriba abajo y localice la zona de llegada desde un camino seco.",
+      "The park’s layout is easiest to read through level changes. Before entering the water trace one slide from top to bottom with your eyes and locate its finish from a dry path.",
+      "园区布局可从各区高差来读。下水前站在干区步道，用视线沿一条滑道自上而下追踪，到末端找出落水与离场的位置。"
+    ]
+  },
+  "quindio-panaca": {
+    "question": [
+      "¿Qué puedo observar en una estación sin depender del horario del espectáculo?",
+      "What can I observe at a station between performances?",
+      "两场演出之间，在展站可以具体观察什么？"
+    ],
+    "answer": [
+      "En la estación ganadera mire la distribución de los animales y el recorrido de su cuidador desde el espacio indicado a los visitantes.",
+      "At the livestock station watch the arrangement of animals and the keeper’s route from the visitor area.",
+      "可从畜牧展站的游客区观察动物如何分区、饲养员沿什么路线工作。"
+    ],
+    "readout": [
+      "Compare la forma de presentar un animal en una función con el tiempo cotidiano de la estación. La segunda mirada —alimentación, clasificación y movimientos del cuidador— explica la relación entre cultura agropecuaria y trabajo práctico.",
+      "Compare how an animal is presented in a show with the station’s everyday rhythm. Feeding, grouping and the keeper’s movements reveal the relationship between farm culture and practical work.",
+      "对比动物在节目里的展示方式和展站日常节奏。饲喂、分组以及饲养员走动的路线，才把农业文化与具体劳动联系起来。"
+    ]
+  },
+  "quindio-parque-de-los-arrieros": {
+    "question": [
+      "¿Cuándo corresponde el Pasaporte Arrierito?",
+      "Who is the Arrierito child pass for?",
+      "儿童的Arrierito通票如何判定？"
+    ],
+    "answer": [
+      "La página del operador indica niños de 90 a 120 cm de estatura. Consulte la tarifa y las condiciones aplicables a otras estaturas directamente con el parque antes de comprar.",
+      "The operator lists children measuring 90–120 cm. Ask the park about the current price and arrangements outside that range before buying.",
+      "园方标示适用身高90–120厘米的儿童。购票前直接向园方确认儿童票价，以及不在该身高区间时采用哪种方案。"
+    ],
+    "readout": [
+      "Pueblo Cuyabro y la fonda recrean ámbitos de encuentro en la región cafetera. Mire cómo cambian la voz y el gesto del personaje entre una escena narrada y una trova contestada por otro intérprete. La recreación ayuda a imaginar la vida del camino sin atribuir antigüedad a cada edificio del parque.",
+      "Pueblo Cuyabro and the fonda recreate meeting places in the coffee region. Watch how a performer’s voice and gestures change between a narrated scene and a sung exchange with another player. These sets help visitors imagine life on the route without implying that the park buildings are historical originals.",
+      "库亚布罗村展示区与传统客栈再现咖啡区人们聚集交流的场景。可比较演员独自讲故事时的声调和手势，再听另一位表演者如何以对唱回应。这些布景有助于想象赶驮路上的生活，同时应区分当代展示建筑与历史遗存。"
+    ]
+  },
+  "quindio-parque-tematico-quimbayas": {
+    "question": [
+      "¿El horario de la piscina del alojamiento permite alargar un pasadía?",
+      "Do lodging pool hours extend a day visitor’s stay?",
+      "酒店泳池安排能否延长日票停留时间？"
+    ],
+    "answer": [
+      "Para el pasadía rige su propia franja, publicada hasta las 17:00. Consulte al parque si desea una modalidad distinta o quedarse a dormir.",
+      "The day pass has its own published 17:00 finish. Ask the park for another plan if you wish to stay overnight.",
+      "日间通票按自身时段17:00结束。若想多停留或过夜，应向园方另询方案。"
+    ],
+    "readout": [
+      "El diseño recreativo toma referencias culturales de la región en espacios nuevos. Busque un motivo repetido en dos edificios y observe cómo cambia según su función. La referencia visual no convierte las instalaciones en restos arqueológicos.",
+      "The recreational design uses regional cultural references in new spaces. Find a motif appearing on two buildings and see how its use changes. A visual reference does not make the property an archaeological site.",
+      "新的休闲空间借用了地区文化符号。可以选择两处建筑上的相似图案，对比它如何随空间用途变化；看到这些造型不代表园内建筑就是考古遗址。"
+    ]
+  },
+  "quindio-fonda-boquia-salento": {
+    "question": [
+      "¿Es razonable parar aquí al ir a Salento?",
+      "Can I stop here on the journey to Salento?",
+      "前往萨伦托时能顺路在此停留吗？"
+    ],
+    "answer": [
+      "Pida Boquía y acuerde dónde le recogerán después de la comida. El establecimiento está junto al corredor de carretera, no en la plaza de Salento.",
+      "Ask for Boquía and agree where to meet the driver afterwards. The fonda is on the road corridor rather than on Salento’s main square.",
+      "请说清目的地是博基亚，并约定餐后会合点。餐馆位于公路沿线，不在萨伦托主广场。"
+    ],
+    "readout": [
+      "La relación con el antiguo camino del Quindío se aprecia en la posición del caserío junto al paso. Mirar primero esa disposición da contexto al plato de trucha que se ofrece hoy en la fonda.",
+      "The settlement’s position by the crossing helps explain its relationship to the historic Quindío route. Seeing that arrangement first gives context to the trout meal served at the fonda today.",
+      "村落依交通节点发展的格局，说明它与金迪奥古道的关联。先看桥、聚落与客栈的位置关系，再理解今天餐桌上的鳟鱼地方特色。"
+    ]
+  },
+  "quindio-plaza-de-bolivar-armenia": {
+    "question": [
+      "¿Puedo combinar la plaza con un paseo peatonal?",
+      "Can I combine the square with a pedestrian walk?",
+      "可否接着走一段市区步行游线？"
+    ],
+    "answer": [
+      "Desde la plaza siga la carrera 14 por Cielos Abiertos hasta el Parque Sucre. Mantenga el paso libre junto a la puerta de la catedral.",
+      "Continue along Carrera 14 through Cielos Abiertos to Parque Sucre. Keep the cathedral doorway clear as you leave.",
+      "可沿第14大道穿过露天商业街走到苏克雷公园，离开时请给大教堂门口留出通道。"
+    ],
+    "readout": [
+      "Busque tres lecturas desde el mismo borde: el uso institucional en los edificios oficiales, el culto en la catedral y la memoria del trabajo en la escultura. En pocos pasos cambia qué elemento domina la composición.",
+      "From one edge notice three readings: public administration in the official buildings, worship in the cathedral and the memory of labour in the sculpture. A few steps alter which element dominates the view.",
+      "在同一侧广场边缘，可分别读出行政建筑的公共职能、教堂的礼拜功能以及雕塑对劳动的纪念。移动几步，主导画面的要素便会改变。"
+    ]
+  },
+  "salento-plaza": {
+    "readout": [
+      "Observe por separado tres usos de la plaza: el jardín como lugar de estancia, el borde de la iglesia como punto de encuentro y la salida de los Willys como conexión rural. Un mismo banco ofrece una lectura distinta cuando pasa un grupo de pasajeros rumbo al valle.",
+      "Read the square through three uses: the garden as somewhere to sit, the church edge as a meeting place and the Willys departure point as a link to the countryside. The same bench gives a different view when passengers gather for the valley.",
+      "把广场分成三个使用场景看：花园供人停留，教堂外沿是会合点，威利斯吉普车则把市镇与乡间连起来。坐在同一条长椅上，看一批前往山谷的乘客聚散，就能体会这里既是公园也是交通节点。"
+    ],
+    "question": [
+      "¿Dónde puedo esperar sin interrumpir el embarque del Willys?",
+      "Where can I wait without obstructing Willys boarding?",
+      "等同伴时如何避开吉普车上客人流？"
+    ],
+    "answer": [
+      "Acuerde encontrarse por el lado de los jardines. Vaya al punto de salida cuando esté lista la persona que viaja con usted.",
+      "Meet on the garden side and approach the departure point once your companion is ready.",
+      "可在花园一侧会合，等同伴到齐再前往乘车点。"
+    ]
+  },
+  "salento-alto": {
+    "readout": [
+      "La calle que se acaba de subir sirve de escala desde el mirador. Busque primero Carrera 6 entre los tejados, luego levante la mirada al relieve más lejano. Así se entiende qué parte de Salento ocupa la ladera incluso cuando la nubosidad tapa el horizonte.",
+      "The street you have just climbed provides a scale for the lookout. Trace Carrera 6 among the roofs, then raise your eyes to the hills beyond. Even when cloud obscures the horizon this shows how Salento occupies the slope.",
+      "登高后先别只望远山，找出刚走过的第六街如何穿过屋顶，再将视线抬向山脊。即便远处被云遮住，也能读出萨伦托街区怎样铺展在坡面上。"
+    ],
+    "question": [
+      "¿Queda algo que ver si el horizonte está cubierto?",
+      "What can I see if cloud hides the distant hills?",
+      "若远山被云层遮住，还有什么值得看？"
+    ],
+    "answer": [
+      "Mire la alineación de Calle Real, las cubiertas y el cambio de altura desde la escalinata; la lectura urbana no depende de una vista despejada del valle.",
+      "Look for the line of Calle Real, the rooftops and the rise from the staircase. The townscape does not depend on a clear view across the valley.",
+      "看皇家街的走向、屋顶层次和阶梯高差，读城镇格局并不要求山谷远景完全晴朗。"
+    ]
+  },
+  "quindio-calle-real": {
+    "readout": [
+      "Compare dos cuadras sin salir de la acera. Las carpinterías repetidas dan continuidad a la calle, mientras que balcones, colores y anchura de las puertas marcan negocios distintos. En el extremo alto observe cómo el ritmo horizontal de fachadas termina ante las escaleras.",
+      "Compare two blocks from the pavement. Repeated joinery gives the street continuity, while balconies, paint and doorway widths distinguish individual premises. At the uphill end the horizontal rhythm of the fronts stops against the stairway.",
+      "沿人行道对比两个街段：反复出现的木作让整条街保持连续，而阳台、涂色与门宽又标出不同店面。走到上坡尽头，连续的横向立面在登山阶梯前突然终止。"
+    ],
+    "question": [
+      "¿Dónde termina el tramo urbano si no quiero subir al mirador?",
+      "Where does the street walk finish if I skip the lookout?",
+      "不登观景台的话，街道游线在哪结束？"
+    ],
+    "answer": [
+      "En el pie de la escalinata. Desde allí ya se ve la transición entre la calle comercial y la ladera y se puede volver por la otra acera.",
+      "At the foot of the steps, where the commercial street changes into hillside access. Return along the opposite pavement.",
+      "走到阶梯底部即可辨认商业街与山坡的分界，再从另一侧人行道返回。"
+    ]
+  },
+  "quindio-carmen-salento": {
+    "readout": [
+      "La plaza da distancia para leer la torre y el cuerpo del templo juntos. Acérquese después sin cortar la circulación de la puerta principal. Escuchar el cambio del ruido de la plaza al silencio del umbral ayuda a reconocer que sigue siendo un lugar de culto.",
+      "The square provides enough distance to read the tower and church together. Approach without crossing the main-door traffic. The change from square noise to the quiet of the threshold helps explain its continuing role as a place of worship.",
+      "从广场拉开距离先看塔楼与主体的比例，再避开正门通行线接近。由广场喧闹转向门槛处的安静，是理解它仍在举行礼拜的直接方式。"
+    ],
+    "question": [
+      "¿Dónde fotografío el templo sin situarme en la entrada?",
+      "Where can I photograph the church without standing in the entrance?",
+      "想拍整座教堂，又不挡住入口，应站在哪里？"
+    ],
+    "answer": [
+      "Use el borde de la plaza frente al templo. Una posición lateral permite incluir la torre y parte del jardín sin ocupar el umbral.",
+      "Use the square facing the church. A slightly oblique angle includes tower and garden while keeping the threshold clear.",
+      "站在对面广场边缘稍微偏侧的位置，可把塔楼与花园一角同框，也不会堵住门口。"
+    ]
+  },
+  "quindio-inmaculada-filandia": {
+    "readout": [
+      "Mire el volumen completo desde el parque, después compare el tratamiento de las puertas y los detalles de madera al acercarse. Los edificios tradicionales del entorno permiten situar el templo dentro de un pueblo cafetero sin confundir materiales decorativos con elementos estructurales.",
+      "Read the whole volume from the park, then compare the doors and timber details as you approach. The traditional streets around it place the church within a coffee town without requiring you to guess which decorative elements are structural.",
+      "在公园先看教堂整体体量，再靠近对比门扇和木作细节。周边传统街屋能帮人理解它在咖啡小镇中的位置，但仅凭外观不宜判断哪一根构件承担结构作用。"
+    ],
+    "question": [
+      "¿Se puede combinar la iglesia con las casas tradicionales sin transporte?",
+      "Can the church and traditional house fronts be combined on foot?",
+      "看教堂和传统街屋之间还需要搭车吗？"
+    ],
+    "answer": [
+      "Desde el parque principal continúe por Calle del Tiempo Detenido. Reserve la entrada al templo para un momento compatible con las celebraciones.",
+      "Continue on foot from the main park to Calle del Tiempo Detenido. Time any interior visit around services.",
+      "从中心公园可直接步行至时间停驻街，若要进教堂，则把室内参观安排在不干扰礼拜的时段。"
+    ]
+  },
+  "quindio-colina-iluminada": {
+    "readout": [
+      "Al subir cambian dos escalas: en los niveles inferiores se distinguen mejor los elementos de madera y en la plataforma alta aparece el paisaje agrícola. Mire en más de una dirección antes de bajar; la lectura del territorio no depende de una sola fotografía panorámica.",
+      "The ascent changes two scales of observation. Lower levels bring the timber details closer, while the upper platform reveals the agricultural landscape. Look in more than one direction before descending rather than reducing the view to one panorama.",
+      "上行时可以比较两种尺度：较低层更便于看木结构细节，高处平台则把农田景观展开。下楼前不妨换个方向看，别把乡间格局缩成一张全景照。"
+    ],
+    "question": [
+      "¿Hay un motivo para detenerme antes de la plataforma superior?",
+      "Is there a reason to pause before the upper platform?",
+      "到顶层以前值得停一下吗？"
+    ],
+    "answer": [
+      "Sí. En un descanso permitido, observe uniones y apoyos desde más cerca, dejando espacio a quienes continúan subiendo.",
+      "At a designated landing, look at the joints and supports from closer range while leaving the stairs clear.",
+      "可在允许停留的平台看连接与支撑构件，同时给后面上行的人留出空间。"
+    ]
+  },
+  "quindio-museo-oro-quimbaya": {
+    "readout": [
+      "Al mirar una pieza de orfebrería observe primero su silueta y luego sus detalles de fabricación a la distancia que permita la vitrina. Lea la procedencia en la ficha antes de atribuirla a un grupo o período. La visita distingue mejor entre nombre regional, colección y objeto concreto.",
+      "Look first at a metalwork object’s outline and then at its making marks from the distance allowed by the case. Read the label’s provenance before assigning it to a group or period. This distinguishes region, collection and individual artefact.",
+      "先看金工器物的整体轮廓，再在展柜允许的距离内观察制作细节。判断族群或时期前应读展签的出土地与说明，避免把地区名称、馆藏名称和单件文物身份混为一谈。"
+    ],
+    "question": [
+      "¿Puedo identificar una pieza por el nombre del museo?",
+      "Can I identify an object just from the museum’s name?",
+      "只凭馆名能判断一件文物的出处吗？"
+    ],
+    "answer": [
+      "Consulte la ficha de la pieza concreta; el museo reúne y explica materiales en un contexto regional más amplio.",
+      "Read the individual label. The museum presents objects within a wider regional context.",
+      "应看具体展签，博物馆是在更广阔的地区语境中介绍藏品。"
+    ]
+  },
+  "quindio-jardin-botanico-quindio": {
+    "readout": [
+      "Compare dos escalas: el bosque ofrece sombra y continuidad a lo largo del sendero y el mariposario exige detenerse para distinguir insecto, planta y fondo. Un par de minutos de observación quieta revela más que seguir una mariposa con la cámara.",
+      "Compare two scales. The woodland gives shade and continuity to the trail, while the butterfly house rewards standing still to separate insect, host plant and background. Quiet observation reveals more than chasing one butterfly with a camera.",
+      "可对比两种观察节奏：林地步道用树冠阴影把一路串起来，蝴蝶馆则需要停下，分辨昆虫、植物与背景。安静看一会，通常比举着手机追逐一只蝴蝶更容易发现细节。"
+    ],
+    "question": [
+      "¿Cómo fotografío mariposas sin alterar el recorrido del guía?",
+      "How can I photograph butterflies without interrupting the guided walk?",
+      "怎样拍蝴蝶才不会拖慢导览或干扰动物？"
+    ],
+    "answer": [
+      "Espere en el espacio indicado y enfoque cuando el insecto se pose. Deje libres el paso y la vegetación donde se alimenta.",
+      "Wait in the designated space and focus when an insect settles. Keep both the route and feeding plants clear.",
+      "在指定位置等蝴蝶自然停落后对焦，不挡步道，也不要碰触取食植物。"
+    ]
+  },
+  "quindio-parque-del-cafe": {
+    "readout": [
+      "Separe la lectura del cultivo de la agenda de atracciones. Antes de dirigirse a una fila, identifique en el mapa la parte del parque que explica la historia cafetera y el lugar de la función que piensa ver. Evitará atravesar dos veces los mismos desniveles.",
+      "Separate coffee heritage from the ride schedule. Before joining a queue, mark the coffee-history area and the performance you intend to see on the park map. This avoids crossing the same changes in level twice.",
+      "先把咖啡文化展区和游乐设施在地图上分清，再标出想看的演出。进排队区前做这一步，可以避免为赶开场反复跨越同样的高差。"
+    ],
+    "question": [
+      "¿Cómo doy prioridad al patrimonio cafetero cuando hay muchas filas?",
+      "How do I prioritise coffee heritage on a busy day?",
+      "排队项目很多时怎样优先看咖啡文化？"
+    ],
+    "answer": [
+      "Ubique el área interpretativa y el espectáculo deseado al entrar. Añada atracciones solo en el tiempo libre entre ambos.",
+      "Locate the interpretation area and your chosen show at the entrance. Fit rides into the interval between them.",
+      "入园就先认好文化展区和要看的节目，再把游乐项目安排进两者之间的空档。"
+    ]
+  },
+  "quindio-parque-de-la-vida": {
+    "readout": [
+      "El cambio desde la avenida hasta el agua permite observar cómo un parque urbano amortigua el ruido del tráfico. Baje sin prisa y vuelva la vista hacia los árboles desde un tramo autorizado; los reflejos hacen visible la estructura de las copas sin salir del sendero.",
+      "The descent from the avenue to the water shows how an urban park muffles traffic. Take your time and look back at the trees from an authorised path. Reflections can reveal the canopy structure without leaving the trail.",
+      "从大道下到水边，可留意车流声怎样逐步被园林缓和。在开放步道上回看树冠，利用水面倒影观察枝叶轮廓，不用走到岸边湿地。"
+    ],
+    "question": [
+      "¿Conviene comenzar por el agua o por la avenida?",
+      "Should I start at the water or the avenue?",
+      "步行路线从大道还是从水边开始？"
+    ],
+    "answer": [
+      "Identifique primero el acceso de la avenida y el camino de regreso. Después baje al agua mientras evalúa el desnivel que deberá subir al salir.",
+      "First identify the avenue entrance and return path, then descend to the water, noting the gradient for the way back.",
+      "先认清大道入口和返程方向，再边下行边判断回程要爬的坡度。"
+    ]
+  },
+  "quindio-catedral-armenia": {
+    "readout": [
+      "La fachada se lee mejor en relación con el espacio cívico que tiene delante. Retroceda hacia la plaza y compare sus perfiles con los del conjunto de El Esfuerzo. Así se percibe cómo un lugar de culto, una obra pública y los edificios institucionales comparten un mismo centro urbano.",
+      "The facade is easier to read in relation to the civic space in front. Step back into the square and compare its profiles with El Esfuerzo. A church, a work of public sculpture and institutional buildings share the same urban centre here.",
+      "大教堂立面应与前方市民广场一同观察。退到广场再比较它和《奋斗》雕塑的轮廓，就能看见宗教建筑、公共艺术与行政建筑如何共用同一个城市中心。"
+    ],
+    "question": [
+      "¿Dónde se aprecia la relación entre la catedral y el monumento?",
+      "Where can I see the cathedral and sculpture together?",
+      "从哪里看得出教堂与雕塑的空间关系？"
+    ],
+    "answer": [
+      "Desde un lateral de la plaza de Bolívar, dejando libre el eje de la puerta y el paso de los fieles.",
+      "Use the side of Plaza de Bolívar and keep the doorway and worshippers’ route clear.",
+      "从玻利瓦尔广场侧边看，同时避开正门轴线与信众通道。"
+    ]
+  }
+}

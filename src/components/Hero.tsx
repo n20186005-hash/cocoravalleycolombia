@@ -1,3 +1,4 @@
+import HeroBackdrop from "./HeroBackdrop";
 import { useTranslations } from 'next-intl';
 
 export default function Hero() {
@@ -6,16 +7,7 @@ export default function Hero() {
 
   return (
     <section className="relative min-h-screen flex items-end pb-16 sm:pb-24 overflow-hidden">
-      {/* Background image */}
-      <div className="absolute inset-0">
-        <img
-          src="/gallery/cocora-valley (1).jpg"
-          alt={t('imgAlt')}
-          className="w-full h-full object-cover"
-          fetchPriority="high"
-        />
-        <div className="absolute inset-0" style={{ background: 'var(--hero-overlay)' }} />
-      </div>
+      <HeroBackdrop src="/gallery/cocora-valley (1).jpg" alt={t('imgAlt')} />
 
       {/* Content */}
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 w-full">
