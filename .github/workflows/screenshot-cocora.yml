@@ -1,0 +1,32 @@
+name: Screenshot Cocora desktop and mobile
+on:
+  push:
+    branches: ['verify/132-public-guides-20261124']
+    paths:
+      - 'scripts/visual-cocora.cjs'
+      - '.github/workflows/screenshot-cocora.yml'
+permissions:
+  contents: read
+jobs:
+  screenshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Chromium for the visual check
+        run: |
+          npm install --prefix "$RUNNER_TEMP/cocora-ui" --no-audit --no-fund playwright@1.55.0
+          "$RUNNER_TEMP/cocora-ui/node_modules/.bin/playwright" install --with-deps chromium
+      - name: Compare the homepage with the live place page and follow both nearby links
+        run: NODE_PATH="$RUNNER_TEMP/cocora-ui/node_modules" node scripts/visual-cocora.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: cocora-arrieros-desktop-mobile
+          path: screenshots/
+          if-no-files-found: ignore
