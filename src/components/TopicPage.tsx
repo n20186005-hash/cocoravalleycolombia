@@ -38,10 +38,17 @@ export default function TopicPage({ locale, topic }: { locale: Locale; topic: To
   const homeUrl = `${BASE_URL}/${locale}`;
   const ejePath = `/${locale}/eje-cafetero`;
 
+  const accessQuestion = { es: '¿Cómo llego al acceso de visita?', en: 'How do I reach the visitor entrance?', zh: '如何抵达参观入口？' };
+  const managerQuestion = { es: '¿Quién atiende las consultas de visita?', en: 'Who handles visitor enquiries here?', zh: '参观事宜由哪个单位负责？' };
+  const questions = topic.place ? [
+    ...t.faq[locale],
+    { q: accessQuestion[locale], a: topic.place.transport[locale] },
+    { q: managerQuestion[locale], a: topic.place.management[locale] },
+  ] : t.faq[locale];
   const faqLd = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
-    mainEntity: t.faq[locale].map((f) => ({
+    mainEntity: questions.map((f) => ({
       '@type': 'Question',
       name: f.q,
       acceptedAnswer: { '@type': 'Answer', text: f.a },
@@ -113,7 +120,7 @@ export default function TopicPage({ locale, topic }: { locale: Locale; topic: To
         <figure className="max-w-3xl mx-auto px-4 sm:px-6 mb-6">
           <img src={t.place.photo.file} alt={t.title[locale]} className="w-full max-h-80 object-contain rounded-xl" />
           <figcaption className="mt-2 text-sm" style={{ color: 'var(--text-muted)' }}>
-            <a href={t.place.photo.source} className="underline">{t.place.photo.author && `${t.place.photo.author} · `}Wikimedia Commons</a>
+            <a href={t.place.photo.source} className="underline">{t.place.photo.author && `${t.place.photo.author} · `}{t.place.photo.provider ?? 'Wikimedia Commons'}</a>
           </figcaption>
         </figure>
       )}
@@ -160,7 +167,7 @@ export default function TopicPage({ locale, topic }: { locale: Locale; topic: To
               {copy('faq')}
             </h2>
             <div className="space-y-4">
-              {t.faq[locale].map((f, i) => (
+              {questions.map((f, i) => (
                 <details
                   key={i}
                   className="rounded-xl p-5"
