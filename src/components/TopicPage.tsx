@@ -1,3 +1,5 @@
+import Header from './Header';
+import Footer from './Footer';
 import { useTranslations } from 'next-intl';
 import NearbyVisitDetails, { NearbyVisitHours } from './NearbyVisitDetails';
 import { nearbyVisits } from '@/lib/nearby-visits';
@@ -69,6 +71,7 @@ export default function TopicPage({ locale, topic }: { locale: Locale; topic: To
 
   return (
     <div className="min-h-screen" style={{ background: 'var(--bg-primary)' }}>
+      <Header locale={locale} solid />
       {/* Hero */}
       <section className="section-padding pt-20 sm:pt-24">
         <div className="max-w-3xl mx-auto">
@@ -76,6 +79,13 @@ export default function TopicPage({ locale, topic }: { locale: Locale; topic: To
             <a href={homeUrl} className="hover:underline">{SITE.brandNames[locale]}</a>
             <span className="mx-2">/</span>
             <span>{t.title[locale]}</span>
+          </nav>
+          <nav aria-label={locale === 'zh' ? '本景点的其他语言' : locale === 'es' ? 'Idiomas de esta página' : 'Languages for this place'} className="flex flex-wrap gap-3 mb-4 text-sm">
+            {(['es', 'en', 'zh'] as const).map((language) => (
+              <a key={language} href={`/${language}/${t.slug[language]}`} lang={language} hrefLang={language}
+                aria-current={language === locale ? 'page' : undefined}
+                className={language === locale ? 'font-semibold' : 'underline'}>{({es: 'Español', en: 'English', zh: '中文'})[language]}</a>
+            ))}
           </nav>
           <h1 className="font-display text-3xl sm:text-4xl lg:text-5xl font-semibold leading-tight" style={{ color: 'var(--text-primary)' }}>
             {t.title[locale]}
@@ -219,6 +229,7 @@ export default function TopicPage({ locale, topic }: { locale: Locale; topic: To
         </div>
       </section>
 
+      <Footer />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }} />
     </div>
