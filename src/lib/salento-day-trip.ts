@@ -70,14 +70,17 @@ export const salentoDayTrip: Topic = {
     es: [
       { q: '¿Se puede visitar Salento y Cocora el mismo día?', a: 'Sí. Haz un paseo corto en el valle por la mañana y deja la tarde para la plaza, la Calle Real y el mirador.' },
       { q: '¿Dónde conviene alojarse para seguir esta ruta?', a: 'El centro de Salento permite llegar a pie a la plaza de salida y regresar caminando después del paseo por el pueblo.' },
+      { q: '¿Qué parte puedo acortar si el regreso del valle se retrasa?', a: 'Mantenga el retorno al parque principal en el Willys confirmado. Al llegar, recorra la Calle Real hasta el pie de la escalinata y deje el Alto de la Cruz para otra mañana si ya falta luz.' },
     ],
     en: [
       { q: 'Can I visit Salento and Cocora Valley on the same day?', a: 'Yes. Take a short valley walk in the morning and reserve the afternoon for the square, Calle Real and the viewpoint.' },
       { q: 'Where should I stay for this itinerary?', a: 'Central Salento puts you within walking distance of the jeep departure point and the town’s afternoon stops.' },
+      { q: 'Which part can I shorten if the valley return runs late?', a: 'Keep the confirmed Willys return to the main square. Once back, walk Calle Real to the foot of the steps and leave Alto de la Cruz for another morning if daylight is running short.' },
     ],
     zh: [
       { q: '一天可以游览萨伦托和可可拉山谷吗？', a: '可以。上午在山谷走短程路线，下午安排广场、皇家街和观景台。' },
       { q: '按这条路线游览，住在哪里方便？', a: '住在萨伦托镇中心，可步行到广场搭车，下午逛完小镇也方便走回住处。' },
+      { q: '如果从山谷回镇的时间较晚，应该缩短哪一段？', a: '优先搭上已经确认的威利斯吉普车回主广场。回镇后只沿皇家街走到阶梯底部；若已接近天黑，就把登十字山观景台留给另一天早晨。' },
     ],
   },
 };
