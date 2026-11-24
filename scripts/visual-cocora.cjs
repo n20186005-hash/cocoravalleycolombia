@@ -28,7 +28,7 @@ async function capture(page,name){
   await page.screenshot({path:out+'/'+name+'.png',animations:'disabled',timeout:30000});
 }
 (async()=>{
-  const browser=await chromium.launch();
+  const browser=await chromium.launch(process.env.CHROME_PATH ? {executablePath:process.env.CHROME_PATH} : {channel:'chrome'});
   const page=await browser.newPage({reducedMotion:'reduce',locale:'zh-CN'});
   const results=[];
   for(const [name,width,height] of [['desktop',1440,900],['mobile',390,844]]){

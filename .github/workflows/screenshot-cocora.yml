@@ -9,8 +9,8 @@ permissions:
   contents: read
 jobs:
   screenshot:
-    runs-on: ubuntu-24.04
-    timeout-minutes: 8
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
         with:
@@ -18,10 +18,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Install Chromium for the visual check
+      - name: Use the runner’s preinstalled Chrome
         run: |
-          npm install --prefix "$RUNNER_TEMP/cocora-ui" --no-audit --no-fund playwright@1.55.0
-          "$RUNNER_TEMP/cocora-ui/node_modules/.bin/playwright" install --with-deps chromium
+          npm install --prefix "$RUNNER_TEMP/cocora-ui" --no-audit --no-fund playwright@1.56.0
+          google-chrome --version
       - name: Compare the homepage with the live place page and follow both nearby links
         run: NODE_PATH="$RUNNER_TEMP/cocora-ui/node_modules" node scripts/visual-cocora.cjs
       - uses: actions/upload-artifact@v4
