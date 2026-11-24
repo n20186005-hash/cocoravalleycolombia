@@ -1,0 +1,34 @@
+name: Verify 123 public Cocora URLs
+on:
+  push:
+    branches: ['verify/132-public-guides-20261124']
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      NEXT_TELEMETRY_DISABLED: '1'
+      CIRCLE_NODE_TOTAL: '2'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - name: Recreate the static pages for the deployed site
+        run: npm ci --no-audit --no-fund && npm run build
+      - name: Check each live URL against its corresponding static page
+        run: |
+          python3 -m venv "$RUNNER_TEMP/cocora-qa"
+          "$RUNNER_TEMP/cocora-qa/bin/pip" install --quiet beautifulsoup4==4.13.4
+          "$RUNNER_TEMP/cocora-qa/bin/python" scripts/verify-public-guides.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: cocora-public-audit
+          path: public-audit.json
+          if-no-files-found: ignore
